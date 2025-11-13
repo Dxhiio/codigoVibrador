@@ -3,14 +3,15 @@ import { ReactNode } from "react";
 
 interface LayoutProps {
   children: ReactNode;
+  onLoginClick?: () => void;
 }
 
-export default function Layout({ children }: LayoutProps) {
+export default function Layout({ children, onLoginClick }: LayoutProps) {
   return (
     <div className="min-h-screen bg-background relative overflow-hidden">
       {/* Background grid effect */}
       <div className="fixed inset-0 pointer-events-none z-0">
-        <div 
+        <div
           className="absolute inset-0 opacity-5"
           style={{
             backgroundImage: `
@@ -23,7 +24,7 @@ export default function Layout({ children }: LayoutProps) {
       </div>
 
       <div className="relative z-10">
-        <Header />
+        <Header onLoginClick={onLoginClick} />
         <main className="pt-16">
           {children}
         </main>
