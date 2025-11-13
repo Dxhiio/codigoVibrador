@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        mono: ["JetBrains Mono", "Courier New", "monospace"],
+        sans: ["Space Mono", "JetBrains Mono", "monospace"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -83,9 +87,11 @@ export default {
         "glow-pulse": {
           "0%, 100%": {
             opacity: "1",
+            textShadow: "0 0 10px currentColor",
           },
           "50%": {
             opacity: "0.7",
+            textShadow: "0 0 20px currentColor",
           },
         },
         "slide-up": {
@@ -98,16 +104,64 @@ export default {
             transform: "translateY(0)",
           },
         },
+        "scan-lines": {
+          "0%": {
+            backgroundPosition: "0 0",
+          },
+          "100%": {
+            backgroundPosition: "0 100%",
+          },
+        },
+        "neon-glow": {
+          "0%, 100%": {
+            boxShadow: "0 0 10px currentColor, inset 0 0 10px currentColor",
+          },
+          "50%": {
+            boxShadow: "0 0 20px currentColor, inset 0 0 20px currentColor",
+          },
+        },
+        "terminal-blink": {
+          "0%, 49%": {
+            opacity: "1",
+          },
+          "50%, 100%": {
+            opacity: "0",
+          },
+        },
+        "float-up": {
+          "0%": {
+            opacity: "0",
+            transform: "translateY(20px)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+        },
+        "data-flow": {
+          "0%": {
+            transform: "translateX(-100%)",
+            opacity: "0",
+          },
+          "50%": {
+            opacity: "1",
+          },
+          "100%": {
+            transform: "translateX(100%)",
+            opacity: "0",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "glow-pulse": "glow-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
         "slide-up": "slide-up 0.5s ease-out",
-      },
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "glow-cyan": "radial-gradient(circle at var(--tw-translate-x) var(--tw-translate-y), rgba(0, 255, 255, 0.15) 0%, transparent 50%)",
+        "scan-lines": "scan-lines 8s linear infinite",
+        "neon-glow": "neon-glow 2s ease-in-out infinite",
+        "terminal-blink": "terminal-blink 1s step-end infinite",
+        "float-up": "float-up 0.6s ease-out",
+        "data-flow": "data-flow 3s ease-in-out infinite",
       },
     },
   },
