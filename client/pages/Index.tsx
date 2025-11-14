@@ -345,7 +345,10 @@ export default function Index() {
                         </span>
                       </div>
                     </div>
-                    <Button className="button-glow bg-secondary text-background hover:bg-secondary/90 font-mono uppercase tracking-widest rounded-sm px-6">
+                    <Button
+                      onClick={() => handleMachineClick(randomMachine)}
+                      className="button-glow bg-secondary text-background hover:bg-secondary/90 font-mono uppercase tracking-widest rounded-sm px-6"
+                    >
                       $ ir
                     </Button>
                   </div>
