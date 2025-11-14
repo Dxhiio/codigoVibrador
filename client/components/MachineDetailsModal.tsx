@@ -85,8 +85,8 @@ export default function MachineDetailsModal({
   }
 
   return (
-    <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4">
-      <div className="glow-box border-primary/30 neon-border rounded-sm max-w-6xl w-full max-h-[90vh] overflow-y-auto p-8 space-y-6 animate-slide-up">
+    <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-[5%]">
+      <div className="glow-box border-primary/30 neon-border rounded-sm w-full h-[90vh] overflow-y-auto p-8 space-y-6 animate-slide-up">
         <div className="flex items-center justify-between sticky top-0 bg-background/90 pb-4 border-b border-primary/30 z-10">
           <h2 className="text-3xl font-bold text-primary uppercase tracking-widest">
             {machine.name}
