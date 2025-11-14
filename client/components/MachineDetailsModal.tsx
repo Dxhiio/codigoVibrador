@@ -86,8 +86,8 @@ export default function MachineDetailsModal({
 
   return (
     <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4">
-      <div className="glow-box border-primary/30 neon-border rounded-sm max-w-3xl w-full max-h-[90vh] overflow-y-auto p-8 space-y-6 animate-slide-up">
-        <div className="flex items-center justify-between sticky top-0 bg-background/90 pb-4 border-b border-primary/30">
+      <div className="glow-box border-primary/30 neon-border rounded-sm max-w-6xl w-full max-h-[90vh] overflow-y-auto p-8 space-y-6 animate-slide-up">
+        <div className="flex items-center justify-between sticky top-0 bg-background/90 pb-4 border-b border-primary/30 z-10">
           <h2 className="text-3xl font-bold text-primary uppercase tracking-widest">
             {machine.name}
           </h2>
@@ -99,9 +99,24 @@ export default function MachineDetailsModal({
           </button>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid lg:grid-cols-2 gap-8">
+          {/* YouTube Video */}
+          <div className="space-y-2 order-2 lg:order-1">
+            <h3 className="text-sm font-bold text-secondary/70 uppercase tracking-widest mb-4">&gt; tutorial</h3>
+            <div className="relative w-full bg-black rounded-sm overflow-hidden border border-secondary/30" style={{ paddingBottom: "56.25%" }}>
+              <iframe
+                className="absolute top-0 left-0 w-full h-full"
+                src="https://www.youtube.com/embed/LZSZ2oVk418"
+                title="Machine Tutorial"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </div>
+
           {/* Machine Details */}
-          <div className="space-y-6">
+          <div className="space-y-6 order-1 lg:order-2">
             <div>
               <h3 className="text-sm font-bold text-primary/70 uppercase tracking-widest mb-3">
                 &gt; información
