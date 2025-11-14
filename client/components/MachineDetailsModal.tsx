@@ -102,8 +102,13 @@ export default function MachineDetailsModal({
         <div className="grid lg:grid-cols-2 gap-8">
           {/* YouTube Video */}
           <div className="space-y-2 order-2 lg:order-1">
-            <h3 className="text-sm font-bold text-secondary/70 uppercase tracking-widest mb-4">&gt; tutorial</h3>
-            <div className="relative w-full bg-black rounded-sm overflow-hidden border border-secondary/30" style={{ paddingBottom: "56.25%" }}>
+            <h3 className="text-sm font-bold text-secondary/70 uppercase tracking-widest mb-4">
+              &gt; tutorial
+            </h3>
+            <div
+              className="relative w-full bg-black rounded-sm overflow-hidden border border-secondary/30"
+              style={{ paddingBottom: "56.25%" }}
+            >
               <iframe
                 className="absolute top-0 left-0 w-full h-full"
                 src="https://www.youtube.com/embed/LZSZ2oVk418"
