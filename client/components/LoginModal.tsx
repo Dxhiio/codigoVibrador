@@ -83,16 +83,17 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
         : await login(email, password);
 
       if (result.success) {
-        setEmail("");
-        setPassword("");
-        setConfirmPassword("");
-        
         if (isSignup) {
           setError("");
-          alert("¡Registrado! Verifica tu email para confirmar la cuenta.");
+          setPassword("");
+          setConfirmPassword("");
+          setIsSignup(false);
+        } else {
+          setEmail("");
+          setPassword("");
+          setConfirmPassword("");
+          onClose();
         }
-        
-        onClose();
       } else {
         setError(result.error || "Error en la autenticación");
       }
