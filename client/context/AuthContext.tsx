@@ -6,8 +6,14 @@ interface AuthContextType {
   user: User | null;
   email: string | null;
   loading: boolean;
-  login: (email: string, password: string) => Promise<{ success: boolean; error?: string }>;
-  signup: (email: string, password: string) => Promise<{ success: boolean; error?: string }>;
+  login: (
+    email: string,
+    password: string,
+  ) => Promise<{ success: boolean; error?: string }>;
+  signup: (
+    email: string,
+    password: string,
+  ) => Promise<{ success: boolean; error?: string }>;
   logout: () => Promise<void>;
   isAuthenticated: boolean;
 }
@@ -25,7 +31,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       try {
         const { data, error } = await supabase.auth.getSession();
         if (error) throw error;
-        
+
         if (data.session?.user) {
           setUser(data.session.user);
           setEmail(data.session.user.email || null);
@@ -44,7 +50,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       async (event, session) => {
         setUser(session?.user || null);
         setEmail(session?.user?.email || null);
-      }
+      },
     );
 
     return () => {
@@ -54,7 +60,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   const login = async (
     email: string,
-    password: string
+    password: string,
   ): Promise<{ success: boolean; error?: string }> => {
     try {
       const { error } = await supabase.auth.signInWithPassword({
@@ -74,7 +80,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   const signup = async (
     email: string,
-    password: string
+    password: string,
   ): Promise<{ success: boolean; error?: string }> => {
     try {
       const { error } = await supabase.auth.signUp({

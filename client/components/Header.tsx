@@ -54,7 +54,9 @@ export default function Header({ onLoginClick }: HeaderProps) {
           {/* Desktop CTA Buttons */}
           <div className="hidden md:flex items-center gap-3">
             {loading ? (
-              <div className="text-sm font-mono text-primary/70">$ cargando...</div>
+              <div className="text-sm font-mono text-primary/70">
+                $ cargando...
+              </div>
             ) : isAuthenticated ? (
               <>
                 <div className="text-sm font-mono text-primary/70 truncate max-w-xs">
@@ -124,7 +126,9 @@ export default function Header({ onLoginClick }: HeaderProps) {
             </a>
             <div className="flex flex-col gap-2 pt-2 border-t border-primary/30">
               {loading ? (
-                <div className="text-sm font-mono text-primary/70 px-4 py-2">$ cargando...</div>
+                <div className="text-sm font-mono text-primary/70 px-4 py-2">
+                  $ cargando...
+                </div>
               ) : isAuthenticated ? (
                 <>
                   <div className="text-sm font-mono text-primary/70 px-4 py-2 truncate">

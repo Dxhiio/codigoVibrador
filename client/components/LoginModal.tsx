@@ -14,7 +14,10 @@ const PASSWORD_REQUIREMENTS = {
   hasUppercase: { regex: /[A-Z]/, label: "Una letra mayúscula" },
   hasLowercase: { regex: /[a-z]/, label: "Una letra minúscula" },
   hasNumber: { regex: /\d/, label: "Un número" },
-  hasSymbol: { regex: /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/, label: "Un símbolo especial" },
+  hasSymbol: {
+    regex: /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/,
+    label: "Un símbolo especial",
+  },
 };
 
 export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
@@ -29,7 +32,7 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
   // Validate password strength
   const validatePassword = (pwd: string) => {
     return Object.values(PASSWORD_REQUIREMENTS).every((req) =>
-      req.regex.test(pwd)
+      req.regex.test(pwd),
     );
   };
 
@@ -175,7 +178,11 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
                       ) : (
                         <AlertCircle className="w-4 h-4 text-foreground/40 flex-shrink-0" />
                       )}
-                      <span className={status.met ? "text-primary" : "text-foreground/50"}>
+                      <span
+                        className={
+                          status.met ? "text-primary" : "text-foreground/50"
+                        }
+                      >
                         {status.label}
                       </span>
                     </div>
@@ -236,20 +243,22 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
           {/* Submit Button */}
           <Button
             type="submit"
-            disabled={loading || (isSignup && !isPasswordValid) || (isSignup && !passwordsMatch)}
+            disabled={
+              loading ||
+              (isSignup && !isPasswordValid) ||
+              (isSignup && !passwordsMatch)
+            }
             className="w-full button-glow bg-primary text-background hover:bg-primary/90 font-mono uppercase tracking-widest rounded-sm h-11 disabled:opacity-50 disabled:cursor-not-allowed gap-2"
           >
-            {loading && <Loader className="w-4 h-4 animate-spin" />}
-            $ {isSignup ? "crear cuenta" : "acceso"}
+            {loading && <Loader className="w-4 h-4 animate-spin" />}${" "}
+            {isSignup ? "crear cuenta" : "acceso"}
           </Button>
         </form>
 
         {/* Toggle Signup/Login */}
         <div className="pt-4 border-t border-primary/30 text-center space-y-3">
           <p className="text-xs text-foreground/60 font-mono">
-            {isSignup
-              ? "¿Ya tienes cuenta?"
-              : "¿No tienes cuenta?"}
+            {isSignup ? "¿Ya tienes cuenta?" : "¿No tienes cuenta?"}
           </p>
           <button
             onClick={() => {
@@ -270,7 +279,10 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
         {isSignup && (
           <div className="p-3 bg-secondary/10 border border-secondary/30 rounded-sm text-secondary text-xs font-mono">
             <div className="font-bold mb-1">ℹ️ Verificación de email</div>
-            <div>Recibirás un email de confirmación. Verifica tu cuenta para acceder.</div>
+            <div>
+              Recibirás un email de confirmación. Verifica tu cuenta para
+              acceder.
+            </div>
           </div>
         )}
       </div>
