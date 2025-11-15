@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { useAuth } from "@/context/AuthContext";
-import { X, Lock, Mail } from "lucide-react";
+import { X, Lock, Mail, Loader } from "lucide-react";
 
 interface LoginModalProps {
   isOpen: boolean;
@@ -12,28 +12,43 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
-  const { login } = useAuth();
+  const [isSignup, setIsSignup] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const { login, signup } = useAuth();
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
+    setLoading(true);
 
     if (!email) {
       setError("Email requerido");
+      setLoading(false);
       return;
     }
 
     if (password.length < 6) {
       setError("La contraseña debe tener al menos 6 caracteres");
+      setLoading(false);
       return;
     }
 
-    if (login(email, password)) {
-      setEmail("");
-      setPassword("");
-      onClose();
-    } else {
-      setError("Credenciales inválidas");
+    try {
+      const result = isSignup
+        ? await signup(email, password)
+        : await login(email, password);
+
+      if (result.success) {
+        setEmail("");
+        setPassword("");
+        onClose();
+      } else {
+        setError(result.error || "Error en la autenticación");
+      }
+    } catch (err) {
+      setError(String(err));
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -44,11 +59,12 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
       <div className="glow-box border-primary/30 neon-border rounded-sm max-w-md w-full p-8 space-y-6 animate-slide-up">
         <div className="flex items-center justify-between">
           <h2 className="text-2xl font-bold text-primary uppercase tracking-widest">
-            $ login
+            $ {isSignup ? "registrarse" : "login"}
           </h2>
           <button
             onClick={onClose}
             className="p-2 hover:bg-card rounded-sm transition-colors text-primary/70 hover:text-primary"
+            disabled={loading}
           >
             <X className="w-5 h-5" />
           </button>
@@ -65,9 +81,10 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
               <input
                 type="email"
                 placeholder="tu@email.com"
-                className="w-full bg-background border border-primary/30 rounded-sm pl-10 pr-4 py-2.5 text-foreground font-mono text-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary/30"
+                className="w-full bg-background border border-primary/30 rounded-sm pl-10 pr-4 py-2.5 text-foreground font-mono text-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary/30 disabled:opacity-50"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
+                disabled={loading}
               />
             </div>
           </div>
@@ -82,9 +99,10 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
               <input
                 type="password"
                 placeholder="••••••••"
-                className="w-full bg-background border border-primary/30 rounded-sm pl-10 pr-4 py-2.5 text-foreground font-mono text-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary/30"
+                className="w-full bg-background border border-primary/30 rounded-sm pl-10 pr-4 py-2.5 text-foreground font-mono text-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary/30 disabled:opacity-50"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
+                disabled={loading}
               />
             </div>
           </div>
@@ -99,16 +117,33 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
           {/* Submit Button */}
           <Button
             type="submit"
-            className="w-full button-glow bg-primary text-background hover:bg-primary/90 font-mono uppercase tracking-widest rounded-sm h-11"
+            disabled={loading}
+            className="w-full button-glow bg-primary text-background hover:bg-primary/90 font-mono uppercase tracking-widest rounded-sm h-11 disabled:opacity-50 disabled:cursor-not-allowed gap-2"
           >
-            $ acceso
+            {loading && <Loader className="w-4 h-4 animate-spin" />}
+            $ {isSignup ? "crear cuenta" : "acceso"}
           </Button>
         </form>
 
-        <div className="pt-4 border-t border-primary/30 text-center">
+        {/* Toggle Signup/Login */}
+        <div className="pt-4 border-t border-primary/30 text-center space-y-3">
           <p className="text-xs text-foreground/60 font-mono">
-            Usa cualquier email y contraseña (6+ caracteres)
+            {isSignup
+              ? "¿Ya tienes cuenta?"
+              : "¿No tienes cuenta?"}
           </p>
+          <button
+            onClick={() => {
+              setIsSignup(!isSignup);
+              setError("");
+              setEmail("");
+              setPassword("");
+            }}
+            disabled={loading}
+            className="text-sm font-mono text-primary hover:text-primary/80 transition-colors uppercase tracking-wider disabled:opacity-50"
+          >
+            {isSignup ? "$ login" : "$ registrarse"}
+          </button>
         </div>
       </div>
     </div>
