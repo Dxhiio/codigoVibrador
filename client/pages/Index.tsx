@@ -140,7 +140,7 @@ export default function Index() {
 
       {/* Features Grid */}
       <section className="py-24 md:py-40 relative">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+        <div className="w-[95%] max-w-[1800px] mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
           <div className="text-center space-y-6 max-w-3xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold tracking-tighter uppercase">
               <span className="border-b-4 border-primary/50 pb-2">Arsenal</span> de Herramientas
