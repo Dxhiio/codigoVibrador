@@ -4,6 +4,7 @@ import { useAuth } from "@/context/AuthContext";
 import { X, Play, Pause, RotateCcw, Clock } from "lucide-react";
 
 import { Machine } from "@/hooks/useMachines";
+import { useMachineTechniques } from "@/hooks/useMachineTechniques";
 
 interface MachineDetailsModalProps {
   isOpen: boolean;
@@ -19,6 +20,7 @@ export default function MachineDetailsModal({
   const { isAuthenticated } = useAuth();
   const [timeLeft, setTimeLeft] = useState(25 * 60); // 25 minutes in seconds
   const [isRunning, setIsRunning] = useState(false);
+  const { techniques, loading: techniquesLoading } = useMachineTechniques(machine?.id || null);
 
   useEffect(() => {
     let interval: NodeJS.Timeout;
@@ -144,10 +146,16 @@ export default function MachineDetailsModal({
 
                   <div className="glow-box p-4 border-primary/20 rounded-sm space-y-1">
                     <div className="text-xs text-foreground/60 uppercase tracking-wider">
-                      Técnica
+                      Técnicas
                     </div>
                     <div className="text-sm text-foreground">
-                      Web Exploitation (Placeholder)
+                      {techniquesLoading ? (
+                        <span className="text-foreground/50 animate-pulse">Cargando...</span>
+                      ) : techniques.length > 0 ? (
+                        techniques.map(t => t.name).join(', ')
+                      ) : (
+                        <span className="text-foreground/50">No disponible</span>
+                      )}
                     </div>
                   </div>
 
