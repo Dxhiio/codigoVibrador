@@ -3,12 +3,12 @@ import { Button } from "@/components/ui/button";
 import {
     Terminal,
     Search,
-    ArrowRight,
 } from "lucide-react";
 import { useState } from "react";
 import { usePaginatedMachines } from "@/hooks/usePaginatedMachines";
 import LoginModal from "@/components/LoginModal";
 import MachineDetailsModal from "@/components/MachineDetailsModal";
+import { MachineCard } from "@/components/MachineCard";
 import { Machine } from "@/hooks/useMachines";
 import { CARD_CONFIG } from "@/constants/uiConfig";
 
@@ -180,75 +180,11 @@ export default function Machines() {
                             <>
                                 <div className={`grid ${CARD_CONFIG.gridCols} gap-6`}>
                                     {machines.map((machine) => (
-                                        <button
+                                        <MachineCard
                                             key={machine.id}
-                                            onClick={() => handleMachineClick(machine)}
-                                            className={`group relative bg-card border border-primary/20 rounded-sm overflow-hidden hover:border-primary/60 transition-all duration-300 hover:shadow-[0_0_20px_rgba(34,197,94,0.1)] text-left flex flex-col ${machine.status === 'retired' ? 'opacity-80 hover:opacity-100' : ''}`}
-                                        >
-                                            {/* Image Container */}
-                                            <div className={`relative ${CARD_CONFIG.imageHeight} w-full bg-black/80 overflow-hidden border-b border-primary/20 group-hover:border-primary/50 transition-colors scanline-overlay ${machine.difficulty_text === "Easy" ? "glitch-effect-easy" :
-                                                machine.difficulty_text === "Medium" ? "glitch-effect-medium" :
-                                                    machine.difficulty_text === "Hard" ? "glitch-effect-hard" :
-                                                        "glitch-effect-insane"
-                                                }`}>
-                                                {/* Neon overlay effect */}
-                                                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent z-10" />
-
-                                                {machine.avatar ? (
-                                                    <div className="w-full h-full p-4 flex items-center justify-center">
-                                                        <img
-                                                            src={machine.avatar.startsWith('http') ? machine.avatar : `https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com${machine.avatar}`}
-                                                            alt={machine.name}
-                                                            className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105 opacity-90 group-hover:opacity-100 filter drop-shadow-[0_0_8px_rgba(34,197,94,0.3)]"
-                                                        />
-                                                    </div>
-                                                ) : (
-                                                    <div className="w-full h-full flex items-center justify-center text-primary/20 bg-primary/5">
-                                                        <Terminal className="w-12 h-12" />
-                                                    </div>
-                                                )}
-
-                                                {/* Status Badge */}
-                                                <div className={`absolute top-2 right-2 px-2 py-0.5 rounded-sm text-[10px] font-bold uppercase tracking-wider border z-20 ${machine.status === 'active'
-                                                    ? 'bg-green-500/20 text-green-400 border-green-500/50 shadow-[0_0_10px_rgba(34,197,94,0.4)]'
-                                                    : 'bg-red-500/20 text-red-400 border-red-500/50'
-                                                    }`}>
-                                                    {machine.status === 'active' ? 'Active' : 'Retired'}
-                                                </div>
-
-                                                {/* Difficulty Badge */}
-                                                <div className={`absolute bottom-2 left-2 px-2 py-0.5 rounded-sm text-[10px] font-bold uppercase tracking-wider bg-black/90 border z-20 ${machine.difficulty_text === "Easy" ? "text-green-400 border-green-500/50 shadow-[0_0_5px_rgba(34,197,94,0.3)]" :
-                                                    machine.difficulty_text === "Medium" ? "text-blue-400 border-blue-500/50 shadow-[0_0_5px_rgba(59,130,246,0.3)]" :
-                                                        machine.difficulty_text === "Hard" ? "text-orange-400 border-orange-500/50 shadow-[0_0_5px_rgba(249,115,22,0.3)]" :
-                                                            "text-red-400 border-red-500/50 shadow-[0_0_5px_rgba(239,68,68,0.3)]"
-                                                    }`}>
-                                                    {machine.difficulty_text}
-                                                </div>
-                                            </div>
-
-                                            {/* Content */}
-                                            <div className="p-4 space-y-3 flex-1 flex flex-col">
-                                                <div className="flex-1">
-                                                    <h3 className="font-bold text-lg text-primary truncate group-hover:text-white transition-colors">
-                                                        {machine.name}
-                                                    </h3>
-                                                    <div className="flex items-center gap-2 mt-1 text-xs font-mono text-foreground/60">
-                                                        <span className={machine.os === 'Windows' ? 'text-blue-400' : 'text-orange-400'}>
-                                                            {machine.os}
-                                                        </span>
-                                                        <span>•</span>
-                                                        <span>{machine.points} pts</span>
-                                                    </div>
-                                                </div>
-
-                                                <div className="pt-3 border-t border-primary/10 flex items-center justify-between text-xs font-mono text-foreground/50 group-hover:text-primary/70 transition-colors">
-                                                    <span>ID: #{machine.id}</span>
-                                                    <span className="flex items-center gap-1 group-hover:translate-x-1 transition-transform">
-                                                        ACCESS <ArrowRight className="w-3 h-3" />
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </button>
+                                            machine={machine}
+                                            onClick={handleMachineClick}
+                                        />
                                     ))}
                                 </div>
 

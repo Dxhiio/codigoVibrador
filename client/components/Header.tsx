@@ -43,6 +43,12 @@ export default function Header({ onLoginClick }: HeaderProps) {
             >
               &gt; machines
             </Link>
+            <Link
+              to="/skill-tree"
+              className="text-sm font-mono text-foreground/70 hover:text-primary transition-all hover:glow-pulse uppercase tracking-wide"
+            >
+              &gt; skill tree
+            </Link>
             <a
               href="#certifications"
               className="text-sm font-mono text-foreground/70 hover:text-primary transition-all hover:glow-pulse uppercase tracking-wide"
@@ -116,6 +122,12 @@ export default function Header({ onLoginClick }: HeaderProps) {
               onClick={() => setIsOpen(false)}
             >
               &gt; machines
+            </Link>
+            <Link
+              to="/skill-tree"
+              className="text-sm font-mono text-foreground/70 hover:text-primary transition-all hover:glow-pulse uppercase tracking-wide"
+            >
+              &gt; skill tree
             </Link>
             <a
               href="#certifications"

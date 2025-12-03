@@ -1,0 +1,257 @@
+{
+  "info": {
+    "id": 743,
+    "name": "RainbowTwo",
+    "os": "Windows",
+    "active": false,
+    "retired": true,
+    "release": "2025-09-23T14:00:00.000Z",
+    "points": 0,
+    "static_points": 40,
+    "user_owns_count": 6,
+    "root_owns_count": 4,
+    "reviews_count": 1,
+    "playInfo": {
+      "isSpawned": null,
+      "isSpawning": false,
+      "isActive": false,
+      "active_player_count": null,
+      "expires_at": null
+    },
+    "maker": {
+      "id": 13569,
+      "name": "xct",
+      "avatar": "https:\/\/account.hackthebox.com\/storage\/users\/3be09cd0-b45f-49fa-be98-b032c6741a55-avatar.png",
+      "isRespected": false,
+      "profile_url": "https:\/\/app.hackthebox.com\/profile\/13569"
+    },
+    "sp_flag": 0,
+    "isTodo": false,
+    "recommended": false,
+    "ip": null,
+    "free": false,
+    "authUserInUserOwns": false,
+    "authUserInRootOwns": false,
+    "authUserHasReviewed": false,
+    "authUserHasSubmittedMatrix": false,
+    "stars": 5,
+    "avatar": "\/avatars\/d9fcd2f8230f1d06f2128e2455b7dcd3.png",
+    "feedbackForChart": {
+      "counterCake": 0,
+      "counterVeryEasy": 0,
+      "counterEasy": 0,
+      "counterTooEasy": 0,
+      "counterMedium": 0,
+      "counterBitHard": 1,
+      "counterHard": 0,
+      "counterTooHard": 0,
+      "counterExHard": 2,
+      "counterBrainFuck": 0
+    },
+    "difficultyText": "Hard",
+    "maker2": null,
+    "info_status": null,
+    "authUserFirstUserTime": null,
+    "authUserFirstRootTime": null,
+    "user_can_review": true,
+    "synopsis": null,
+    "can_access_walkthrough": false,
+    "has_changelog": true,
+    "userBlood": {
+      "user": {
+        "id": 16,
+        "name": "HTB-Bot",
+        "avatar": "https:\/\/account.hackthebox.com\/storage\/users\/591b364c-8506-4b1b-9421-5855a4a117cc-avatar.png"
+      },
+      "blood_difference": "0H 0M 25S",
+      "created_at": "2025-09-23T14:00:25.000Z"
+    },
+    "rootBlood": {
+      "user": {
+        "id": 16,
+        "name": "HTB-Bot",
+        "avatar": "https:\/\/account.hackthebox.com\/storage\/users\/591b364c-8506-4b1b-9421-5855a4a117cc-avatar.png"
+      },
+      "blood_difference": "0H 0M 25S",
+      "created_at": "2025-09-23T14:00:25.000Z"
+    },
+    "season_id": null,
+    "isGuidedEnabled": false,
+    "start_mode": "spawn",
+    "show_go_vip": true,
+    "show_go_vip_server": false,
+    "ownRank": null,
+    "academy_modules": [
+      {
+        "id": 19,
+        "name": "Network Enumeration with Nmap",
+        "logo": "https:\/\/academy.hackthebox.com\/storage\/modules\/19\/logo.png",
+        "avatar": "https:\/\/academy.hackthebox.com\/storage\/modules\/19\/avatar.png",
+        "difficulty": {
+          "id": 3,
+          "text": "Easy",
+          "title": "Easy",
+          "color": "success",
+          "level": 3
+        },
+        "tier": { "id": 2, "name": "Tier I", "number": 1, "color": "success" },
+        "url": "https:\/\/academy.hackthebox.com\/module\/details\/19"
+      },
+      {
+        "id": 88,
+        "name": "Introduction to Python 3",
+        "logo": "https:\/\/academy.hackthebox.com\/storage\/modules\/88\/logo.png",
+        "avatar": "https:\/\/academy.hackthebox.com\/storage\/modules\/88\/avatar.png",
+        "difficulty": {
+          "id": 3,
+          "text": "Easy",
+          "title": "Easy",
+          "color": "success",
+          "level": 3
+        },
+        "tier": { "id": 2, "name": "Tier I", "number": 1, "color": "success" },
+        "url": "https:\/\/academy.hackthebox.com\/module\/details\/88"
+      },
+      {
+        "id": 89,
+        "name": "Stack-Based Buffer Overflows on Windows x86",
+        "logo": "https:\/\/academy.hackthebox.com\/storage\/modules\/89\/logo.png",
+        "avatar": "https:\/\/academy.hackthebox.com\/storage\/modules\/89\/avatar.png",
+        "difficulty": {
+          "id": 6,
+          "text": "Medium",
+          "title": "Medium",
+          "color": "warning",
+          "level": 6
+        },
+        "tier": { "id": 1, "name": "Tier 0", "number": 0, "color": "dark" },
+        "url": "https:\/\/academy.hackthebox.com\/module\/details\/89"
+      },
+      {
+        "id": 311,
+        "name": "Windows Low Level Detectability",
+        "logo": "https:\/\/academy.hackthebox.com\/storage\/modules\/311\/logo.png",
+        "avatar": "https:\/\/academy.hackthebox.com\/storage\/modules\/311\/avatar.png",
+        "difficulty": {
+          "id": 9,
+          "text": "Hard",
+          "title": "Hard",
+          "color": "danger",
+          "level": 9
+        },
+        "tier": { "id": 5, "name": "Tier IV", "number": 4, "color": "purple" },
+        "url": "https:\/\/academy.hackthebox.com\/module\/details\/311"
+      },
+      {
+        "id": 313,
+        "name": "Windows API Monitoring and Hooking",
+        "logo": "https:\/\/academy.hackthebox.com\/storage\/modules\/313\/logo.png",
+        "avatar": "https:\/\/academy.hackthebox.com\/storage\/modules\/313\/avatar.png",
+        "difficulty": {
+          "id": 6,
+          "text": "Medium",
+          "title": "Medium",
+          "color": "warning",
+          "level": 6
+        },
+        "tier": { "id": 5, "name": "Tier IV", "number": 4, "color": "purple" },
+        "url": "https:\/\/academy.hackthebox.com\/module\/details\/313"
+      },
+      {
+        "id": 85,
+        "name": "Intro to Assembly Language",
+        "logo": "https:\/\/academy.hackthebox.com\/storage\/modules\/85\/logo.png",
+        "avatar": "https:\/\/academy.hackthebox.com\/storage\/modules\/85\/avatar.png",
+        "difficulty": {
+          "id": 6,
+          "text": "Medium",
+          "title": "Medium",
+          "color": "warning",
+          "level": 6
+        },
+        "tier": { "id": 3, "name": "Tier II", "number": 2, "color": "info" },
+        "url": "https:\/\/academy.hackthebox.com\/module\/details\/85"
+      },
+      {
+        "id": 115,
+        "name": "Shells & Payloads",
+        "logo": "https:\/\/academy.hackthebox.com\/storage\/modules\/115\/logo.png",
+        "avatar": "https:\/\/academy.hackthebox.com\/storage\/modules\/115\/avatar.png",
+        "difficulty": {
+          "id": 6,
+          "text": "Medium",
+          "title": "Medium",
+          "color": "warning",
+          "level": 6
+        },
+        "tier": { "id": 2, "name": "Tier I", "number": 1, "color": "success" },
+        "url": "https:\/\/academy.hackthebox.com\/module\/details\/115"
+      },
+      {
+        "id": 39,
+        "name": "Using the Metasploit Framework",
+        "logo": "https:\/\/academy.hackthebox.com\/storage\/modules\/39\/logo.png",
+        "avatar": "https:\/\/academy.hackthebox.com\/storage\/modules\/39\/avatar.png",
+        "difficulty": {
+          "id": 3,
+          "text": "Easy",
+          "title": "Easy",
+          "color": "success",
+          "level": 3
+        },
+        "tier": { "id": 1, "name": "Tier 0", "number": 0, "color": "dark" },
+        "url": "https:\/\/academy.hackthebox.com\/module\/details\/39"
+      },
+      {
+        "id": 167,
+        "name": "Introduction to Windows Command Line",
+        "logo": "https:\/\/academy.hackthebox.com\/storage\/modules\/167\/logo.png",
+        "avatar": "https:\/\/academy.hackthebox.com\/storage\/modules\/167\/avatar.png",
+        "difficulty": {
+          "id": 3,
+          "text": "Easy",
+          "title": "Easy",
+          "color": "success",
+          "level": 3
+        },
+        "tier": { "id": 2, "name": "Tier I", "number": 1, "color": "success" },
+        "url": "https:\/\/academy.hackthebox.com\/module\/details\/167"
+      },
+      {
+        "id": 24,
+        "name": "File Transfers",
+        "logo": "https:\/\/academy.hackthebox.com\/storage\/modules\/24\/logo.png",
+        "avatar": "https:\/\/academy.hackthebox.com\/storage\/modules\/24\/avatar.png",
+        "difficulty": {
+          "id": 6,
+          "text": "Medium",
+          "title": "Medium",
+          "color": "warning",
+          "level": 6
+        },
+        "tier": { "id": 1, "name": "Tier 0", "number": 0, "color": "dark" },
+        "url": "https:\/\/academy.hackthebox.com\/module\/details\/24"
+      },
+      {
+        "id": 67,
+        "name": "Windows Privilege Escalation",
+        "logo": "https:\/\/academy.hackthebox.com\/storage\/modules\/67\/logo.png",
+        "avatar": "https:\/\/academy.hackthebox.com\/storage\/modules\/67\/avatar.png",
+        "difficulty": {
+          "id": 6,
+          "text": "Medium",
+          "title": "Medium",
+          "color": "warning",
+          "level": 6
+        },
+        "tier": { "id": 3, "name": "Tier II", "number": 2, "color": "info" },
+        "url": "https:\/\/academy.hackthebox.com\/module\/details\/67"
+      }
+    ],
+    "machine_mode": null,
+    "priceTier": 4,
+    "requiredSubscription": "VIP+",
+    "switchServerWarning": null,
+    "isSingleFlag": false
+  }
+}

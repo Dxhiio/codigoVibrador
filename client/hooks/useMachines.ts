@@ -15,6 +15,7 @@ export interface Machine {
     root_owns_count: number;
     free: boolean;
     stars: number;
+    video_url?: string;
 }
 
 export function useMachines() {

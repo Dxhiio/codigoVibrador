@@ -1,0 +1,2737 @@
+
+ {
+  "Máquina": "Tentacle",
+  "Dirección IP": "10.10.10.224",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "DNS Enumeration (dnsenum)\nSQUID Proxy\nWPAD Enumeration\nOpenSMTPD v2.0.0 Exploit\nSSH using Kerberos (gssapi)\nAbusing .k5login file\nAbusing krb5.keytab file",
+  "Cert": "eCPPTv3\neCPTXv2\nOSCP\nOSEP\neWPT\neWPTXv2\nOSWE\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=hFIWuWVIDek"
+ },
+ {
+  "Máquina": "Validation",
+  "Dirección IP": "10.10.11.116",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "SQLI (Error Based)\nSQLI -> RCE (INTO OUTFILE)\nInformation Leakage",
+  "Cert": "eJPT\neWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=78i-qbhEUVU"
+ },
+ {
+  "Máquina": "Mischief",
+  "Dirección IP": "10.10.10.92",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Insane",
+  "Técnicas Vistas": "SNMP Enumeration\nInformation Leakage\nIPV6\nICMP Data Exfiltration (Python Scapy)",
+  "Cert": "OSCP\neWPT\neWPTXv2\neCPPTv3\neCPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=Q6vlt9BlnWg"
+ },
+ {
+  "Máquina": "Reddish",
+  "Dirección IP": "10.10.10.94",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Insane",
+  "Técnicas Vistas": "Abusing Node-Red\nChisel & Socat Usage\nRedis-Cli Exploitation\nRsync Abusing\nCron Exploitation\nDisk Mount\nFile Transfer Tips\nPIVOTING",
+  "Cert": "\neCPPTv3\neCPTXv2",
+  "Video": "https:\/\/www.youtube.com\/watch?v=XQQ104hWFXE"
+ },
+ {
+  "Máquina": "Return",
+  "Dirección IP": "10.10.11.108",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Abusing Printer\nAbusing Server Operators Group\nService Configuration Manipulation",
+  "Cert": "eJPT\nOSCP (Escalada)",
+  "Video": "https:\/\/www.youtube.com\/watch?v=5QC5lshrDDo"
+ },
+ {
+  "Máquina": "Horizontall",
+  "Dirección IP": "10.10.11.105",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Information Leakage\nPort Forwarding\nStrapi CMS Exploitation\nLaravel Exploitation",
+  "Cert": "eWPT\neJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=s2b-BH0I7R4"
+ },
+ {
+  "Máquina": "Pressed",
+  "Dirección IP": "10.10.11.142",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Password Guessing\nWordPress Abusing RPC Calls\nWordPress XML-RPC Create WebShell\nPwnKit Exploit",
+  "Cert": "OSCP\neWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=67TQsX88EtM"
+ },
+ {
+  "Máquina": "Epsilon",
+  "Dirección IP": "10.10.11.134",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Git Source Leak Exploit (GitHack)\nAWS Enumeration\nLambda Function Enumeration\nAuthentication Bypass\nAbusing JWT\nServer Side Template Injection (SSTI)\nTar Symlink Exploitation",
+  "Cert": "eWPT\neWPTXv2\nOSCP\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=tMsK6ZiB7CQ"
+ },
+ {
+  "Máquina": "Jeeves",
+  "Dirección IP": "10.10.10.63",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Jenkins Exploitation (Groovy Script Console)\nRottenPotato (SeImpersonatePrivilege)\nPassTheHash (Psexec)\nBreaking KeePass\nAlternate Data Streams (ADS)",
+  "Cert": "OSCP\neJPT\neWPT\neCPPTv3",
+  "Video": "https:\/\/www.youtube.com\/watch?v=TwJiEWjI6Go"
+ },
+ {
+  "Máquina": "Pit",
+  "Dirección IP": "10.10.10.241",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Information Leakage\nSNMP Enumeration (Snmpwalk\/Snmpbulkwalk)\nSeedDMS Exploitation\nSELinux (Extra)\nSNMP Code Execution",
+  "Cert": "OSCP\neWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=mxHbnV_LB20"
+ },
+ {
+  "Máquina": "Blackfield",
+  "Dirección IP": "10.10.10.192",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "SMB Enumeration\nKerberos User Enumeration (Kerbrute)\nASRepRoast Attack (GetNPUsers)\nBloodhound Enumeration\nAbusing ForceChangePassword Privilege (net rpc)\nLsass Dump Analysis (Pypykatz)\nAbusing WinRM\nSeBackupPrivilege Exploitation\nDiskShadow\nRobocopy Usage\nNTDS Credentials Extraction (secretsdump)",
+  "Cert": "OSCP\nOSEP\neCPPTv3\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=0cPq2UV2vmg"
+ },
+ {
+  "Máquina": "EarlyAccess",
+  "Dirección IP": "10.10.11.110",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "XSS Injection\nXSS Cookie Stealing\nCookie Hijacking\nCode Analysis\nBuilding a Key Generator (PYTHON)\nSQLI (Error Based)\nLFI && Wrappers\nBash Scripting for Host Discovering\nInformation Leakage\nPivoting\nAbusing Docker\nAbusing Capabilities",
+  "Cert": "eCPPTv3\neCPTXv2\nOSCP\neWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=31CvSq9lcqU"
+ },
+ {
+  "Máquina": "Flustered",
+  "Dirección IP": "10.10.11.131",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Abusing Squid Proxy\nAbusing GlusterFS\nInformation Leakage\nServer Side Template Injection (SSTI)[RCE]\nAbusing Azure Storage",
+  "Cert": "OSCP\neJPT\neWPT\neWPTXv2\neCPPTv3\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=MQeB_fItmW8"
+ },
+ {
+  "Máquina": "Love",
+  "Dirección IP": "10.10.10.239",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Server Side Request Forgery (SSRF)\nExploiting Voting System\nAbusing AlwaysInstallElevated (msiexec\/msi file)",
+  "Cert": "eJPT\neWPT\nOSCP (Escalada)",
+  "Video": "https:\/\/www.youtube.com\/watch?v=5tEBvG0OnWQ"
+ },
+ {
+  "Máquina": "NodeBlog",
+  "Dirección IP": "10.10.11.139",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "NoSQL Injection (Authentication Bypass)\nXXE File Read\nNodeJS Deserialization Attack (IIFE Abusing)\nMongo Database Enumeration",
+  "Cert": "eJPT\neWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=MPArplyCIjM"
+ },
+ {
+  "Máquina": "NunChucks",
+  "Dirección IP": "10.10.11.122",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "NodeJS SSTI (Server Side Template Injection)\nAppArmor Profile Bypass (Privilege Escalation)",
+  "Cert": "eJPT\neWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=RRig0TQKYy8"
+ },
+ {
+  "Máquina": "Bolt",
+  "Dirección IP": "10.10.11.114",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Information Leakage\nSubdomain Enumeration\nSSTI (Server Side Template Injection)\nAbusing PassBolt\nAbusing GPG",
+  "Cert": "eJPT\neWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=zemqqJMl1VA"
+ },
+ {
+  "Máquina": "GoodGames",
+  "Dirección IP": "10.10.11.130",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "SQLI (Error Based)\nHash Cracking Weak Algorithms\nPassword Reuse\nServer Side Template Injection (SSTI)\nDocker Breakout (Privilege Escalation) [PIVOTING]",
+  "Cert": "eJPT\neWPT\neCPPTv3\nOSCP (Escalada)",
+  "Video": "https:\/\/www.youtube.com\/watch?v=r3WMeRtwmFc"
+ },
+ {
+  "Máquina": "Hawk",
+  "Dirección IP": "10.10.10.102",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "OpenSSL Cipher Brute Force and Decryption\nDrupal Enumeration\/Exploitation\nH2 Database Exploitation",
+  "Cert": "eJPT\neWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=qiCozh2m0yE"
+ },
+ {
+  "Máquina": "Monitors",
+  "Dirección IP": "10.10.10.238",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Information Leakage\nWordPress Plugin Exploitation (Spritz)\nLocal File Inclusion (LFI)\nCacti 1.2.12 Exploitation\nApache OfBiz Deserialization Attack (RCE)\nDocker Breakout (cap_sys_module Capabilitie) [PRIVILEGE ESCALATION]",
+  "Cert": "eCPPTv3\neWPT\neWPTXv2\nOSCP\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=u0eFap03oDY"
+ },
+ {
+  "Máquina": "Intelligence",
+  "Dirección IP": "10.10.10.248",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Information Leakage\nKerberos Enumeration (Kerbrute)\nCreating a DNS Record (dnstool.py) [Abusing ADIDNS]\nIntercepting Net-NTLMv2 Hashes with Responder\nBloodHound Enumeration\nAbusing ReadGMSAPassword Rights (gMSADumper)\nPywerview Usage\nAbusing Unconstrained Delegation\nAbusing AllowedToDelegate Rights (getST.py) (User Impersonation)\nUsing .ccache file with wmiexec.py (KRB5CCNAME)",
+  "Cert": "OSCP\nOSEP\neCPPTv3\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=LI8wnTUc5-I"
+ },
+ {
+  "Máquina": "Scavenger",
+  "Dirección IP": "10.10.10.155",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Domain Zone Transfer (AXFR)\nSQLI (Error Based) [WHOIS]\nPCAP Analysis (Tshark && Wireshark)\nAbusing Rootkit",
+  "Cert": "eWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=5-L8T8Qsxfs"
+ },
+ {
+  "Máquina": "Driver",
+  "Dirección IP": "10.10.11.106",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Password Guessing\nSCF Malicious File\nPrint Spooler Local Privilege Escalation (PrintNightmare) [CVE-2021-1675]",
+  "Cert": "OSCP (Escalada)\neJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=TY8NgOUVXjM"
+ },
+ {
+  "Máquina": "Minion",
+  "Dirección IP": "10.10.10.57",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Insane",
+  "Técnicas Vistas": "Server Side Request Forgery (SSRF) [Internal Port Discovery]\nICMP Reverse Shell (PowerShell) [Firewall Bypassing]\nAlternate Data Streams (ADS)\nFirewall Evasion [Firewall Rules Manipulation]",
+  "Cert": "eWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=yCXJI0H0704"
+ },
+ {
+  "Máquina": "Sizzle",
+  "Dirección IP": "10.10.10.103",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Insane",
+  "Técnicas Vistas": "SMBCacls Enumeration\nMalicious SCF File (Getting NetNTLMv2 Hash)\nLdap Enumeration (LdapDomainDump)\nAbusing Microsoft Active Directory Certificate Services\nCreating Certificate Signing Requests (CSR) [Openssl]\nCLM \/ AppLocker Break Out (Escaping ConstrainedLanguage)\nPSByPassCLM Usage (CLM \/ AppLocker Break out)\nMsbuild (CLM \/ AppLocker Break Out)\nKerberoasting Attack (Rubeus)\nKerberoasting Attack (Chisel Port Forward - GetUserSPNs.py)\nWINRM Connections\nBloodHound Enumeration\nDCSync Attack (secretsdump.py)\nDCSync Attack (Mimikatz)\nPassTheHash (wmiexec.py)",
+  "Cert": "OSCP\nOSEP\neCPPTv3\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=7W2h7qoCShk"
+ },
+ {
+  "Máquina": "Toolbox",
+  "Dirección IP": "10.10.10.236",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "PostgreSQL Injection (RCE)\nAbusing boot2docker [Docker-Toolbox]\nPivoting",
+  "Cert": "eWPT\nOSCP (Intrusión)\neJPT\neCPPTv2",
+  "Video": "https:\/\/www.youtube.com\/watch?v=0wTYfJsZdKU"
+ },
+ {
+  "Máquina": "Enterprise",
+  "Dirección IP": "10.10.10.61",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "WordPress Lcars Plugin SQLI Vulnerability\nSQL Injection (boolean-based blind, error-based, time-based blind)\nWordPress Exploitation [www-data] (Theme Edition - 404.php Template)\nJoomla Exploitation [www-data] (Template Manipulation)\nDocker Breakout\nGhidra Binary Analysis\nBuffer Overflow (No ASLR - PIE enabled) [RET2LIBC] (Privilege Escalation)",
+  "Cert": "eWPT\neCPPTv3\neCPTXv2\nBuffer Overflow",
+  "Video": "https:\/\/www.youtube.com\/watch?v=2ZzVu5mdzgA"
+ },
+ {
+  "Máquina": "Chaos",
+  "Dirección IP": "10.10.10.120",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Password Guessing\nAbusing e-mail service (claws-mail)\nCrypto Challenge (Decrypt Secret Message - AES Encrypted)\nLaTeX Injection (RCE)\nBypassing rbash (Restricted Bash)\nExtracting Credentials from Firefox Profile",
+  "Cert": "eWPT\neJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=-t0CkWmiq6s"
+ },
+ {
+  "Máquina": "SteamCloud",
+  "Dirección IP": "10.10.11.133",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Kubernetes API Enumeration (kubectl)\nKubelet API Enumeration (kubeletctl)\nCommand Execution through kubeletctl on the containers\nCluster Authentication (ca.crt\/token files) with kubectl\nCreating YAML file for POD creation\nExecuting commands on the new POD\nReverse Shell through YAML file while deploying the POD",
+  "Cert": "eWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=q3mFOd8eRQs"
+ },
+ {
+  "Máquina": "Seal",
+  "Dirección IP": "10.10.10.250",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Information Leakage (GitBucket)\nBreaking Parser Logic - Abusing Reverse Proxy \/ URI Normalization\nExploiting Tomcat (RCE) [Creating malicious WAR]\nAbusing existing YML Playbook file [Cron Job]\nAnsible-playbook exploitation (sudo privilege)",
+  "Cert": "eWPT\neWPTXv2\nOSCP (Intrusión)\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=IShxpoRMxW8"
+ },
+ {
+  "Máquina": "Hancliffe",
+  "Dirección IP": "10.10.11.115",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Abusing URI Normalization\nServer Side Template Injection (SSTI) [NUXEO Vulnerability]\nUnified Remote 3 Exploitation (RCE)\nDecrypt Mozilla protected passwords\nReversing EXE in Ghidra\nBuffer Overflow (Socket Reuse Technique) [AVANZADO]",
+  "Cert": "Buffer Overflow\nOSED\nOSCP (Intrusión)\neWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=A_7Cwl2bBC0"
+ },
+ {
+  "Máquina": "Antique",
+  "Dirección IP": "10.10.11.107",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "SNMP Enumeration\nNetwork Printer Abuse\nCUPS Administration Exploitation (ErrorLog)\nEXTRA -> (DirtyPipe) [CVE-2022-0847]",
+  "Cert": "eJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=pvtergVU__4"
+ },
+ {
+  "Máquina": "Object",
+  "Dirección IP": "10.10.11.132",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Jenkins Exploitation (New Job + Abusing Build Periodically)\nJenkins Exploitation (Abusing Trigger builds remotely using TOKEN)\nFirewall Enumeration Techniques\nJenkins Password Decrypt\nBloodHound Enumeration\nAbusing ForceChangePassword with PowerView\nAbusing GenericWrite (Set-DomainObject - Setting Script Logon Path)\nAbusing WriteOwner (Takeover Domain Admins Group)",
+  "Cert": "OSCP\nOSEP\neCPPTv3\nOSWE\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=K8d2CmQAV9Q"
+ },
+ {
+  "Máquina": "Stratosphere",
+  "Dirección IP": "10.10.10.64",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Apache Struts Exploitation (CVE-2017-5638)\nPython Library Hijacking (Privilege Escalation)",
+  "Cert": "eWPT\neJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=KADZhYY9Wpw"
+ },
+ {
+  "Máquina": "Devzat",
+  "Dirección IP": "10.10.11.118",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Fuzzing Directory .git (GIT Project Recomposition)\nWeb Injection (RCE)\nAbusing InfluxDB (CVE-2019-20933)\nAbusing Devzat Chat \/file command (Privilege Escalation)\nEXTRA (Crypto CTF Challenge | N Factorization)",
+  "Cert": "eWPT\neJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=WXdF3wqwtqQ"
+ },
+ {
+  "Máquina": "Helpline",
+  "Dirección IP": "10.10.10.132",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "ManageEngine ServiceDesk Plus User Enumeration\nManageEngine ServiceDesk Plus Authentication Bypassing\nManageEngine ServiceDesk Plus Remote Code Execution\nDisabling Windows Defender (PowerShell)\nMimikatz - Getting NTLM User Hashes (lsadump::sam)\nReading Event Logs with Powershell (RamblingCookieMonster) [Get-WinEventData]\nDecrypting EFS files with Mimikatz\nGetting the certificate with Mimikatz (crypto::system)\nDecrypting the masterkey with Mimikatz (dpapi::masterkey)\nDecrypting the private key with Mimikatz (dpapi::capi)\nBuilding a correct PFX with Openssl\nInstalling the PFX via certutil\nInstalling VNC in the box via msiexec\nConnecting to the VNC service using vncviewer\nConverting Secure String File to PlainText\nUsing RunAs to execute commands as the administrator",
+  "Cert": "eWPT\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=EGlLewVI_M0"
+ },
+ {
+  "Máquina": "Ransom",
+  "Dirección IP": "10.10.11.153",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Login Bypass (Type Juggling Attack)\nDecrypting a ZIP file (PlainText Attack - Bkcrack) - CONTI RANSOMWARE",
+  "Cert": "eWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=_hnKZ1YgzyA"
+ },
+ {
+  "Máquina": "Bankrobber",
+  "Dirección IP": "10.10.10.154",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Insane",
+  "Técnicas Vistas": "Blind XSS Injection\nStealing the session cookie by XSS injection\nSQLI - Error Based\nSQLI - File Access\nSQLI - Stealing Net-NTLMv2 Hash (impacket-smbserver)\nXSS + XSRF => RCE\nAbusing a custom binary (Brute Force Pin && Overflow)",
+  "Cert": "eWPT\neWPTXv2\nOSWE\nOSCP (Intrusión)",
+  "Video": "https:\/\/www.youtube.com\/watch?v=NAKePo2HLjI"
+ },
+ {
+  "Máquina": "Tenet",
+  "Dirección IP": "10.10.10.223",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "PHP Deserialization Attack\nAbusing Race Condition",
+  "Cert": "eWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=Isgpbsi9Tpc"
+ },
+ {
+  "Máquina": "Stacked",
+  "Dirección IP": "10.10.11.112",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Insane",
+  "Técnicas Vistas": "Virtual Hosting Enumeration\nReferer XSS Injection\nXSS - Creating JS file (accessing unauthorized resources)\nChecking\/Reading mail through XSS injection\nAWS Enumeration\nLambda Enumeration\nCreating a Lambda Function (NodeJS)\nInvoking the created lambda function\nRCE on LocalStack\nAbusing FunctionName Parameter (AWS) by exploiting XSS vulnerability (RCE)\nFinding and exploiting custom 0Day [Privilege Escalation]\nRoot FileSystem Access by abusing Docker",
+  "Cert": "eWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=L1w3DwxFHFg"
+ },
+ {
+  "Máquina": "Mantis",
+  "Dirección IP": "10.10.10.52",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Database Enumeration (DBeaver)\nBloodhound Enumeration (bloodhound-python)\nExploiting MS14-068 (goldenPac.py) [Microsoft Kerberos Checksum Validation Vulnerability]",
+  "Cert": "OSCP\nOSEP\neCPPTv3\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=3p0myaukHBk"
+ },
+ {
+  "Máquina": "TheNotebook",
+  "Dirección IP": "10.10.10.230",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Abusing JWT (Gaining privileges)\nAbusing Upload File\nDocker Breakout [CVE-2019-5736 - RUNC] (Privilege Escalation)",
+  "Cert": "eWPT\nOSCP (Escalada)\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=dekA2dzLSlE"
+ },
+ {
+  "Máquina": "Travel",
+  "Dirección IP": "10.10.10.189",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Git Project Recomposition (.git) [Git-Dumper]\nAbusing WordPress (SimplePie + Memcache) [PHP Code Analysis]\nMemcache Object Poisoning (Gopherus + Deserialization Attack + RCE)\nLDAP Enumeration (Apache Directory Studio - GUI)\nAbusing LDAP to add an SSH Key\nAbusing LDAP to modify the user group to sudo (Privilege Escalation)",
+  "Cert": "eWPT\neWPTXv2\nOSWE\nOSCP (Escalada)",
+  "Video": "https:\/\/www.youtube.com\/watch?v=B5_NsxWlXTU"
+ },
+ {
+  "Máquina": "Shocker",
+  "Dirección IP": "10.10.10.56",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "ShellShock Attack (User-Agent)\nAbusing Sudoers Privilege (Perl)\nEXTRA: Creamos nuestro propio CTF en Docker que contemple ShellShock",
+  "Cert": "eWPT\neJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=xaOgoGYyJF4"
+ },
+ {
+  "Máquina": "SneakyMailer",
+  "Dirección IP": "10.10.10.197",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Information Leakage\nMass Emailing Attack with SWAKS\nPassword Theft\nAbusing Pypi Server (Creating a Malicious Pypi Package)\nAbusing Sudoers Privilege (Pip3)",
+  "Cert": "OSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=QWkM74ZBVO4"
+ },
+ {
+  "Máquina": "Secret",
+  "Dirección IP": "10.10.11.120",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Code Analysis\nAbusing an API\nJson Web Tokens (JWT)\nAbusing\/Leveraging Core Dump [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=YfVnbzpjz2I"
+ },
+ {
+  "Máquina": "Giddy",
+  "Dirección IP": "10.10.10.104",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "SQL Injection (XP_DIRTREE) [SQLI] - Get Net-NTLMv2 Hash\nWindows Defender Evasion (Ebowla)\nWindows Defender Evasion (Building our own C program)\nService Listing Techniques\nAbusing Unifi-Video (Privilege Escalation)",
+  "Cert": "eWPT\nOSCP\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=2ZnbIAPzmpg"
+ },
+ {
+  "Máquina": "Haystack",
+  "Dirección IP": "10.10.10.115",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "ElasticSearch Enumeration\nInformation Leakage\nKibana Enumeration\nKibana Exploitation (CVE-2018-17246)\nAbusing Logstash (Privilege Escalation)",
+  "Cert": "eWPT\nOSCP (Escalada)\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=-Ck0z8N1LxQ"
+ },
+ {
+  "Máquina": "Passage",
+  "Dirección IP": "10.10.10.206",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "CuteNews Exploitation\nCode Analysis\nUSBCreator D-Bus Privilege Escalation\nPython Exploit Development (AutoPwn)",
+  "Cert": "eWPT\nOSWE\nOSCP (Escalada)",
+  "Video": "https:\/\/www.youtube.com\/watch?v=O5v3yzvgYjw"
+ },
+ {
+  "Máquina": "Altered",
+  "Dirección IP": "10.10.11.159",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Brute Force Pin \/ Rate-Limit Bypass [Headers]\nType Juggling Bypassing\nSQL Injection (Error Based)\nSQLI to RCE -> INTO OUTFILE Query\nDirty Pipe Exploit (But with PAM-Wordle configured)",
+  "Cert": "OSCP\neWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=_8ih4aNNI4M"
+ },
+ {
+  "Máquina": "Shibboleth",
+  "Dirección IP": "10.10.11.124",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Abusing IPMI (Intelligent Platform Management Interface)\nZabbix Exploitation\nMariaDB Remote Code Execution (CVE-2021-27928)",
+  "Cert": "eWPT\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=mkB1Vfw35XY"
+ },
+ {
+  "Máquina": "Tally",
+  "Dirección IP": "10.10.10.59",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "SharePoint Enumeration\nInformation Leakage\nPlaying with mounts (cifs, curlftpfs)\nAbusing Keepass\nAbusing Microsoft SQL Server (mssqlclient.py - xp_cmdshell RCE)\nAbusing SeImpersonatePrivilege (JuicyPotato)",
+  "Cert": "OSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=fMZCktwAD2w"
+ },
+ {
+  "Máquina": "Ellingson",
+  "Dirección IP": "10.10.10.139",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Abusing Werkzeug Debugger (RCE)\nBinary Exploitation\nAdvanced Buffer Overflow x64 - ROP \/ ASLR Bypass (Leaking Libc Address + Ret2libc + Setuid)",
+  "Cert": "Buffer Overflow\neWPT (Intrusión)",
+  "Video": "https:\/\/www.youtube.com\/watch?v=8dLPT-imMYk"
+ },
+ {
+  "Máquina": "Quick",
+  "Dirección IP": "10.10.10.186",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "HTTP\/3 Enumeration\nRecompiling curl to accept HTTP\/3 requests\nInformation Leakage\nBrute force in authentication panel\nXSS Injection\nAbusing Esigate (ESI Injection - RCE)\nManipulating passwords in the database\nAbuing POS Print Server (File Hijacking Attack)",
+  "Cert": "eWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=C1NZVah39ms"
+ },
+ {
+  "Máquina": "Traverxec",
+  "Dirección IP": "10.10.10.165",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Nostromo Exploitation\nAbusing Nostromo HomeDirs Configuration\nExploiting Journalctl (Privilege Escalation)",
+  "Cert": "eWPT\nOSCP (Escalada)",
+  "Video": "https:\/\/www.youtube.com\/watch?v=7aCplH8WZm0"
+ },
+ {
+  "Máquina": "Sink",
+  "Dirección IP": "10.10.10.225",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Insane",
+  "Técnicas Vistas": "HTTP Request Smuggling Exploitation (Leak Admin Cookie)\nCookie Hijacking\nInformation Leakage\nAWS Enumeration\nAWS Secrets Manager\nAWS Key_management Enumeration\nAWS KMS Decrypting File",
+  "Cert": "eWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=2qKXz_Rk2YE"
+ },
+ {
+  "Máquina": "Overflow",
+  "Dirección IP": "10.10.11.119",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Padding Oracle Attack (Padbuster)\nPadding Oracle Attack (Bit Flipper Attack - BurpSuite) [EXTRA]\nCookie Hijacking\nSQL Injection (Generic UNION query) [SQLI] - Error Based\nBreaking Password\nUpload File - Abusing Exiftool (RCE)\nDNS Hijacking (Abusing Cron Job)\nGhidra Binary Analysis\nReversing Code (Computing valid PIN)\nBuffer Overflow (Controlling the program and manipulating its flow to desired functions)\nAbusing Decryption Function (XOR Trick) [Privilege Escalation]",
+  "Cert": "OSWE\neWPT\neWPTXv2\nBuffer Overflow",
+  "Video": "https:\/\/www.youtube.com\/watch?v=tEbBDlOFen0"
+ },
+ {
+  "Máquina": "Fighter",
+  "Dirección IP": "10.10.10.72",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Insane",
+  "Técnicas Vistas": "Advanced SQL Injection [SQLI] - MS SQL Server 2014 [Bypass Protection] [Python Scripting] [RCE]\nAbusing Cron Jobs\nCapcom Rootkit Privilege Escalation\nBinary and DLL Analysis in order to get root.txt [Radare2]",
+  "Cert": "eWPT\neWPTXv2\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=DWF0inlo8Zw"
+ },
+ {
+  "Máquina": "Tabby",
+  "Dirección IP": "10.10.10.194",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Local File Inclusion (LFI)\nAbusing Tomcat Virtual Host Manager\nAbusing Tomcat Text-Based Manager - Deploy Malicious War (Curl Method)\nLXC Exploitation (Privilege Escalation)",
+  "Cert": "eWPT\nOSCP (Escalada)\neJPT (Intrusión)",
+  "Video": "https:\/\/www.youtube.com\/watch?v=hKCNrXXLClQ"
+ },
+ {
+  "Máquina": "Backend",
+  "Dirección IP": "10.10.11.161",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "API Enumeration\nAbusing API - Registering a new user\nAbusing API - Logging in as the created user\nEnumerating FastApi Endpoints through Docs\nAbusing FastAPI - We managed to change the admin password\nAbusing FastAPI - We get the ability to read files from the machine (Source Analysis)\nCreating our own privileged JWT\nAbusing FastAPI - We achieved remote command execution through the exec endpoint\nInformation Leakage (Privilege Escalation)",
+  "Cert": "eWPT\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=OugU0j3_COM"
+ },
+ {
+  "Máquina": "Hackback",
+  "Dirección IP": "10.10.10.128",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Insane",
+  "Técnicas Vistas": "Subdomain Enumeration\nInformation Leakage\nPassword Fuzzing\nGophish Template Log Poisoning (Limited RCE)\nInternal Port Discovery\nreGeorg - Accessing internal ports through a SOCKS proxy (proxychains)\nAccessing the WinRM service through reGeorg and SOCKS proxy\nAbusing Cron Job + SeImpersonatePrivilege Alternative Exploitation\nPlaying with PIPES - pipeserverimpersonate\nImpersonating users and executing commands as the impersonated user\nBypassing Firewall Rules (BlockInbound\/BlockOutbound)\nAbusing Services\nAlternate Data Streams (ADS)",
+  "Cert": "eWPT\neWPTXv2\nOSWE\nOSCP (Escalada)\neCPTXv2",
+  "Video": "https:\/\/www.youtube.com\/watch?v=UMyJt-fiBz8"
+ },
+ {
+  "Máquina": "October",
+  "Dirección IP": "10.10.10.16",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Abusing October CMS (Upload File Vulnerability)\nBuffer Overflow - Bypassing ASLR + Ret2libc (x32 bits)\nBuffer Overflow - Ret2libc without ASLR (x32 bits EXTRA)",
+  "Cert": "eWPT (Intrusión)\nBuffer Overflow",
+  "Video": "https:\/\/www.youtube.com\/watch?v=3QZfUBVr-AA"
+ },
+ {
+  "Máquina": "Holiday",
+  "Dirección IP": "10.10.10.25",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "SQL Injection [SQLI] - Sqlite\nXSS Injection - Bypassing Techniques (fromCharCode) + Own Javascript Code + Session Cookie Theft\nAbusing existing parameters - RCE\nNodeJS npm - Privilege Escalation",
+  "Cert": "eWPT\neWPTXv2\nOSWE\nOSCP (Escalada)",
+  "Video": "https:\/\/www.youtube.com\/watch?v=ymvb94yAefM"
+ },
+ {
+  "Máquina": "Blunder",
+  "Dirección IP": "10.10.10.191",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Bludit CMS Exploitation\nBypassing IP Blocking (X-Forwarded-For Header)\nDirectory Traversal Image File Upload (Playing with .htaccess)\nAbusing sudo privilege (CVE-2019-14287)",
+  "Cert": "eWPT\nOSWE\neWPTXv2",
+  "Video": "https:\/\/www.youtube.com\/watch?v=C64POGPpank"
+ },
+ {
+  "Máquina": "Static",
+  "Dirección IP": "10.10.10.246",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Compressed File Recomposition (Fixgz)\nAbusing TOTP (Python Scripting - NTP protocol)\nPlaying with Static Routes\nXDebug Exploitation (RCE)\nAbusing PHP-FPM (RCE) [CVE-2019-11043] (PIVOTING)\nAbusing Capabilities (cap_setuid + Path Hijacking | Privilege Escalation)",
+  "Cert": "eWPT\neJPT (Rutas Estáticas)\neCPPTv3\neCPTXv2\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=BmtLkWmJbgk"
+ },
+ {
+  "Máquina": "Aragog",
+  "Dirección IP": "10.10.10.78",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "XXE (XML External Entity Injection) Exploitation\nModifying a wordpress login to steal credentials (Privilege Escalation)",
+  "Cert": "eWPT\nOSWE (Intrusión)",
+  "Video": "https:\/\/www.youtube.com\/watch?v=Q2jTs8QepFQ"
+ },
+ {
+  "Máquina": "Querier",
+  "Dirección IP": "10.10.10.125",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Macro Inspection (Olevba2)\nMSSQL Hash Stealing [Net-NTLMv2] (xp_dirtree)\nAbusing MSSQL (xp_cmdshell)\nCached GPP Files (Privilege Escalation)",
+  "Cert": "OSCP\nOSEP\neCPPTv3\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=hfzYnjBzW_k"
+ },
+ {
+  "Máquina": "Toby",
+  "Dirección IP": "10.10.11.121",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Insane",
+  "Técnicas Vistas": "Abusing GOGS (Project Enumeration)\nStatic Code Analysis (Finding a backdoor with php-malware-scanner)\nCode deofuscation\nReverse shell through backdoor\nSetting up a SOCKS5 Proxy (Chisel\/Proxychains)\nDatabase Enumeration (Accessing GOGS)\nAbusing API (Stealing an authentication hash in MYSQL through Wireshark)\nPlaying with epoch time to generate a potential list of passwords\nCracking Hashes\nPIVOTING\nProcess Enumeration (pspy)\nAbusing cron job to obtain a private key\nDecrypting database passwords (AES Encryption)\nAbusing PAM (Ghidra Analysis)\nGetting the root password by abusing time\nAdvanced persistence techniques",
+  "Cert": "eWPT\nOSWE\neWPTXv2\neCPPTv3\neCPTXv2",
+  "Video": "https:\/\/www.youtube.com\/watch?v=TLKid8-aI0E"
+ },
+ {
+  "Máquina": "Backdoor",
+  "Dirección IP": "10.10.11.125",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "WordPress Local File Inclusion Vulnerability (LFI)\nLFI to RCE (Abusing \/proc\/PID\/cmdline)\nGdbserver RCE Vulnerability\nAbusing Screen (Privilege Escalation) [Session synchronization]",
+  "Cert": "OSCP\neWPT\nOSWE\neWPTXv2",
+  "Video": "https:\/\/www.youtube.com\/watch?v=u5hjJ3p-XfU"
+ },
+ {
+  "Máquina": "Control",
+  "Dirección IP": "10.10.10.167",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "SQL Injection [SQLI] - Error Based\nAdvanced Bash Scripting (EXTRA)\nSQLI to RCE (Into Outfile - PHP File Creation)\nConPtyShell (Fully Interactive Reverse Shell for Windows)\nPlaying with ScriptBlocks and PSCredential to execute commands as another user\nAppLocker Bypass\nWinPEAS Enumeration\nService ImagePath Hijacking (Privilege Escalation)",
+  "Cert": "OSCP\nOSWE\neWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=I1IDYLQeieE"
+ },
+ {
+  "Máquina": "Unobtainium",
+  "Dirección IP": "10.10.10.235",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Inspecting custom application\nCode Analysis\nInformation Leakage\nLocal File Inclusion (LFI)\nGoogle CloudStorage Commands Vulnerability (Command Injection) [RCE]\nPrototype Pollution Exploitation (Granting us privileges)\nKubernetes (Interacting with the API) [kubectl]\nFinding containers with kubectl\nPIVOTING\nAbusing Prototype Pollution to jump to another container\nListing secrets with kubectl\nCreating malicious Pod (Privilege Escalation) [Bad Pods]\nPeirates - Kubernetes Penetration Testing Tool [EXTRA]",
+  "Cert": "eWPT\neWPTXv2\nOSWE\neCPPTv3\neCPTXv2",
+  "Video": "https:\/\/www.youtube.com\/watch?v=zWDLDqis0Hs"
+ },
+ {
+  "Máquina": "Cache",
+  "Dirección IP": "10.10.10.188",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Information Leakage (Code Inspection)\nAbusing OpenEMR\nBroken Access Control\nAuthentication Bypassing (Abusing the registration panel)\nSQL Injection - Error Based [SQLI]\nOpenEMR Authentication Exploit (RCE)\nAbusing Docker Group (Privilege Escalation)",
+  "Cert": "eWPT\nOSWE\nOSCP (Escalada)",
+  "Video": "https:\/\/www.youtube.com\/watch?v=C0zJUGM00mc"
+ },
+ {
+  "Máquina": "Sense",
+  "Dirección IP": "10.10.10.60",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Information Leakage\nPFsense - Abusing RRD Graphs (RCE) [Evasion Techniques]\nPython Exploit Development (AutoPwn) [EXTRA]",
+  "Cert": "eWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=mWTmXpQlgCs"
+ },
+ {
+  "Máquina": "Breadcrumbs",
+  "Dirección IP": "10.10.10.228",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Local File Inclusion (LFI) [Abusing file_get_contents]\nAbusing No Redirect\nForge PHPSESSID and getting valid Cookies\nForge JWT\nUploading WebShell\nObtaining system credentials through the webshell\nAbusing Sticky Notes\nBinary Analysis (Radare2)\nSQL Injection (SQLI) [Error Based]\nAES Decrypt (Cyberchief)",
+  "Cert": "eWPT\neWPTXv2\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=R89-6VzGgFs"
+ },
+ {
+  "Máquina": "Search",
+  "Dirección IP": "10.10.11.129",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Information Leakage - Password in picture (wtf?)\nRPC Enumeration (rpcclient)\nLdap Enumeration (ldapdomaindump)\nBloodhound Enumeration\nKerberoasting Attack (GetUserSPNs.py)\nSMB Password Spray Attack (Crackmapexec)\nUnprotecting password-protected Excel (Remove Protection)\nPlaying with pfx certificates\nGaining access to Windows PowerShell Web Access\nAbusing ReadGMSAPassword privilege\nAbusing GenericAll privilege (Resetting a user's password)\nGaining access with wmiexec",
+  "Cert": "OSCP\nOSEP\neCPPTv3\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=vTsD0TSgdGg"
+ },
+ {
+  "Máquina": "Ariekei",
+  "Dirección IP": "10.10.10.65",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Insane",
+  "Técnicas Vistas": "ImageTragick Exploitation (Specially designed '.mvg' file)\nShellShock Attack (WAF Bypassing)\nAbusing Docker privilege\nPIVOTING",
+  "Cert": "eCPPTv3\neCPTXv2\neWPT\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=mjrrfNc454c"
+ },
+ {
+  "Máquina": "Forge",
+  "Dirección IP": "10.10.11.111",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Bypassing URL Blacklist\nServer Side Request Forgery (SSRF)\nAbusing Sudoers Privilege (Abusing Python Script)",
+  "Cert": "eWPT\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=6JWPJ3YgDXc"
+ },
+ {
+  "Máquina": "SwagShop",
+  "Dirección IP": "10.10.10.140",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Magento CMS Exploitation (Creating an admin user)\nMagento - Froghopper Attack (RCE)\nAbusing sudoers (Privilege Escalation)",
+  "Cert": "eWPT\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=7Lc9taXgLCA"
+ },
+ {
+  "Máquina": "BackendTwo",
+  "Dirección IP": "10.10.11.162",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "API Enumeration\nAbusing API - Registering a user\nAccessing the Docs path of FastAPI\nMass Assignment Attack (Becoming superusers)\nAbusing API - Reading system files\nInformation Leakage\nForge JWT (Assigning us an extra privilege)\nAbusing API - Creating a new file to achieve remote command execution (RCE)\nAbusing pam_wordle (Privilege Escalation)",
+  "Cert": "eWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=JLaMxPbdvlo"
+ },
+ {
+  "Máquina": "MultiMaster",
+  "Dirección IP": "10.10.10.179",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Insane",
+  "Técnicas Vistas": "SQLI (SQL Injection) - Unicode Injection\nWAF Bypassing\nAdvanced Python Scripting - Creation of an automation tool to handle Unicode in SQL injection\nDatabase enumeration through the previously created utility\nCracking Passwords\nActive Directory Enumeration\nEnumerating domain information through SQL injection\nObtaining domain RIDs through SQL injection\nApplying brute-force attack (SID = SID+RID) to obtain existing domain users [Python Scripting]\nSMB Brute Force Attack (Crackmapexec)\nEnumerating AD existing users (rpcclient\/rpcenum)\nAbusing Remote Management User group\nMicrosoft Visual Studio 10.0 Exploitation (User Pivoting)\nUsing libwebsockets in order to connect to a CEF Debugger (RCE)\nAMSI Bypass - Playing with Nishang\nAMSI Bypass - Bypass-4MSI Alternative (evil-winrm)\nDLL Inspection - Information Leakage\nBloodHound Enumeration\nAbusing the GenericWrite privilege on a user\nMaking a user vulnerable to an ASREPRoast attack - Disabling Kerberos Pre-Authentication\nRequesting the TGT of the manipulated user\nAbusing Server Operators Group\nAbusing an existing service by manipulating its binPATH\nWe change the password of the administrator user after restarting the manipulated service",
+  "Cert": "OSCP\nOSEP\neCPPTv3\neWPT\neWPTXv2\nOSWE\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=z6nmcyk1Pbo"
+ },
+ {
+  "Máquina": "Unicode",
+  "Dirección IP": "10.10.11.126",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "JWT Enumeration\nJWT - Claim Misuse Vulnerability\nJSON Web Key Generator (Playing with mkjwk)\nForge JWT\nOpen Redirect Vulnerability\nCreating a JWT for the admin user\nLFI (Local File Inclusion) - Unicode Normalization Vulnerability\nAbusing Sudoers Privilege\nPlaying with pyinstxtractor and pycdc\nBypassing badchars and creating a new passwd archive (Privilege Escalation)",
+  "Cert": "eWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=ofz_1ncuCm4"
+ },
+ {
+  "Máquina": "Postman",
+  "Dirección IP": "10.10.10.160",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Redis Enumeration\nRedis Exploitation - Write SSH Key\nWebmin Exploitation - Python Scripting\nWe create our own exploit in Python - AutoPwn [Ruby code adaptation from Metasploit]",
+  "Cert": "eWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=PE3B3rHVTSw"
+ },
+ {
+  "Máquina": "Servmon",
+  "Dirección IP": "10.10.10.184",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "NVMS-1000 Exploitation - Directory Traversal\nLocal File Inclusion (LFI)\nLocal Port Forwarding - SSH\nNSClient++ Exploitation - Privilege Escalation",
+  "Cert": "eWPT\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=UOrtDZsP0aQ"
+ },
+ {
+  "Máquina": "Schooled",
+  "Dirección IP": "10.10.10.234",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "VHost Brute Force\nMoodle Enumeration\nMoodle - Stored XSS\nStealing a teacher's session cookie\nPrivilege escalation from teacher role into manager role to RCE [CVE-2020-14321]\nElevating our privilege to Manager in Moodle - User Impersonation\nMass Assignment Attack - Enable Full Permissions\nGiving us the ability to install a plugin\nAchieving remote command execution through installation of a malicious Plugin\nEnumerating the database once we have gained access to the system\nCracking Hashes\nAbusing sudoers privilege (pkg install package) [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=HNHvMgQwHQM"
+ },
+ {
+  "Máquina": "Oz",
+  "Dirección IP": "10.10.10.96",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "SQL Injection (SQLI)\nServer Side Template Injection (SSTI) (RCE)\nAbusing Knockd\nNetwork enumeration techniques using bash oneliners\nPIVOTING\nPortainer 1.11.1 Exploitation - Resetting the admin password\nCreating a new container from Portainer (Privilege Escalation)",
+  "Cert": "eWPT\neWPTXv2\nOSWE\neCPPTv3\neCPTXv2",
+  "Video": "https:\/\/www.youtube.com\/watch?v=nqGs42yM75c"
+ },
+ {
+  "Máquina": "CTF",
+  "Dirección IP": "10.10.10.122",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Insane",
+  "Técnicas Vistas": "LDAP Injection\nLDAP Injection - Discovering valid usernames\nLDAP Injection - Attribute Brute Force [Discovering valid LDAP fields]\nLDAP Injection - Obtaining OTP Seed\nGenerating One-Time Password (OTP) [stoken]\nSecond Order Ldap Injection\nAbusing backup - 7za Symbolic Links (Privilege Escalation)",
+  "Cert": "eWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=LWh6unoFu8I"
+ },
+ {
+  "Máquina": "Buff",
+  "Dirección IP": "10.10.10.198",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Gym Management System Exploitation (RCE)\nCloudMe Exploitation [Buffer Overflow] [OSCP Like] (Manual procedure) [Python Scripting]",
+  "Cert": "OSCP\neCPPTv3\nBuffer Overflow",
+  "Video": "https:\/\/www.youtube.com\/watch?v=TytUFooC3kU"
+ },
+ {
+  "Máquina": "Kotarak",
+  "Dirección IP": "10.10.10.55",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Server Side Request Forgery (SSRF) [Internal Port Discovery]\nInformation Leakage [Backup]\nTomcat Exploitation [Malicious WAR]\nDumping hashes [NTDS]\nWget 1.12 Vulnerability [CVE-2016-4971] [Privilege Escalation] (PIVOTING)",
+  "Cert": "eWPT\neWPTXv2\nOSWE\neCPPTv3\neCPTXv2",
+  "Video": "https:\/\/www.youtube.com\/watch?v=q2Cv2IQUzdw"
+ },
+ {
+  "Máquina": "Crossfit",
+  "Dirección IP": "10.10.10.208",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Insane",
+  "Técnicas Vistas": "FTP SSL Certificate Enumeration\nXSS Injection\nSubdomain Enumeration through the Origin Header [Access-Control-Allow-Origin]\nAccessing internal websites through XSS - Creating a javascript file\nRegistering a new user through XSS - CSRF Protection Bypass\nUploading a webshell with lftp\nCracking Hashes\nAbusing Cron Job\nphp-shellcommand exploitation - escapeArgs option is not working properly\nInjecting data into the database to achieve remote command execution (RCE) [User Pivoting]\nBinary Analysis - dbmsg [GHIDRA]\nReversing\nCreating an exploit - Abusing Rand [Time travel]\nAbusing symbolic links\nInjecting our own public key as authorized_keys in \/root",
+  "Cert": "eWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=sIaVrGnzRjM"
+ },
+ {
+  "Máquina": "CrimeStoppers",
+  "Dirección IP": "10.10.10.80",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Local File Inclusion (LFI)\nLFI - Base64 Wrapper [Reading PHP files]\nLFI to RCE - ZIP Wrapper\nThunderbird - Password Extraction & Reading Messages (firefoxpwd tool)\nRootkit - apache_modrootme [GHIDRA\/Radare2 Analysis] (Privilege Escalation)",
+  "Cert": "eWPT\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=6IO3gAtP3dc"
+ },
+ {
+  "Máquina": "Nightmare",
+  "Dirección IP": "10.10.10.66",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Insane",
+  "Técnicas Vistas": "HTML Injection\nXSS Injection\nSQL Injection (SQLI) - Error Based\nOpenSSH <= 6.6 SFTP misconfiguration universal exploit (RCE)\nScript Modification\nBinary Analysis [GHIDRA\/Radare2]\nIn-depth analysis with Radare2 [Tips and tricks]\nCommand Injection - User Pivoting\nUbuntu Xenial Privilege Escalation - Kernel Exploitation",
+  "Cert": "eWPT\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=nBDnCjRxmO8"
+ },
+ {
+  "Máquina": "Pandora",
+  "Dirección IP": "10.10.11.136",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "SNMP Fast Enumeration\nInformation Leakage\nLocal Port Forwarding\nSQL Injection - Admin Session Hijacking\nPandoraFMS v7.0NG Authenticated Remote Code Execution [CVE-2019-20224]\nAbusing Custom Binary - PATH Hijacking [Privilege Escalation]",
+  "Cert": "OSCP\neWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=Np_zA-SOwYo"
+ },
+ {
+  "Máquina": "Bastard",
+  "Dirección IP": "10.10.10.9",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Drupal Enumeration\nDrupal 7.X Module Services - Remote Code Execution [SQL Injection]\nDrupal Admin Cookie Hijacking\nDrupal < 7.58 \/ < 8.3.9 \/ < 8.4.6 \/ < 8.5.1 - 'Drupalgeddon2' Remote Code Execution\nSA-CORE-2018-004 - 'Drupalgeddon3' Remote Code Execution\nSherlock Enumeration (Privilege Escalation)\nMS15-051-KB3045171 - Kernel Exploitation [Way 1]\nAbusing SeImpersonatePrivilege [Way 2]",
+  "Cert": "OSCP\neWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=VHeDNq4OrqI"
+ },
+ {
+  "Máquina": "Safe",
+  "Dirección IP": "10.10.10.147",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Information Leakage\nBuffer Overflow [x64] [ROP Attacks using PwnTools] [NX Bypass] [ASLR Bypass]\nTrying to hijack the argument to the system() function by loading our content in RDI [Way 1]\nLeaking puts and libc address to make a system call with the argument loaded in RDI [Way 2] [EXTRA]\nAbusing keepass to obtain the root password [Privilege Escalation]",
+  "Cert": "Buffer Overflow",
+  "Video": "https:\/\/www.youtube.com\/watch?v=jvoiMos46IY"
+ },
+ {
+  "Máquina": "RedCross",
+  "Dirección IP": "10.10.10.113",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Subdomain Enumeration\nXSS Injection - Stealing the admin user cookie\nInjection RCE\nAbusing Custom Binary - Binary Exploitation\nBuffer Overflow [x64] [ROP Attacks using PwnTools] [NX Bypass] [ASLR Bypass] [Privilege Escalation]",
+  "Cert": "eWPT\nBuffer Overflow",
+  "Video": "https:\/\/www.youtube.com\/watch?v=prg88ajxAPc"
+ },
+ {
+  "Máquina": "TartarSauce",
+  "Dirección IP": "10.10.10.88",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "RFI (Remote File Inclusion) - Abusing Wordpress Plugin [Gwolle-gb]\nRFI to RCE (Creating our malicious PHP file)\nAbusing Sudoers Privilege (Tar Command)\nAbusing Cron Job (Privilege Escalation) [Code Analysis] [Bash Scripting]",
+  "Cert": "eWPT\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=nyp6eixPSMA"
+ },
+ {
+  "Máquina": "Cronos",
+  "Dirección IP": "10.10.10.13",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Domain Zone Transfer (AXFR)\nSQLI (Blind Time Based) - Creating a custom Python script\nCommand Injection\nAbusing Cron Job [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=kBw3UyBt7Hc"
+ },
+ {
+  "Máquina": "AdmirerToo",
+  "Dirección IP": "10.10.11.137",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Subdomain Enumeration\nAdminer Enumeration\nSSRF (Server Side Request Forgery) in Adminer [CVE-2021-21311]\nAbusing redirect to discover internal services\nOpenTSDB Exploitation [CVE-2020-35476] [Remote Code Execution]\nSearching for valid metrics\nOpenCats PHP Object Injection to Arbitrary File Write\nAbusing Fail2ban [Remote Code Execution] (CVE-2021-32749)\nPlaying with phpggc in order to serialize our data\nAbusing whois config file + OpenCats + Fail2ban [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=YmZLdJRBKv0"
+ },
+ {
+  "Máquina": "Admirer",
+  "Dirección IP": "10.10.10.187",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Information Leakage\nAdmirer Exploitation (Abusing LOAD DATA LOCAL Query)\nAbusing Sudoers Privilege [Library Hijacking - Python] (Privilege Escalation)",
+  "Cert": "eWPT\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=ofAHf1i8XMQ"
+ },
+ {
+  "Máquina": "Time",
+  "Dirección IP": "10.10.10.214",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Jackson CVE-2019-12384 Exploitation - SSRF to RCE\nAbusing Cron Job [Privilege Escalation]",
+  "Cert": "eWPT\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=ESxAyDX2Dg4"
+ },
+ {
+  "Máquina": "Nineveh",
+  "Dirección IP": "10.10.10.43",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Abusing http forms with Hydra - Login Brute Force\nLocal File Inclusion (LFI)\nSteganography - id_rsa hidden in image\nAbusing phpLiteAdmin v1.9 (Remote Code Execution)\nAbusing Knockd - Port Knocking\nChkrootkit 0.49 - Local Privilege Escalation\nUsing Wrappers - LFI [EXTRA]",
+  "Cert": "eWPT\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=ATDC1eGgnp0"
+ },
+ {
+  "Máquina": "Fortune",
+  "Dirección IP": "10.10.10.127",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Insane",
+  "Técnicas Vistas": "Command Injection\nOpenSSL - Creating a new key\nOpenSSL - Creating a CSR file (Certificate Signing Request)\nOpenSSL - Creating a PEM file\nOpenSSL - Creating a PFX file (pkcs12) to import it into the Firefox browser\nNFS share mount\nEditing our user ID in order to gain access to the NFS directories\nCode Analysis - Crypto Challenge",
+  "Cert": "eWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=zYjeNFx-ymg"
+ },
+ {
+  "Máquina": "Timing",
+  "Dirección IP": "10.10.11.135",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Local File Inclusion (LFI)\nUsing Wrappers - Base64 Wrapper\nCode Inspection\nRole manipulation\nFile Upload Exploitation\nAbusing Sudoers Privilege - Playing with symbolic links",
+  "Cert": "eWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=5GH6Ze84FTQ"
+ },
+ {
+  "Máquina": "Bounty",
+  "Dirección IP": "10.10.10.93",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "IIS Enumeration\nCreating our own extension fuzzer in Python [Python Scripting] [EXTRA]\nIIS Exploitation - Executing code via web.config file upload\nAbusing SeImpersonatePrivilege - Juicy Potato [Privilege Escalation]",
+  "Cert": "eWPT\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=lVLVaArHL5o"
+ },
+ {
+  "Máquina": "Curling",
+  "Dirección IP": "10.10.10.150",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Information Leakage wtf xd\nJoomla Enumeration\nJoomla Exploitation [Abusing Templates] [RCE]\nDecompression Challenge\nAbusing Curl [Playing with Config files] [Privilege Escalation]",
+  "Cert": "eWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=NKKvDtPacOw"
+ },
+ {
+  "Máquina": "Writer",
+  "Dirección IP": "10.10.11.101",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "RPC Enum\nSQLi Bypass Login + SQL Injection [Database Enumeration]\nSQLi - File System Enumeration (Abusing load_file)\nPython Code Analysis\nCommand Injection\nCracking Hashes\nPostfix Enumeration\nAbusing Cron Job [User Pivoting]\nAbusing apt config files [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=Eh5ywJJX1oE"
+ },
+ {
+  "Máquina": "Reel",
+  "Dirección IP": "10.10.10.77",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Metadata Inspection\nSMTP Enumeration (VRFY Manual vs smtp-user-enum)\nCrafting a malicious RTF document [PHISHING] [CVE-2017-0199]\nSending an email to get command execution [RCE]\nPlaying with PSCredential Objects (XML files | PowerShell - Import-CliXml)\nACLs Inspection (Active Directory Enumeration)\nAbusing WriteOwner Active Directory Rights\nPlaying with PowerView (Set-DomainObjectOwner, Add-DomainObjectAcl & Set-DomainUserPassword)\nAbusing WriteDacl Active Directory Rights\nInformation Leakage [Privilege Escalation]",
+  "Cert": "OSCP\nOSEP\neCPPTv3\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=ai5_9H-wutw"
+ },
+ {
+  "Máquina": "Jerry",
+  "Dirección IP": "10.10.10.95",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Information Leakage\nAbusing Tomcat [Intrusion & Privilege Escalation]",
+  "Cert": "eJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=bB-M5vPegMk"
+ },
+ {
+  "Máquina": "Meta",
+  "Dirección IP": "10.10.11.140",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Subdomain Enumeration\nAbusing File Upload\nExiftool Exploitation [RCE]\nImageMagick Exploitation [User Pivoting] - SVG MSL Polyglot File\nAbusing Neofetch [Privilege Escalation]",
+  "Cert": "eWPT\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=L58krS9kY_A"
+ },
+ {
+  "Máquina": "Jail",
+  "Dirección IP": "10.10.10.34",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Insane",
+  "Técnicas Vistas": "Code Analysis\nBinary Exploitation\nBuffer Overflow x32 - Socket Re-Use Shellcode Technique\nGDB Tips\nNFSv3 Privesc\nAbusing sudoers privilege (rvim command)\nCracking RAR file\nCrypto Challenge (Playing with RsaCtfTool to get the private key)",
+  "Cert": "Buffer Overflow\nOSCP (Escalada)",
+  "Video": "https:\/\/www.youtube.com\/watch?v=lCrQLzE-CjI"
+ },
+ {
+  "Máquina": "Tenten",
+  "Dirección IP": "10.10.10.10",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Wordpress Enumeration\nCV filename disclosure on Job-Manager Wordpress Plugin [CVE-2015-6668]\nSteganography Challenge (Steghide)\nCracking Hashes [Protected SSH Private Key]\nAbusing sudoers privilege",
+  "Cert": "eWPT\neJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=T1pr-A8qA7I"
+ },
+ {
+  "Máquina": "SecNotes",
+  "Dirección IP": "10.10.10.97",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "User Enumeration (Wfuzz)\nReflected XSS\nStored XSS\nSQL Injection\nCross-Site Request Forgery (CSRF) - Changing a user's password\nIIS Exploitation (Uploading WebShell)\nAbusing Linux subsystem\nInformation Leakage [Privilege Escalation]",
+  "Cert": "eWPT\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=JZf7t3UMuVw"
+ },
+ {
+  "Máquina": "Chatterbox",
+  "Dirección IP": "10.10.10.74",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Achat 0.150 beta7 - Buffer Overflow (Windows 7 32 bits)\nGenerating a Shellcode based on our needs + TIPS\nIcacls Abuse (Privilege Escalation)\nPowerUp Enumeration (Alternative Privilege Escalation)",
+  "Cert": "OSCP\nBuffer Overflow",
+  "Video": "https:\/\/www.youtube.com\/watch?v=mQnwwu97f1g"
+ },
+ {
+  "Máquina": "Union",
+  "Dirección IP": "10.10.11.128",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "SQLI (SQL Injection) - UNION Injection\nSQLI - Read Files\nHTTP Header Command Injection - X-FORWARDED-FOR [RCE]\nAbusing sudoers privilege [Privilege Escalation]",
+  "Cert": "eWPT\neJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=i2aHMXFb1Yk"
+ },
+ {
+  "Máquina": "Paper",
+  "Dirección IP": "10.10.11.143",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Information Leakage\nAbussing WordPress - Unauthenticated View Private\/Draft Posts\nAbusing Rocket Chat Bot\nPolkit (CVE-2021-3560) [Privilege Escalation]",
+  "Cert": "eWPT\nOSCP (Escalada)",
+  "Video": "https:\/\/www.youtube.com\/watch?v=7X5p3WmSnIs"
+ },
+ {
+  "Máquina": "Dab",
+  "Dirección IP": "10.10.10.86",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Applying brute force to an authentication panel - Wfuzz (Discovering valid password)\nApplying cookie discovery with Wfuzz (Brute Force)\nSSRF - Server Side Request Forgery (Internal Port Discovery) - Wfuzz\nAbusing Memcached - Getting stored credentials\nCracking Hashes\nSSH User Enumeration - CVE-2018-15473\nAbusing SUID Binary\nLtrace\/Radare2 Inspection (Password Leaking)\nHijacking dynamically linked shared object library [Privilege Escalation]",
+  "Cert": "eWPT\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=ZmagS_Q_FrY"
+ },
+ {
+  "Máquina": "Fulcrum",
+  "Dirección IP": "10.10.10.62",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Insane",
+  "Técnicas Vistas": "API Enumeration - Endpoint Brute Force\nAdvanced XXE Exploitation (XML External Entity Injection)\nXXE - Custom Entities\nXXE - External Entities\nXXE - XML Parameter Entities\nXXE - Blind SSRF (Exfiltrate data out-of-band) + Base64 Wrapper [Reading Internal Files]\nXXE + RFI (Remote File Inclusion) \/ SSRF to RCE\nHost Discovery - Bash Scripting\nPort Discovery - Bash Scripting\nDecrypting PSCredential Password with PowerShell\nPIVOTING 1 - Tunneling with Chisel + Evil-WinRM\nGaining access to a Windows system\nPowerView.ps1 - Active Directory Users Enumeration (Playing with Get-DomainUser)\nInformation Leakage - Domain User Password\nPIVOTING 2 - Using Invoke-Command to execute commands on another Windows server\nFirewall Bypassing (Playing with Test-NetConnection in PowerShell) - DNS Reverse Shell\nAuthenticating to the DC shares - SYSVOL Enumeration\nInformation Leakage - Domain Admin Password\nPIVOTING 3 - Using Invoke-Command to execute commands on the Domain Controller (DC)",
+  "Cert": "eWPT\neWPTXv2\neCPPTv3\neCPTXv2\nOSWE\nOSCP\nOSEP\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=O8-l2KNeRkM"
+ },
+ {
+  "Máquina": "Monteverde",
+  "Dirección IP": "10.10.10.172",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "RPC Enumeration\nCredential Brute Force - CrackMapExec\nShell Over WinRM\nAbusing Azure Admins Group - Obtaining the administrator's password (Privilege Escalation)",
+  "Cert": "OSCP\nOSEP\neCPPTv3\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=-wQFA1zPqIc"
+ },
+ {
+  "Máquina": "Player",
+  "Dirección IP": "10.10.10.145",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Subdomain Enumeration\nJWT Enumeration\nInformation Leakage - Abusing No Redirect\nPlaying with BFAC (Backup File Artifacts Checker) in order to find a configuration file\nPHP Source Code Analysis\nForge JWT\nAbusing ffmpeg AVI Exploit in order to read internal files\nEscaping Limited Shell - OpenSSH 7.2p1 (Authenticated) XAuth Command Injection\nAbusing Codiad IDE in order to execute commands (RCE - www-data)\nAbusing Cron Job (Privilege Escalation)",
+  "Cert": "eWPT\nOSWE\nOSCP (Escalada)",
+  "Video": "https:\/\/www.youtube.com\/watch?v=UEGJKIvx_Y0"
+ },
+ {
+  "Máquina": "Phoenix",
+  "Dirección IP": "10.10.11.149",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Asgaros Forum Exploitation - Unauthenticated Blind Time Based SQL Injection (SQLI)\nDownload From Files 1.48 - Arbitrary File Upload (WordPress Plugin Exploitation)\nCracking Hashes\nAbusing PAM configuration for the Secure Shell service (SSH)\nAbusing Cron Job (Rsync Exploitation) [Privilege Escalation]",
+  "Cert": "eWPT\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=2dI1F8c0al8"
+ },
+ {
+  "Máquina": "Inception",
+  "Dirección IP": "10.10.10.67",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "DomPDF Exploitation - Local File Inclusion (LFI) [CVE-2014-2383]\nBash Scripting\nAbusing Squid Proxy\nInternal Port Discovery via Squid Proxy - Wfuzz\nAbusing WebDAV - WebShell (Using davtest)\nCreating a Forward Shell (Python Scripting) - Bypassing Firewall Rules\nPIVOTING\nHost Discovery && Port Discovery - Bash Scripting\nAbusing Cron Job - Apt Pre-Invoke Script (Privilege Escalation)",
+  "Cert": "eWPT\nOSWE\neCPPTv3",
+  "Video": "https:\/\/www.youtube.com\/watch?v=RcvpSxngnQI"
+ },
+ {
+  "Máquina": "Europa",
+  "Dirección IP": "10.10.10.22",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "SSL Certificate Inspection\nLogin Bypass - SQLI\nSQLI (Blind Time Based) [Python Scripting]\nAbusing preg_replace (REGEX Danger) [RCE]\nCreating an AutoPwn script for Intrusion [Python Scripting]\nAbusing Cron Job [Privilege Escalation]",
+  "Cert": "OSCP\neWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=PpkQW8U0-cc"
+ },
+ {
+  "Máquina": "Teacher",
+  "Dirección IP": "10.10.10.153",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Information Leakage\nAbusing Moodle - Login BruteForce (Wfuzz)\nMoodle Exploitation - Code Injection (Abusing Math formulas in Quiz component) [RCE]\nDatabase Enumeration\nCracking Hashes\nAbusing Cron Job [Privilege Escalation]",
+  "Cert": "eWPT\nOSWE\neWPTXv2\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=SZoH_6maN6k"
+ },
+ {
+  "Máquina": "Falafel",
+  "Dirección IP": "10.10.10.73",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Information Leakage\nSQL Injection (SQLI) - Abusing substring function\nObaining user passwords [Python Scripting]\nPHP Type Juggling Exploitation (0e hash collision)\nAbusing File Upload - File name truncation (Bordering the limits)\nAbusing video group - Taking a screenshot to view a password [GIMP && Playing with virtual_size]\nAbusing disk group to read the flag [debugfs] [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=VMlTK6Okxok"
+ },
+ {
+  "Máquina": "Optimum",
+  "Dirección IP": "10.10.10.8",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "HttpFileServer 2.3 Exploitation [RCE]\nSystem Recognition - Windows Exploit Suggester\nMicrosoft Windows 8.1 (x64) - 'RGNOBJ' Integer Overflow (MS16-098) [Privilege Escalation]",
+  "Cert": "OSCP\neWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=ggkUREL6djQ"
+ },
+ {
+  "Máquina": "Undetected",
+  "Dirección IP": "10.10.11.146",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Virtual Hosting Enumeration\nAbusing Directory Listing\nPHPUnit 5.6 Exploitation (CVE-2017-9841) [RCE]\nBackup Inspection\nBinary Analysis - GHIDRA\nCracking Hashes\nApache Backdoor Analysis [Privilege Escalation]",
+  "Cert": "eWPT\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=L7MU3DZqIN0"
+ },
+ {
+  "Máquina": "Worker",
+  "Dirección IP": "10.10.10.203",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "SVN - Subversion Enumeration\nInformation Leakage\nVHost Fuzzing - Gobuster\nAzure DevOps Enumeration\nAbusing Azure DevOps - Creating a Branch\nAbusing Azure DevOps - Playing with existing Pipelines [RCE]\nIIS Exploitation\nElevating our Azure DevOps privilege\nAbusing Azure DevOps - Creating a new Pipeline\nAzure DevOps Exploitation - Creating a malicious YAML file [Privilege Escalation]",
+  "Cert": "OSCP\neWPT\neWPTXv2",
+  "Video": "https:\/\/www.youtube.com\/watch?v=Bcwl1OfFOfU"
+ },
+ {
+  "Máquina": "Bart",
+  "Dirección IP": "10.10.10.81",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Subdomain Enumeration - Gobuster\nInformation Leakage\nUsername enumeration - Abusing the Forget Password Option\nSimple Chat Exploitation - Creating a new user\nLog Poisoning Attack - User Agent [RCE]\nNishang Invoke-PowerShellTcp Shell\nAbusing SeImpersonatePrivilege [Privilege Escalation]",
+  "Cert": "OSCP\neWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=zqwCsqeyNrI"
+ },
+ {
+  "Máquina": "Conceal",
+  "Dirección IP": "10.10.10.116",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "UDP Scan\nSNMP Enumeration\nEnumerating Ike Hosts - ike-scan\nInstalling and configuring Strongswan (IPSEC\/VPN) [ipsec.secret\/ipsec.conf]\nPerforming a new scan through IPSEC\nAbusing IIS - File Upload via FTP (Malicious ASP file) [RCE]\nNishang Invoke-PowerShellTcp Shell\nAbusing SeImpersonatePrivilege [Privilege Escalation]",
+  "Cert": "OSCP\neWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=i2khZEZvoPk"
+ },
+ {
+  "Máquina": "Arctic",
+  "Dirección IP": "10.10.10.11",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Adobe ColdFusion 8 Exploitation\nDirectory Traversal Vulnerability\nCracking Hashes\nAbusing Scheduled Tasks - Creating malicious JSP file\nAbusing SeImpersonatePrivilege [Privilege Escalation]",
+  "Cert": "OSCP\neWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=cZ-C3d7mux0"
+ },
+ {
+  "Máquina": "RouterSpace",
+  "Dirección IP": "10.10.11.148",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Mobile Application Penetration Testing\nAPK Analysis and Debugging\nDecoding APK with APKTool\nFiles Inspection\nInstalling Anbox on Parrot Security\nSetting up a new proxy in Anbox\nInstalling the APK application and analyzing requests with Burpsuite\nCommand Injection in one of the found requests [RCE]\nLinPeas Recon - Enumeration\nAbusing Sudo Version 1.8.31 [Privilege Escalation]",
+  "Cert": "eWPT\nMobile",
+  "Video": "https:\/\/www.youtube.com\/watch?v=AWD2eDF1oiw"
+ },
+ {
+  "Máquina": "Oouch",
+  "Dirección IP": "10.10.10.177",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "FTP Enumeration\nAbusing OAuth Endpoint\nVirtual Hosting Enumeration\nBreaking OAuth Logic - Authorize as Administrator\nRegistering a new application - Django Docs\nAbusing Authorization Workflow\nToken Stealing\nPlaying with Bearer Tokens - Abusing Authentication\nInformation Leakage\nHost Discovery && Port Discovery - Bash Scripting\nPIVOTING\nUWSGI Exploitation [RCE] - User Pivoting\nAbusing DBUS Message [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\neCPPTv3\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=uIIZG2miowo"
+ },
+ {
+  "Máquina": "Celestial",
+  "Dirección IP": "10.10.10.85",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "NodeJS Deserialization Attack [RCE]\nIIFE Serialization\/Deserialization Attack - Explained\nNode Reverse Shell\nAbusing Cron Job",
+  "Cert": "OSWE\neWPT\neWPTXv2\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=esrAYODKnBY"
+ },
+ {
+  "Máquina": "Resolute",
+  "Dirección IP": "10.10.10.169",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "RPC Enumeration - Abusing querydispinfo\nCrackMapExec SMB Authentication Sprying\nAbusing WinRM - EvilWinRM\nInformation Leakage\nLOLBAS\nAbusing DnsAdmins Group - dnscmd [Privilege Escalation]\nCreating a malicious DLL and injecting it into the dns service",
+  "Cert": "OSCP\nOSEP\neCPPTv3\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=h_brlhoSfy8"
+ },
+ {
+  "Máquina": "Book",
+  "Dirección IP": "10.10.10.176",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "SQL Truncation Attack\nLocal File Read via XSS in Dynamically Generated PDF - HackTricks\nAbusing Cron Job - Logrotate Exploit (Logrotten) [Privilege Escalation]",
+  "Cert": "eWPT\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=d7GcXm_DWHg"
+ },
+ {
+  "Máquina": "Haircut",
+  "Dirección IP": "10.10.10.24",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "SSRF Attack (Server Side Request Forgery)\nAbusing a Curl implementation - Upload malicious PHP file\nCommand Injection - Alternative Exploitation\nGNU Screen 4.5.0 - Local Privilege Escalation",
+  "Cert": "OSCP\neWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=9gurBGeazok"
+ },
+ {
+  "Máquina": "Acute",
+  "Dirección IP": "10.10.11.145",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Virtual Hosting\nInformation Leakage\nAbusing Windows PowerShell Web Access\nReal-time monitoring of the victim's screen\nGetting remote command execution on another server - PIVOTING\nAbusing a PowerShell file to get remote command execution as another user - User Pivoting\nDump Hives && Get Hashes\nCracking Hashes\nPassword Reuse\nAbusing Cron Job - BAT file [Privilege Escalation]",
+  "Cert": "OSCP\nOSEP\neCPPTv3\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=ZYW-Cj1yjdQ"
+ },
+ {
+  "Máquina": "Sauna",
+  "Dirección IP": "10.10.10.175",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Information Leakage\nLdap Enumeration\nKerberos User Enumeration - Kerbrute\nASRepRoast Attack (GetNPUsers)\nCracking Hashes\nSystem Enumeration - WinPEAS\nAutoLogon Credentials\nBloodHound - SharpHound.ps1\nDCSync Attack - Secretsdump [Privilege Escalation]\nPassTheHash",
+  "Cert": "OSCP\nOSEP\neCPPTv3\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=zuMEHLnH_E0"
+ },
+ {
+  "Máquina": "Lazy",
+  "Dirección IP": "10.10.10.18",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Padding Oracle Attack (Padbuster)\nBit Fliper Attack (BurpSuite) - Obtaining the admin user's Cookie\nAbusing SUID binary\nPATH Hijacking [Privilege Escalation]",
+  "Cert": "eWPT\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=1bJryn5mJLM"
+ },
+ {
+  "Máquina": "Charon",
+  "Dirección IP": "10.10.10.31",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "SQLI (SQL Injection) - Union Injection\nSQLI - WAF Bypass\nCracking Hashes\nUploading a file abusing a hidden property\nFiltering Bypass\nAbusing RSA - Creating a private key based on a public one\nDecrypting a message with the generated private key\nAbusing SUID Binary [Privilege Escalation]",
+  "Cert": "eWPT\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=S1L92tszls0"
+ },
+ {
+  "Máquina": "Feline",
+  "Dirección IP": "10.10.10.205",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Information leakage in error message\nRCE by deserialization in Apache Tomcat with PersistentManager - CVE-2020-9484 [RCE]\nPlaying with Ysoserial - CommonsCollections2\nManipulating our session cookie (JSESSIONID) + Directory Path Traversal\nPlaying with chisel [Socks Proxy + Proxychains (socks5)]\nSaltStack Exploitation - CVE-2020-1651\nGaining root access to a container\nPlaying with docker.sock file + Abusing Docker API [Privilege Escalation]\nPIVOTING",
+  "Cert": "eWPT\neWPTXv2\neCPPTv3\neCPPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=0e91a_Pns2Q"
+ },
+ {
+  "Máquina": "Blue",
+  "Dirección IP": "10.10.10.40",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "SMB Enumeration\nEternalblue Exploitation (MS17-010) [Triple Z Exploit]\nObtaining credentials stored in memory [MIMIKATZ + Windows Defender Evasion] (EXTRA)\nEnabling RDP from CrackMapExec (EXTRA)\nWindows Persistence techniques (EXTRA)\nWindows Persistence - Playing with debugger [When a user opens a program] (EXTRA)\nWindows Persistence - Playing with Gflags [When a user closes a program] (EXTRA)\nWindows Persistence - Playing with WMI Events [Executing tasks at regular intervals of time] (EXTRA)\nPersistence + Windows Defender Evasion [Playing with Ebowla] (EXTRA)",
+  "Cert": "OSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=92XycxcAXkI"
+ },
+ {
+  "Máquina": "Catch",
+  "Dirección IP": "10.10.11.150",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "APK Analysis (apktool, d2j-dex2jar)\nJD-GUI - Code Inspection\nInformation Leakage - Visible Token values\nCachet Framework Exploitation - SQLI\nLet's Chat Exploitation - Abusing API (Reading Private Messages)\nCachet Framework Exploitation - Server Side Template Injection (SSTI) [RCE]\nAbusing Cron Job [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE\nMobile",
+  "Video": "https:\/\/www.youtube.com\/watch?v=A6oVNwawRzM"
+ },
+ {
+  "Máquina": "RE",
+  "Dirección IP": "10.10.10.144",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Creating a malicious office document (libreoffice) - Playing with Macros\nMacros Obfuscation - Bypassing YARA Rules\nConPtyShell - Enhancing our console mobility\nAbusing defined task in the system\nMalicious Ace files for WinRAR < 5.70 beta 1 - WinRAR Exploitation (Evil-WinRAR-Gen)\nIIS ASPX WebShell through WinRAR Exploitation\nGHIDRA Exploitation - XXE Vulnerability (XML External Entity Injection) [Project Handling]\nIntercepting NetNTLM-v2 hash through the XXE\nCracking Hashes\nAbusing WinRM - Evil-WinRM\nPlaying with Invoke-Command to execute commands as a user whose credentials we know\nPowerUp System Recognition\nAbuse UsoSvc - Creating a new user [Privilege Escalation]\nManipulating system logs to grant privileges to the newly created user (Psexec)",
+  "Cert": "OSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=KX138goKVC0"
+ },
+ {
+  "Máquina": "Granny",
+  "Dirección IP": "10.10.10.15",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Abusing PUT & MOVE Methods - Uploading Aspx WebShell\nMicrosoft IIS 6.0 - WebDAV 'ScStoragePathFromUrl' Remote Buffer Overflow [RCE]\nToken Kidnapping - Churrasco [Privilege Escalation]",
+  "Cert": "OSCP\neWPT\neJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=cMeNaUNKK5Y"
+ },
+ {
+  "Máquina": "Anubis",
+  "Dirección IP": "10.10.11.102",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Insane",
+  "Técnicas Vistas": "SSL Certificate Inspection - OpenSSL\nXSS (Cross-Site Scripting)\nASP SSTI (Server Side Template Injection) (HackingDream ASP Resource) [RCE]\nInvokePowerShellTcp.ps1 - PowerShell Reverse Shell\nConPtyShell (AntonioCoco Utility) - Shell Improvement\nCertificate Signing Request Inspection - OpenSSL\nChisel + Remote Port Forwarding + Proxychains - Creating a SOCKS5 tunnel\nAbusing Software Portal\nTraffic inspection with Tcpdump and Tshark\nURL Host Manipulation Attack + Intercepting authentications with Netcat\nPlaying with Responder to get a Net-NTLMv2 hash\nCracking Hashes\nSMB enumeration with authenticated user\nJamovi <=1.6.18 Exploitation - Malicious OMV File (XSS Vulnerability - Cross-Site Scripting Attack)\nXSS + NodeJS Command Injection + InvokePowerShellTcp.ps1 (Nishang) Reverse Shell\nConPtyShell (AntonioCoco Utility) - Shell Improvement\nAbusing Certificate Services\nPlaying with Certify.exe to find vulnerable templates\nPowerView.ps1 + ADCS.ps1 in order to generate a certificate request and get it approved by the CA\nADCS.ps1 script manipulation (userprincipalname\/samaccountname [Substitution Applied])\nListing certificates with gci command\nAttempting to obtain credentials with Rubeus (asktgt mode) [ERROR - No longer working]\nExploiting CVE-2021-42278\/CVE-2021-42287 (noPac.py) through Proxychains [Alternative Exploitation]\nSynchronizing our time with DC time (rdate) - Headers Information Leakage\nGetting an interactive console as the administrator user on the DC (noPac.py)",
+  "Cert": "OSCP (Escalada)\nOSEP (Escalada)\neWPT\neWPTXv2\nOSWE\neCPTXv2\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=oFBSn4iaLUo"
+ },
+ {
+  "Máquina": "Grandpa",
+  "Dirección IP": "10.10.10.14",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Microsoft IIS 6.0 - WebDAV 'ScStoragePathFromUrl' Remote Buffer Overflow [RCE]\nToken Kidnapping - Churrasco [Privilege Escalation]",
+  "Cert": "OSCP\neWPT\neJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=uIasBAMSWsI"
+ },
+ {
+  "Máquina": "DevOops",
+  "Dirección IP": "10.10.10.91",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "XXE (XML External Entity Injection) Exploitation\nReading internal files through XXE - Private SSH Key\nAbusing a Github project - Information Leakage in Project Commits [Privilege Escalation]",
+  "Cert": "eWPT\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=6zrxDaAmjB8"
+ },
+ {
+  "Máquina": "Late",
+  "Dirección IP": "10.10.11.156",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Virtual Hosting Enumeration\nAbusing Upload File - Image to Text Flask Utility\nSSTI - Server Side Template Injection\nReading files through SSTI - SSH Private Key\nAbusing Cron Job [Privilege Escalation]",
+  "Cert": "eWPT\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=XxqXoLZtASY"
+ },
+ {
+  "Máquina": "Obscurity",
+  "Dirección IP": "10.10.10.168",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Information Leakage\nPython Source Code Analysis\nURL Command Injection\nKnown Plaintext Attack - Cryptography Challenge\nAbusing Sudoers Privilege - Shadow Race Condition [Privilege Escalation]",
+  "Cert": "OSWE\neWPT\nOSCP (Intrusión)",
+  "Video": "https:\/\/www.youtube.com\/watch?v=chcJmcDrtW4"
+ },
+ {
+  "Máquina": "Node",
+  "Dirección IP": "10.10.10.58",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Information Leakage\nAPI Enumeration\nCracking Hashes\nCracking ZIP file\nBackup Download - Stored credentials\nMongoDB Enumeration\nMongo Task Injection - Command Injection [User Pivoting]\nSUID Backup Binary Exploitation - Dynamic Analysis (1st way)\nSUID Backup Binary Exploitation - Buffer Overflow 32 bits [NX Bypass + ASLR \/ Ret2libc] (2nd way)",
+  "Cert": "\neJPT (Intrusión)\nBuffer Overflow",
+  "Video": "https:\/\/www.youtube.com\/watch?v=0AzaHJZfqwE"
+ },
+ {
+  "Máquina": "Shrek",
+  "Dirección IP": "10.10.10.47",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Information Leakage\nSteganography Challenge - Hidden message in the spectrogram of an audio file (Audacity)\nCryptography Challenge - Elliptic Curve (py-seccure)\nAbusing Sudoers Privilege - User Pivoting (Vi)\nAbusing Cron Job - Chown Wildcard Exploitation [Privilege Escalation]",
+  "Cert": "OSCP (Escalada)",
+  "Video": "https:\/\/www.youtube.com\/watch?v=C2VOcO8MdmI"
+ },
+ {
+  "Máquina": "Apocalyst",
+  "Dirección IP": "10.10.10.46",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Wordpress Enumeration\nImage Stego Challenge - Steghide\nInformation Leakage - User Enumeration\nWordPress Exploitation - Theme Editor [RCE]\nAbusing misconfigured permissions [Privilege Escalation]",
+  "Cert": "eJPT\neWPT\nOSCP (Escalada)",
+  "Video": "https:\/\/www.youtube.com\/watch?v=ATqk2HpRp_s"
+ },
+ {
+  "Máquina": "Waldo",
+  "Dirección IP": "10.10.10.87",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "LFI (Local File Inclusion) - Filter Bypass\nObtaining a user's SSH private key through the LFI\nEscaping from a container\nRestricted Shell Bypass\nAbusing Capabilities (cap_dac_read_search+ei) [Privilege Escalation]",
+  "Cert": "eWPT\neJPT\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=KpYZh3gc79o"
+ },
+ {
+  "Máquina": "Overgraph",
+  "Dirección IP": "10.10.11.157",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Virtual Hosting\nInformation Leakage\nOpen Redirect Exploitation\nOpen Redirect to XSS (Cross-Site Scripting) - Playing with eval\/atob\nOpen Redirect + XSS evasion technique to fetch an external resource (1st way) [Not working at all]\nXSS Exploitation - Loading encoded URL document.body.innerHTML external file (2nd way) [Success]\nSubdomain Enumeration - Gobuster\nJS File Inspection - Information Leakage\nAPI Enumeration\nAbusing API - Attempting to register a new user\nNoSQL Injection - OTP Code Bypass\nAbusing API - We have been able to register a new user\nAbusing CHAT - A user checks our links\nAbusing CHAT - Link Inspection + Open Redirect + XSS\nCreating a malicious JS file - Controlling the flow of requests\nJWT Inspection\nCreating a Bash script to enumerate valid users through the API\nAbusing API - We found 3 valid users\nInspecting the LocalStorage\nLocalStorage Headers Manipulation - Attempting to impersonate a user [Failed]\nLocalStorage Headers Manipulation - Assigning admin privileges to our user\nLocalStorage Headers Manipulation - We found a new file upload field\nFile Upload Attempt (No admintoken header present) [Failed]\nCSTI (Client Side Template Injection) Exploitation\nStored\/Reflected XSS (Cross-Site Scripting) Attack - AngularJS\nAngularJS XSS + LocalStorage Data Fields Exfiltration\nGraphQL Enumeration\nAbusing GraphQL - Basic Enumeration (Listing the name of all the types being used)\nAbusing GraphQL - Extracting all the types and it's arguments\nAbusing GraphQL - Causing errors to list sensitive data\nAbusing GraphQL - Enumerating Database Schema via Introspection\nGraphQL Voyager - Visualizing the data through Introspection\nAbusing GraphQL - Creating our own queries in order to list users information\nAbusing LocalStorage - User Impersonation (ID included) [Success]\nOpenRedirect + XSS + CSTI + JS Malicious File + GraphQL Concatenaed Attack - Stealing adminToken\nWe managed to obtain the adminToken by updating the profile using the previous attack\nAbusing File Upload - FFmpeg Exploitation\nExternal SSRF and Local File Read via video upload due to vulnerable FFmpeg HLS processing\nCreating specially designed m3u8 and avi files\nLocal File Read - Data Exfiltration through FFmpeg exploitation\nFFmpeg exploitation - Reading SSH private key (user id_rsa)\nGaining access via SSH as the user 'user'\nAbusing Node Project - Manipulating the service logic to inject commands as root [Unintentional way]\nWe were able to assign SUID privileges to the system bash",
+  "Cert": "eWPT\neWPTXv2\nOSWE\nOSCP (Escalada)",
+  "Video": "https:\/\/www.youtube.com\/watch?v=cYVf2KVXyFI"
+ },
+ {
+  "Máquina": "Brainfuck",
+  "Dirección IP": "10.10.10.17",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Insane",
+  "Técnicas Vistas": "TLS Certificate Inspection\nWordPress Enumeration\nWordPress WP Support Plus Responsive Ticket System Exploitation - Gaining access as admin user\nInformation Leakage - Data type conversion for displaying a password in cleartext\nSMTP Enumeration\nCrypto Challenge - Vigenère Cipher\nGaining access over SSH\nAbusing LXD group [Privilege Escalation] (1st way) [Unintended]\nRSA Crypto Challenge (2nd way) [Privilege Escalation]",
+  "Cert": "eWPT\nOSCP (Escalada)",
+  "Video": "https:\/\/www.youtube.com\/watch?v=0C8zlzxBv7w"
+ },
+ {
+  "Máquina": "Flujab",
+  "Dirección IP": "10.10.10.124",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "SSL Cert Enumeration\nCookies Manipulation - Gaining access to restricted areas of the site\nAbusing Mailer Configuration\nMail server hijacking - Intercepting mails with Python\nSQLI (SQL Injection) - Error based in registered patient cancelation form\nGaining access as the 'sysadm' user to an Ajenti panel\nAjenti Server Management System Exploitation\nAjenti Exploitation - Creating an authorized public key on the server\nAssigning file permissions through the API\nManaging authorized access through the 'hosts.allow' file\nEscaping Restricted Bash (rbash)\nAbusing SUID Binary (GNU Screen) [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=aPbfiHW8GW8"
+ },
+ {
+  "Máquina": "Silo",
+  "Dirección IP": "10.10.10.82",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Abusing Oracle Database\nOracle Database Attacking Tool (ODAT) Installation\nOracle DB Exploitation - Identifying valid SIDs (sidguesser)\nOracle DB Exploitation - Discovering valid credentials (passwordguesser)\nOracle DB Exploitation - Attempting a remote file read\nOracle DB Exploitation - Attempting a remote file upload\nOracle DB Exploitation - Attempting execution of a previously uploaded binary file",
+  "Cert": "OSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=_ahxa5Zq5TY"
+ },
+ {
+  "Máquina": "Heist",
+  "Dirección IP": "10.10.10.149",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Information Leakage\nCisco Password Cracker (password7)\nSMB Enumeration - CrackMapExec\nGetting more valid system users - lookupsid.py\nAbusing WinRM - EvilWinRM\nCreating a dump file of the Firefox process - Procdump64.exe (Windows Sysinternals)\nReading the password of the administrator user in the previously performed dump [Privilege Escalation]",
+  "Cert": "OSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=EKwRNymiYfY"
+ },
+ {
+  "Máquina": "APT",
+  "Dirección IP": "10.10.10.213",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Insane",
+  "Técnicas Vistas": "RPC Enumeration\nAbusing RPC - IOXIDResolver.py (Obtaining the IPV6 machine address)\nPort scanning with nmap via ipv6\nSMB enumeration via ipv6\nCracking ZIP file\nNTDS enumeration (secretsdump.py)\nAbusing Kerberos - Kerbrute (Valid user enumeration)\nSMB Hash Sprying Attempt (Our attack is blocked)\nPyKerbrute Script Manipulation - Adapting the script to our needs (Kerberos attack)\nReg.py - Reading machine registers remotely (Registry Hives Enumeration)\nAbusing WinRM - Evil-WinRM\nWinPeas - System Enumeration\nWindows Defender Evasion\nWindows Defender Evasion - Bypass-4MSI to disable AMSI (Evil-WinRM)\nWindows Defender Evasion - Playing with Invoke-Binary to load an EXE into memory (Evil-WinRM)\nNTLM clients and services support NTLMv1\nCollecting Net-NTLMv1 Hash via Responder (1122334455667788 Challenge)\nCracking Hashes (Net-NTLMv1) [crack.sh]\nSecretsdump.py - Dumping the hashes for the rest of the AD users (Using the DRSUAPI method)",
+  "Cert": "OSCP\nOSEP\neCPPTv3\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=hh0iNaaCv1I"
+ },
+ {
+  "Máquina": "Knife",
+  "Dirección IP": "10.10.10.242",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "PHP 8.1.0-dev - 'User-Agent' Remote Code Execution [RCE]\nAbusing Sudoers Privilege (Knife Binary) [Privilege Escalation]",
+  "Cert": "eJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=NiV52j3fsh8"
+ },
+ {
+  "Máquina": "Retired",
+  "Dirección IP": "10.10.11.154",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "LFI (Local File Inclusion) - Filter Bypass [Abusing str_replace]\nBuffer Overflow x64 - Full RELRO, NX, PIE, ASLR Bypass [ROP - Abusing a writable section]\nCreating an Autopwn Script [Python Scripting]\nAbusing System Services [User Pivoting]\nAbusing binfmt_misc [Privilege Escalation]",
+  "Cert": "Buffer Overflow\nOSCP (Escalada)",
+  "Video": "https:\/\/www.youtube.com\/watch?v=ys-az6SyheE"
+ },
+ {
+  "Máquina": "BountyHunter",
+  "Dirección IP": "10.10.11.100",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "XXE (XML External Entity Injection) Exploitation\nXXE PHP File Read - Base64 Wrapper\nAbusing Sudoers Privilege [Privilege Escalation]",
+  "Cert": "eWPT\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=egcvKwYpi0g"
+ },
+ {
+  "Máquina": "Unbalanced",
+  "Dirección IP": "10.10.10.200",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Rsync & EncFS\nEncfs2john to obtain a Hash we can crack\nCracking Hashes\nSquid Proxy Enumeration\nBurpsuite Tip - Upstream Proxy Servers\nSquid Cache Manager Enumeration\nXPath Injection\nXPath Injection - Discovering valid users\nXPath Injection - Enumerating the password length of the found users\nXPath Injection - Obtaining users' passwords\nCreating a Python script to automate XPATH Injection\nSSH Brute Force - Hydra\nLocal Port Forwarding to reach the Pi-Hole web server\nPi-Hole Exploitation CVE-2020-11108 [PIVOTING] - Abusing Static DHCP leases configuration\nInformation Leakage [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE\neCPPTv3\neCPTXv2",
+  "Video": "https:\/\/www.youtube.com\/watch?v=TMQFehvMTvI"
+ },
+ {
+  "Máquina": "Lame",
+  "Dirección IP": "10.10.10.3",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Samba 3.0.20 < 3.0.25rc3 - Username Map Script [Command Execution]",
+  "Cert": "eJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=9WY2rSejDOY"
+ },
+ {
+  "Máquina": "TimeLapse",
+  "Dirección IP": "10.10.11.152",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "SMB Enumeration\nCracking ZIp Password Protected File (fcrackzip)\nCracking and reading .PFX File (crackpkcs12)\nGaining SSL access with Evil-WinRM\nInformation Leakage - Reading the user's Powershell history (User Pivoting)\nAbusing LAPS to get passwords (Get-LAPSPasswords.ps1) [Privilege Escalation]",
+  "Cert": "OSCP\nOSEP\neCPPTv3\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=NnlYSY83EsA"
+ },
+ {
+  "Máquina": "Legacy",
+  "Dirección IP": "10.10.10.4",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "SMB Enumeration\nEternalblue Exploitation (MS17-010) [Triple Z Exploit]",
+  "Cert": "OSCP\neJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=RuWkPH_Vecg"
+ },
+ {
+  "Máquina": "Devel",
+  "Dirección IP": "10.10.10.5",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Abusing FTP + IIS Services\nCreating an AutoPwn Script [Python Scripting]\nMicrosoft Windows (x86) – ‘afd.sys’ (MS11-046) [Privilege Escalation]",
+  "Cert": "OSCP\neJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=FdCh0A2gZmk"
+ },
+ {
+  "Máquina": "Valentine",
+  "Dirección IP": "10.10.10.79",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "SSL Heartbleed Exploitation\nCracking Hashes\nTmux Socket File Session [Privilege Escalation]\nLinux Kernel 2.6.22 < 3.9 - Dirty Cow PTRACE_POKEDATA Race Condition privilege Escalation",
+  "Cert": "eWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=6vvgfbh9cy4"
+ },
+ {
+  "Máquina": "Talkative",
+  "Dirección IP": "10.10.11.155",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Jamovi Enumeration\nRj Editor Code Execution (Reverse Shell)\nInformation Leakage\nBolt - Access to the administration panel\nBolt - PHP File Manipulation (Injecting Malicious Code) [RCE]\nPIVOTING\nDetecting tasks running on the system - PSPY\nRemote Port Forwarding - Chisel\nMongoDB - Changing the admin user password\nAbusing Rocket.Chat - Creating a new malicious webhook\nFile Upload Tip - Playing with PwnCat-CS\nDocker Breakout - CDK Utility",
+  "Cert": "eWPT\nOSWE\neCPPTv3",
+  "Video": "https:\/\/www.youtube.com\/watch?v=9GNYyb942tI"
+ },
+ {
+  "Máquina": "Forest",
+  "Dirección IP": "10.10.10.161",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "AXFR - Domain Zone Transfer Attack (Failed)\nRPC Enumeration - Getting valid domain users\nPerforming an AS-RepRoast attack with the obtained users\nCracking Hashes\nAbusing WinRM - EvilWinRM\nLdap Enumeration - ldapdomaindump\nBloodHound Enumeration\nGathering system information with SharpHound.ps1 - PuckieStyle\nRepresenting and visualizing data in BloodHound\nFinding an attack vector in BloodHound\nAbusing Account Operators Group - Creating a new user\nAbusing Account Operators Group - Assigning a group to the newly created user\nAbusing WriteDacl in the domain - Granting DCSync Privileges\nDCSync Exploitation - Secretsdump.py",
+  "Cert": "OSCP\nOSEP\neCPPTv3\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=7G5wkoBpFWU"
+ },
+ {
+  "Máquina": "SolidState",
+  "Dirección IP": "10.10.10.51",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Abusing James Remote Administration Tool\nChanging a user's email password\nInformation Leakage\nEscaping Restricted Bash (rbash)\nCreating a bash script in order to detect cron jobs (procmon.sh)\nAbusing Cron Job [Privilege Escalation]",
+  "Cert": "eJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=d3tzLtW6SWE"
+ },
+ {
+  "Máquina": "Wall",
+  "Dirección IP": "10.10.10.157",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Abusing Basic Auth Path\nAbusing Centreon API - User Brute Force (Wfuzz)\nAbusing Centreon Login Panel - Python Scripting\nCentreon 19.04 Exploitation [RCE]\nWAF Testing\nWAF Bypassing\nScreen 4.5.0 SUID Binary Exploitation [Privilege Escalation]",
+  "Cert": "eWPT\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=MYJbamO88vw"
+ },
+ {
+  "Máquina": "FluxCapacitor",
+  "Dirección IP": "10.10.10.69",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Fuzzing Parameters - Wfuzz\nWAF Bypassing\nCommand Injection\nAbusing Sudoers Privilege [Privilege Escalation]",
+  "Cert": "eWPT\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=VdJbvaGXUAA"
+ },
+ {
+  "Máquina": "Zetta",
+  "Dirección IP": "10.10.10.156",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Information Leakage\nFTP RFC2428 Enumeration\nAbusing RFC-2428 via EPRT command\nAbusing RFC-2428 - Machine IPV6 address information leakage\nIPV6 Scanning with nmap\nRsync Enumeration\nAbusing Rsync - Brute Force in order to find a valid password [Bash Scripting]\nAbusing Rsync - Creating SSH key pairs to gain access to the system\nPostgres Enumeration\nEnumerating Github Projects\nSYSLOG Enumeration\nSYSLOG Exploitation - Abusing Priorities + SQL Injection [RCE as Postgres]\nPassword pattern information leak [Privilege Escalation]",
+  "Cert": "OSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=hB0G0Jp_MBg"
+ },
+ {
+  "Máquina": "Noter",
+  "Dirección IP": "10.10.11.160",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Information Leakage - User Enumeration [Brute-Force Wfuzz]\nFinding valid users - Wfuzz\nSSTI (Server Side Template Injection) [Failed]\nJWT Enumeration\nAbusing JWT - Flask-Unsign\nCracking Flask Cookie Secret - Flask-Unsign\nCookie Hijacking\nFTP Enumeration\nInformation Leakage in PDF document\nFinding a command injection in the web\nRCE in md-to-pdf 4.1.0\nAbusing the vulnerable code definition - Alternative Command Injection (RCE)\nAbusing MYSQL service running as the root user [Privilege Escalation] (raptor_udf2.so)",
+  "Cert": "eWPT\neWPTXv2\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=FoFQgoDYzog"
+ },
+ {
+  "Máquina": "ScriptKiddie",
+  "Dirección IP": "10.10.10.226",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Msfvenom Exploitation [CVE-2020-7384] [RCE]\nAbusing Logs + Cron Job [Command Injection \/ User Pivoting]\nAbusing Sudoers Privilege [Msfconsole Privilege Escalation]",
+  "Cert": "eJPT\nOSCP (Escalada)",
+  "Video": "https:\/\/www.youtube.com\/watch?v=VXvdwHfYd8M"
+ },
+ {
+  "Máquina": "Json",
+  "Dirección IP": "10.10.10.158",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Abusing No Redirect\nJson Deserialization Exploitation - ysoserial.net [RCE]\nAppLocker Bypass\nAbusing SeImpersonatePrivilege - JuicyPotato [Privilege Escalation]\nAbusing SeImpersonatePrivilege - Creating a new user\nAbusing SeImpersonatePrivilege - Adding the user to the local administrators group\nAbusing SeImpersonatePrivilege - Modifying the registry entry LocalAccountTokenFilterPolicy\nPlaying with psexec.py and wmiexec.py\nPassTheHash - wmiexec.py\nExecuting commands with CrackMapExec\nDumping the SAM with CrackMapExec\nEnabling RDP with CrackMapExec\nPlaying with Remmina to gain access to the system",
+  "Cert": "OSCP\neWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=nAF0JnTGkNM"
+ },
+ {
+  "Máquina": "Sniper",
+  "Dirección IP": "10.10.10.151",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Local File Inclusion (LFI)\nRemote File Inclusion (RFI) [Failed]\nRemote File Inclusion through SMB Server (net usershare technique) [Success]\nCreating a webshell and achieving remote command execution [RCE]\nInformation Leakage [User Pivoting]\nPlaying with Chisel and ScriptBlocks using Invoke-Command\nCreating a malicious CHM file (Out-CHM.ps1) [Privilege Escalation]",
+  "Cert": "OSCP\neWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=YQn3jAZeZAI"
+ },
+ {
+  "Máquina": "Beep",
+  "Dirección IP": "10.10.10.7",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Elastix 2.2.0 Exploitation - Local File Inclusion (LFI)\nInformation Leakage\nVtiger CRM Exploitation - Abusing File Upload (1st way) [RCE]\nShellshock Attack (2nd way) [RCE]",
+  "Cert": "eWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=9BA_s6CGtpY"
+ },
+ {
+  "Máquina": "Mango",
+  "Dirección IP": "10.10.10.162",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Virtual Hosting\nNoSQL Injection Login Bypass\nNoSQL Injection - Dumping Users and Passwords [Python Scripting]\nAbusing SUID Binary - JJS [Privilege Escalation]",
+  "Cert": "eWPT\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=w7gO7i212c8"
+ },
+ {
+  "Máquina": "Bank",
+  "Dirección IP": "10.10.10.29",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Domain Zone Transfer Attack - AXFR (dig)\nInformation Leakage\nAbusing File Upload [RCE]\nAbusing SUID Binary (WTF?) [Privilege Escalation]",
+  "Cert": "eWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=eWZ29FJxEmA"
+ },
+ {
+  "Máquina": "Reel2",
+  "Dirección IP": "10.10.10.210",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Information Leakage\nOWA Password Spray - SprayingToolkit\nCreating a user list - spindrift.py\nApplying brute force to OWA - atomizer.py\nOWA Phishing - Stealing Net-NTLMv2 Hashes with Responder\nGaining access from PowerShell with Enter-PSSession\nConstrainedLanguage Mode Bypassing Techniques\nPlaying with Nishang to get a fully interactive console (Invoke-PowerShellTcpOneLine.ps1)\nPowershell filtering methods (EXTRA)\nAbusing StickyNotes - Viewing another user password\nAbusing defined functions [Privilege Escalation]",
+  "Cert": "OSCP\nOSEP\neCPPTv3\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=gr78zhxjC7I"
+ },
+ {
+  "Máquina": "Luke",
+  "Dirección IP": "10.10.10.137",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "FTP Enumeration\nInformation Leakage\nAbusing NodeJS Application\nAPI Enumeration\nAbusing Ajenti Administration Panel",
+  "Cert": "eWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=tIoV_Nkrusw"
+ },
+ {
+  "Máquina": "Doctor",
+  "Dirección IP": "10.10.10.209",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Server Side Template Injection (SSTI)\nExploiting the SSTI by calling Popen without guessing the offset (1st way) [RCE]\nCommand Injection (2nd way) [RCE]\nAbusing adm group - Finding credentials in request logs\nSplunk Exploitation (Universal Forwarder Missconfiguration) - SplunkWhisperer2 [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=2bELzcFGnY4"
+ },
+ {
+  "Máquina": "StreamIO",
+  "Dirección IP": "10.10.10.151",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "SSL Certificate Enumeration\nSMB Enumeration\nKerberos User Enumeration (Kerbrute)\nASREPRoast Attack (Failed)\nSQL Injection (MSSQL) - WAF Bypass\nNTLM Hash Stealing through SQL Injection (xp_dirtree)\nCracking Hashes\nLocal File Inclusion (LFI)\nLFI + Wrappers (base64 encoding)\nRemote File Inclusion (RFI)\nRFI + RCE via malicious PHP script\nInformation Leakage - Database administrator user credentials\nEnumerating the database with sqlcmd\nPassword sprying with CrackMapExec\nAbusing WinRM - EvilWinRM\nAbusing Firefox Stored Profile Passwords - Firepwd\nBloodhound Enumeration\nPlaying with SharpHound.ps1 - Puckiestyle\nAbusing WriteOwner privilege over a group - PowerView.ps1\nPlaying with Add-DomainObjectAcl && Add-DomainGroupMember utilities\nGetting LAPS Passwords - ldapsearch [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE\nOSCP\nOSEP\neCPPTv3\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=lP_ylWaw9eU"
+ },
+ {
+  "Máquina": "Active",
+  "Dirección IP": "10.10.10.100",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "SMB Enumeration\nAbusing GPP Passwords\nDecrypting GPP Passwords - gpp-decrypt\nKerberoasting Attack (GetUserSPNs.py) [Privilege Escalation]",
+  "Cert": "OSCP\nOSEP\neCPPTv3\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=cDutnBcTQtM"
+ },
+ {
+  "Máquina": "Frolic",
+  "Dirección IP": "10.10.10.111",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Web Enumeration\nInformation Leakage\nPlaying with esoteric languages - Ook! and Brainfuck\nCracking Zip Password Protected Files\nPlaySMS Exploitation - 'import.php' Remote Code Execution [RCE]\nBufferOverflow 32 bits - Ret2libc [Privilege Escalation]",
+  "Cert": "\neWPT\nBuffer Overflow",
+  "Video": "https:\/\/www.youtube.com\/watch?v=mL7ADmxL7ss"
+ },
+ {
+  "Máquina": "Jewel",
+  "Dirección IP": "10.10.10.211",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Gitweb Enumeration\nInformation Leakage\nCracking Hashes\nSearching for vulnerabilities in Ruby on Rails with Brakeman\nDeserialization Attack (CVE-2020-8165) - Rails < 5.2.3.4 [RCE]\nCreating a new application with Rails\nCreating the payload with Ruby console\nAbusing Google Authentication (oathtool)\nAbusing sudoers privilege (gem command) [Privilege Escalation]",
+  "Cert": "eWPT\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=71wQWq50aNE"
+ },
+ {
+  "Máquina": "Laboratory",
+  "Dirección IP": "10.10.10.216",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "SSL Certificate Enumeration\nGitlab Enumeration\nGitlab Exploitation - Arbitrary file read via the UploadsRewriter when moving an issue\nGitlab Exploitation - Malicious Marshalled Payload in a session cookie + Deserialization Attack [RCE]\nAbusing gitlab-rails console - Granting administrator privileges to our user\nEXTRA - Playing with Vulhub Pre-Built Vulnerable Environments Based on Docker-Compose\nInformation Leakage - SSH Access\nAbusing SUID Binary + PATH Hijacking [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=kspptAGubDo"
+ },
+ {
+  "Máquina": "Blocky",
+  "Dirección IP": "10.10.10.37",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "WordPress Enumeration\nInformation Leakage\nAnalyzing a jar file - JD-Gui + SSH Access\nAbusing Sudoers Privilege [Privilege Escalation]",
+  "Cert": "eJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=SJf_jAufs-k"
+ },
+ {
+  "Máquina": "Atom",
+  "Dirección IP": "10.10.10.237",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "SMB Enumeration\nEXE Binary Analysis\nAbusing electron-updater - Signature Validation Bypass [RCE]\nAbusing PortableKanban - Reading the encrypted password\nRedis Enumeration - Obtaining the encrypted password of the administrator user\nDecrypting obtained passwords + Abusing WinRM (Evil-WinRM) [Privilege Escalation]",
+  "Cert": "OSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=FNQw93y3XNE"
+ },
+ {
+  "Máquina": "Joker",
+  "Dirección IP": "10.10.10.21",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "SQUID Proxy Enumeration\nUDP Enumeration\nAbusing TFTP - Getting Squid Proxy Credentials\nCracking Hashes\nInternal port discovery via SQUID Proxy\nAbusing Interactive Console [RCE]\nBypassing iptables rules - UDP Reverse Shell\nAbusing Sudoers Privilege [Abusing sudoedit - User Pivoting]\nAbusing Cron Job + TAR Wildcards [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=AoZiJaW5tc8"
+ },
+ {
+  "Máquina": "Netmon",
+  "Dirección IP": "10.10.10.152",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "FTP Enumeration\nInformation Leakage\nAbusing PRTG Network Monitor - Command Injection [RCE]",
+  "Cert": "eJPT\neWPT\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=aPS0VIIL0nQ"
+ },
+ {
+  "Máquina": "Cascade",
+  "Dirección IP": "10.10.10.182",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "RPC Enumeration\nUser Enumeration via Kerberos - Kerbrute\nASREPRoast Attack - GetNPUsers.py (Failed)\nLDAP Enumeration - ldapsearch && ldapdomaindump\nSMB Enumeration - smbclient && smbmap\nCracking TightVNC Password - vncpwd\nKerberoasting Attack - GetUserSPNs.py (Failed)\nAbusing WinRM - EvilWinRM\nEnumerating SQLite3 Database File\nAnalysis of Windows EXE binary\nInstalling DotPeek on a Windows virtual machine\nReverse engineering the CBC cipher - Obtaining clear text passwords\nAbusing AD Recycle Bin Group - Active Directory Object Recovery (Get-ADObject) [Privilege Escalation]\nEXTRA: Chisel Remote Port Forwarding (RDP + Remmina)",
+  "Cert": "OSCP\nOSEP\neCPPTv3\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=utTEk0WNO04"
+ },
+ {
+  "Máquina": "Delivery",
+  "Dirección IP": "10.10.10.222",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Virtual Hosting Enumeration\nAbusing Support Ticket System\nAccess to MatterMost\nInformation Leakage\nDatabase Enumeration - MYSQL\nCracking Hashes\nPlaying with hashcat rules in order to create passwords\nPlaying with sucrack to find out a user's password",
+  "Cert": "eJPT\neWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=aTOlZz1ucsc"
+ },
+ {
+  "Máquina": "Poison",
+  "Dirección IP": "10.10.10.84",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Local File Inclusion (LFI)\nLFI to RCE - Log Poisoning\nCracking ZIP file\nAbusing VNC - vncviewer [Privilege Escalation]",
+  "Cert": "eWPT\neJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=HYqQCYh0CzA"
+ },
+ {
+  "Máquina": "Scrambled",
+  "Dirección IP": "10.10.11.168",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Web Enumeration\nInformation Leakage\nLdap Enumeration\nKerberos Enumeration\nUser Enumeration - Kerbrute\nPassword Brute Force - Kerbrute\nSMB Enumeration - Kerberos Authentication [getTGT.py]\nASREPRoast Attack - GetNPUsers.py (Failed)\nKerberoasting Attack - GetUserSPNs.py\nManipulating the GetUserSPNs.py script to make it work the way we want it to work\nCracking Hashes\nAttempting to authenticate to the MSSQL service via kerberos (Failed)\nExplaining Kerberos Auth Flow (TGT, TGS, KDC, AS-REQ, AS-REP, TGS-REQ, TGS-REP, AP-REQ, AP-REP)\nExplaining how Silver Ticket Attack works\nForging a new TGS as Administrator user (NTLM Hash, Domain SID and SPN) [ticketer.py && getPAC.py]\nConnecting to the MSSQL service with the newly created ticket\nMSSQL Enumeration\nEnabling xp_cmdshell component in MSSQL [RCE]\nAbusing SeImpersonatePrivilege [JuicyPotatoNG Alternative for Windows Server 2019] (Unintended Way)\nBinary and DLL Analysis\nDownloading OpenVPN from a Windows machine and configuring it to reverse downloaded resources\nDnspy Installation\nDLL Inspection with Dnspy - Found a backdoor in the code\nWe realize that serialization and deserialization of data is being used\nCreating a malicious base64 serialized Payload with ysoserial.net in order to get RCE\nWe send the serialized data to the server [Privilege Escalation]",
+  "Cert": "OSCP\nOSEP\neCPPTv3\neWPTXv2 (Escalada)\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=osmFGqnFe8c"
+ },
+ {
+  "Máquina": "Remote",
+  "Dirección IP": "10.10.10.180",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Web Enumeration\nNFS Enumeration - Showmount\nInformation Leakage\nAbusing Umbraco Admin Panel\nUmbraco CMS - Remote Code Execution by authenticated administrators\nObtaining the TeamViewer password from the system registers (AES128 - CBC) [Privilege Escalation]",
+  "Cert": "eWPT\nOSCP (Escalada)",
+  "Video": "https:\/\/www.youtube.com\/watch?v=YCApOqCgoC4"
+ },
+ {
+  "Máquina": "Nibbles",
+  "Dirección IP": "10.10.10.75",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Abusing Nibbleblog - Remote Code Execution via File Upload\nAbusing Sudoers Privilege [Privilege Escalation]",
+  "Cert": "eJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=vAhrLjw1JEA"
+ },
+ {
+  "Máquina": "OpenSource",
+  "Dirección IP": "10.10.11.164",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Web Enumeration\nGithub Project Enumeration\nInformation Leakage\nAbusing File Upload - Replacing Python Files [RCE]\nLocal File Inclusion (LFI)\nShell via Flask Debug - Finding out the PIN (Werkzeug Debugger) [Unintended Way]\nPlaying with Chisel - Remote Port Forwarding [PIVOTING]\nAbusing Gitea + Information Leakage\nAbusing Cron Job + Git Hooks [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE\neCPPTv3\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=Be5wJyhgB_A"
+ },
+ {
+  "Máquina": "Faculty",
+  "Dirección IP": "10.10.11.169",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Web Enumeration\nSQL Injection (SQLI) - Manual Blind Time Based [Python Scripting]\nInformation Leakage - Error Messages\nLogin bypass - SQLI\nAbusing MPDF - Local File Inclusion (LFI)\nAbusing meta-git command - RCE via insecure command formatting\nAbusing gdb capabilitie (cap_sys_ptrace+ep) [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=AnVAmSH81DQ"
+ },
+ {
+  "Máquina": "Trick",
+  "Dirección IP": "10.10.11.166",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "DNS Enumeration\nDomain Zone Transfer Attack (AXFR)\nSQL Injection (SQLI) - Manual Blind SQLI with Conditional Responses [Python Scripting - AutoPwn]\nLocal File Inclusion (LFI) + Wrappers\nSubdomain Discovery\nLocal File Inclusion (LFI) + Restriction bypassing\nSMTP Enumeration (VRFY - Discovering valid users)\nLFI to RCE - Nginx Log Poisoning\nAbusing Sudoers Privilege (fail2ban command)",
+  "Cert": "eWPT\neWPTXv2\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=NZY6rLNJEAw"
+ },
+ {
+  "Máquina": "Moderators",
+  "Dirección IP": "10.10.11.173",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Web Enumeration\nInformation Leakage\nInsecure Direct Object Reference (IDOR) in order to discover valid reports\nAbusing File Upload - Uploading a PHP file disguised as PDF + Obfuscated Web Shell (Weevely3)\nAbusing Internal Web Server\nWordpress Brandfolder 3.0 Plugin Exploitation - Local\/Remote File Inclusion (User Pivoting)\nChanging admin user password in wordpress via MYSQL (Wordpress Password Hash Generator)\nVirtual Box Image Enumeration\nCracking VirtualBox Encryption (virtualbox2hashcat)\nCreating a new virtual machine in VirtualBox and installing the extension pack\nDecrypting the VirtualBox VDI Image with VBoxManage\nMounting the VirtualBox VDI Image (qemu-nbd)\nCracking the LUKS v2 Password (bruteforce-luks-static-linux-amd64)\nMounting the Luks Drive (cryptsetup)\nFinding a password among the mounted files\nAbusing sudoers privilege [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=oYmY8HPYWJY"
+ },
+ {
+  "Máquina": "Shared",
+  "Dirección IP": "10.10.11.172",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Web Enumeration\nSQL Injection (SQLI) in a Cookie\nCracking Hashes\nAbusing Cron Job\niPython Arbitrary Code Execution - CVE-2022-21699 (User Pivoting)\nInformation Leakage\nAbusing Redis - Sandbox Escape (CVE-2022-0543) [Privilege Escalation]",
+  "Cert": "eWPT\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=MGL6PK5s2yU"
+ },
+ {
+  "Máquina": "RedPanda",
+  "Dirección IP": "10.10.11.170",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Server Side Template Injection (SSTI)\nSSTI - Bypassing special character restriction\nSSTI - Creation of a Python script to automate java injection (RCE)\nCreating a Bash script for process monitoring with user included\nAbusing log file + Image etadata + XML External Entity Injection (XXE) [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=Ugz1RcYLd5M"
+ },
+ {
+  "Máquina": "Squashed",
+  "Dirección IP": "10.10.11.191",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "NFS Enumeration\nAbusing owners assigned to NFS shares by creating new users on the system (Get Access to Web Root)\nCreating a web shell to gain system access\nAbusing .Xauthority file (Pentesting X11)\nTaking a screenshot of another user's display",
+  "Cert": "OSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=maTw2StNFI4"
+ },
+ {
+  "Máquina": "Carpediem",
+  "Dirección IP": "10.10.11.167",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Web Enumeration\nParameter Fuzzing with Wfuzz\nMass Assignment Attack - Giving admin privileges to our user\nCreating a HTML form with OpenAI in order to exploit file uploading\nInformation Leakage - Reading sensitive files with hardcoded passwords\nTrudesk API Enumeration\nTrudesk API Enumeration - Finding valid tickets + Xargs Tip (Fast ticket discovery)\nSetting up Zoiper\nMaking a call from Zoiper to obtain access credentials\nAbusing Capabilities (tcpdump)\nAbusing Weak Cipher Suite - TLS_RSA_WITH_AES_256_CBC_SHA256 (TLSv1.2 Traffic)\nImporting the certificate into Wireshark and decrypting traffic\nBackdrop Enumeration && Backdrop Exploitation\nAbusing Backdrop - Installing a new module\nAbusing a cron job on a container [Container privilege escalation]\nAbusing CVE-2022-0492 (Container Escape via Cgroups) [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE\neCPPTv3\neCPTXv2\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=dkJQMRJHeKg"
+ },
+ {
+  "Máquina": "Support",
+  "Dirección IP": "10.10.11.174",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "SMB Enumeration\nEXE Binary Analysis\nDebugging with DNSpy\nSetting breakpoints and getting an LDAP password in clear text (DNSpy)\nKerberos User Enumeration (kerbrute)\nLdap Enumeration (ldapsearch)\nInformation Leakage\nAbusing Remote Management Users group (Evil-WinRM)\nSharpHound + BloodHound Enumeration\nAbusing Shared Support Accounts (GenericAll) (rbcd Attack) [Resource Based Constrained Delegation]\nResource Based Constrained Delegation Attack - Creating a Computer Object (powermad.ps1)\nResource Based Constrained Delegation Attack - PowerView.ps1\nResource Based Constrained Delegation Attack - Getting the impersonated service ticket (getST.py)\nUsing the ticket to gain Administrator access [Privilege Escalation]",
+  "Cert": "OSCP\nOSEP\neCPPTv3\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=AlrB-uBUuTA"
+ },
+ {
+  "Máquina": "Outdated",
+  "Dirección IP": "10.10.11.175",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "SMB Enumeration\nFollina Exploitation (CVE-2022-30190) + Nishang PowerShell TCP Shell [Remote Code Execution]\nSharpHound + BloodHound DC Enumeration\nAbusing AddKeyCredentialLink Privilege [Invoke-Whisker.ps1 - Shadow Credentials]\nGetting the user's NTLM Hash with Rubeus\nAbusing WinRM - EvilWinRM\nAbusing WSUS Administrators Group\nWSUS Exploitation - Creating a malicious patch for deployment [Privilege Escalation]",
+  "Cert": "OSCP\nOSEP\neCPPTv3\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=3xU66O-1pWU"
+ },
+ {
+  "Máquina": "Health",
+  "Dirección IP": "10.10.11.176",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Web Enumeration\nAbusing WebHook Setup\nCreating a PHP file to apply a Redirect and point to internal machine services [Restriction Bypassing]\nGogs v0.5.5 Exploitation - SQL Injection [CVE-2014-8682]\nRunning Gogs v0.5.5 Locally for successful exploitation\nCreating a SQL injection that allows us to obtain the salt and password of a user\nHash restructuring in order to crack it\nSSRF (Server Side Request Forgery) + SQL Injection\nCracking Hashes\nAbusing Cron Job (Database Manipulation) [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=7wwOejPwwYU"
+ },
+ {
+  "Máquina": "Shoppy",
+  "Dirección IP": "10.10.11.180",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Virtual Hosting\nSubdomain Enumeration\nNoSQL Injection (Admin Auth Bypass)\nAbusing the Shoppy App search engine (NoSQL Injection) - Obtaining the password of DB users\nCracking Hashes Online\nLog into Mattermost + Information Leakage\nAbusing Sudoers Privilege\nBinary Analysis - GHIDRA (Reverse Engineering)\nAbusing docker group [Privilege Escalation]",
+  "Cert": "eWPT\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=1pddk1u9jnQ"
+ },
+ {
+  "Máquina": "UpDown",
+  "Dirección IP": "10.10.11.177",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Web Enumeration\nSubdomain Discovery (gobuster)\nFinding .git directory with nmap (http-enum)\nPlaying with git-dumper in order to get the files of the project\nPHP Source Analysis\nInformation Leakage\nAbusing HTACCESS Policies\nAbusing File Upload (ZIP file + PHP File + Restriction Bypass + PHAR Wrapper)\nPlaying with dfunc-bypasser in order to find functions through which we can execute commands\nAbusing proc_open and executing commands [RCE]\nAbusing SUID Binary (Command injection in Python2 Input function) [User Pivoting]\nAbusing Sudoers Privilege (easy_install binary) [Privilege Escalation]",
+  "Cert": "OSWE\neWPT\neWPTXv2\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=36Ua0nrwc7g"
+ },
+ {
+  "Máquina": "Ambassador",
+  "Dirección IP": "10.10.11.183",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Web Enumeration\nGrafana v8.2.0 Exploitation [CVE-2021-43798] (Unauthorized Arbitrary File Read Vulnerability)\nEnumerating a sqlite3 file [Extracting mysql login credentials]\nSystem Github Project Enumeration\nHashicorp Consul Exploitation (Command Execution via API) [Privilege Escalation]",
+  "Cert": "eWPT\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=fli1xeT3c-s"
+ },
+ {
+  "Máquina": "Photobomb",
+  "Dirección IP": "10.10.11.182",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Virtual Hosting\nWeb Enumeration\nInformation Leakage - Credentials in Javascript File\nAbusing Image Download Utility (Command Injection) [RCE]\nAbusing Sudoers privilege + PATH Hijacking (find command) [1st way] [Privilege Escalation]\nAbusing Sudoers privilege + PATH Hijacking ( ] command ) [2st way] [Privilege Escalation]",
+  "Cert": "OSCP\neWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=rAY1GMvrO0g"
+ },
+ {
+  "Máquina": "Precious",
+  "Dirección IP": "10.10.11.189",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Pdfkit v0.8.6 Exploitation - Command Injection (CVE-2022-25765)\nAdvanced Python Scripting - Autopwn Script [EXTRA]\nInformation Leakage [User Pivoting]\nAbusing sudoers privilege + Yaml Deserialization Attack [Privilege Escalation]",
+  "Cert": "eWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=0WA4b3P5ZMM"
+ },
+ {
+  "Máquina": "Mentor",
+  "Dirección IP": "10.10.11.193",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Virtual Hosting\nSubdomain Enumeration\nAPI Enumeration\nAbusing API\nSNMP Enumeration (snmpwalk && snmpbulkwalk) + Community String Brute Force\nInformation Leakage\nAbusing JWT\nAPI Exploitation (Command Injection)\nChisel Tunnel + Postgresql Service Enumeration + Information Leakage\nAbusing Sudoers Privilege [Privilege Escalation]",
+  "Cert": "eWPT\nOSWE\neCPPTv3",
+  "Video": "https:\/\/www.youtube.com\/watch?v=dEP6h3jxLRI"
+ },
+ {
+  "Máquina": "Inject",
+  "Dirección IP": "10.10.11.204",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Web Enumeration\nLocal File Inclusion + Directory Listing\nInformation Leakage\nSpring Cloud Exploitation (CVE-2022-22963) [Spring4Shell]\nAbusing Cron Job\nMalicious Ansible Playbook (Privilege Escalation)",
+  "Cert": "eWPT\nOSCP (Escalada)",
+  "Video": "https:\/\/www.youtube.com\/watch?v=5gfA_wIaNRs"
+ },
+ {
+  "Máquina": "Sau",
+  "Dirección IP": "10.10.11.224",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "requests-baskets 1.2.1 Exploitation (SSRF - Server Side Request Forgery)\nMaltrail 0.53 Exploitation (RCE - Username Injection)\nAbusing sudoers privilege (systemctl) [Privilege Escalation]",
+  "Cert": "eWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=gfupbVibReM"
+ },
+ {
+  "Máquina": "Zipping",
+  "Dirección IP": "10.10.11.229",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "File uploading abuse (%00 Injection) [Failed]\nZipSlip Exploitation Technique for internal reading of files\nSQL Injection + Regular Expression Bypass (%0a) + RCE through into outfile instruction\nCustom binary abuse + Malicious Shared Object (.so) Injection [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=YVdVKoqeoHs"
+ },
+ {
+  "Máquina": "Bookworm",
+  "Dirección IP": "10.10.11.215",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Insane",
+  "Técnicas Vistas": "XSS Injection + CSP Bypass\nAbusing File Upload + Indirect XSS Injection\nIDOR Exploitation\nProfile and order enumeration via XSS\nXSS + LFI aiming to read private files from the server\nInformation Leakage through LFI\nAbusing Internal Javascript Web Application\nAbusing ebook-convert [User Pivoting]\nAbusing Symlinks + ebook-convert for Arbitrary Write\nAbusing sudoers privilege\nSQL Injection + PostScript Injection for privileged writing to system [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=hC8XnmxzwJ8"
+ },
+ {
+  "Máquina": "Clicker",
+  "Dirección IP": "10.10.11.232",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Abusing a game via the browser console\nAbusing NFS + Information Leakage\nCode Analysis\nMass Assignment Exploitation in order to elevate our user privileges\nBypass Check via Netline Injection\nRCE through nickname manipulation + Mass Assignment Attack\nAbusing Custom Binary\nBinary Analysis with Ghidra (Reversing) [User Pivoting]\nAbusing Sudoers\nXXE Exploitation [Privilege Escalation]",
+  "Cert": "eWPT\nOSWE\nOSED",
+  "Video": "https:\/\/www.youtube.com\/watch?v=gGyfo3jkzDk"
+ },
+ {
+  "Máquina": "Keeper",
+  "Dirección IP": "10.10.11.227",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Abusing Request Tracker\nInformation Leakage\nObtaining KeePass password through memory dump [Privilege Escalation]",
+  "Cert": "eJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=lhVQxvz9Sh8"
+ },
+ {
+  "Máquina": "Drive",
+  "Dirección IP": "10.10.11.235",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "IDOR Exploitation + OOP Python Scripting\nInformation Leakage\nSqlite3 file enumeration\nCracking Hashes\nGitea Enumeration + Information Leakage\nAbusing Custom Binary\nBinary Analysis with GHIDRA\nExploiting SUID binary + Command injection through sqlite3 extension loading [Privilege Escalation]",
+  "Cert": "eWPT\nOSWE\nOSED",
+  "Video": "https:\/\/www.youtube.com\/watch?v=VrscVIpSyV0"
+ },
+ {
+  "Máquina": "Builder",
+  "Dirección IP": "10.10.11.10",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Jenkins Exploitation - CVE-2024-23897 in order to read arbitrary files (RCE)\nCracking Hashes\nAbusing the Jenkins cipher to crack the password [Privilege Escalation]",
+  "Cert": "eWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=wVSW6uMVe_w"
+ },
+ {
+  "Máquina": "Hospital",
+  "Dirección IP": "10.10.11.241",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "SMB Enumeration\nAbusing File Upload (.phar extension + Python Scripting)\nAbusing PHP Disable Functions in order to RCE\nGameOver(lay) Exploitation (Privilege Escalation)\nCracking Hashes\nEnumerating domain users (rpcclient)\nTesting ASREPRoast attack (impacket-GetNPUsers)\nFraudulent sending of eps file by mail through RoundCube\nAbusing XAMPP for privilege escalation",
+  "Cert": "OSCP\nOSEP\neCPPTv3\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=CecJxqA2WPo"
+ },
+ {
+  "Máquina": "Surveillance",
+  "Dirección IP": "10.10.11.245",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "CraftCMS Exploitation (CVE-2023-41892) - RCE\nInformation Leakage\nCracking Hashes\nZoneMinder + Sudoers Exploitation (Privilege Escalation)",
+  "Cert": "eWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=JIEsfS6noWk"
+ },
+ {
+  "Máquina": "TwoMillion",
+  "Dirección IP": "10.10.10.11",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Building a Python3 Stealth port scanner with Scapy\nAbusing declared Javascript functions from the browser console\nAbusing the API to generate a valid invite code\nAbusing the API to elevate our privilege to administrator\nCommand injection via poorly designed API functionality\nInformation Leakage\nPrivilege Escalation via Kernel Exploitation (CVE-2023-0386) - OverlayFS Vulnerability",
+  "Cert": "eWPT\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=Nm9HwJerMqs"
+ },
+ {
+  "Máquina": "Broker",
+  "Dirección IP": "10.10.11.243",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Credential guessing\nActiveMQ Exploitation - Deserialization Attack (CVE-2023-46604) [RCE]\nAbusing sudoers privilege (nginx) [Privilege Escalation]",
+  "Cert": "eWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=o6aRIbFuKNA"
+ },
+ {
+  "Máquina": "Monitored",
+  "Dirección IP": "10.10.11.248",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Nagios Enumeration\nAPI Enumeration\nSNMP Enumeration\nAbusing API\nNagios XI Exploitation (CVE-2023-40931)\nSQL Injection Manual Exploitation\nAbusing API Key to create new administrator user (Mass Assignment Attack)\nCreating a new command and service in Nagios to get a reverse shell\nAbusing Sudoers [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=oO9tvq9_HU8"
+ },
+ {
+  "Máquina": "Devvortex",
+  "Dirección IP": "10.10.11.242",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Subdomain Enumeration\nAbusing Joomla\nJoomla Exploitation (CVE-2023-23752)\nCustomizing administration template to achieve RCE\nDatabase Enumeration (User Pivoting)\nAbusing sudoers privilege (apport-cli) [Privilege Escalation]",
+  "Cert": "eWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=GMVmxYnHsLA"
+ },
+ {
+  "Máquina": "Napper",
+  "Dirección IP": "10.10.11.240",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "IIS Enumeration\nSubdomain Enumeration\nInformation Leakage\nAbusing NAPLISTENER Backdoor\nCreating a reverse shell payload in C#\nCreating an executable from C# code with mcs\nElasticsearch Enumeration\nBinary Analysis with GHIDRA\nGhidra extensions installation\nCreation of script in Go to decrypt a message by abusing a given seed\nUsing RunasCs to execute commands as another user + UAC Bypass [Privilege Escalation]",
+  "Cert": "OSED",
+  "Video": "https:\/\/www.youtube.com\/watch?v=yKNxdxixfHg"
+ },
+ {
+  "Máquina": "Bizness",
+  "Dirección IP": "10.10.11.252",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Apache OFBiz Exploitation (Authentication Bypass)\nAnalysis of OFBiz code to understand the hashed storage mechanism\nAdapting found hashes to a crackable format\nCracking Hashes [Privilege Escalation]",
+  "Cert": "eWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=Xw2Ojg26v2g"
+ },
+ {
+  "Máquina": "Manager",
+  "Dirección IP": "10.10.11.236",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "SMB Enumeration\nUser Enumeration [1st way] - RID Cycling Attack (rpcclient)\nUser Enumeration [2nd way] - RID Cycling Attack (CrackMapExec)\nUser Enumeration [3rd way] - Kerberos User Enumeration (Kerbrute)\nLdap Enumeration (ldapdomaindump)\nCredentials Brute Force (CrackMapExec)\nMSSQL Enumeration (mssqlclient.py)\nAbusing MSSQL (xp_dirtree)\nInformation Leakage\nAbusing WinRM to get an interactive console\nDC Enumeration (adPEAS) - Powershell tool to automate Active Directory enumeration\nAbusing Advice Directory Certificate Services (ADCS)\nESC7 exploitation case with certipy [Privilege Escalation]",
+  "Cert": "OSCP\nOSEP\neCPPTv3\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=6uzYhgtDPTM"
+ },
+ {
+  "Máquina": "Wifinetic",
+  "Dirección IP": "10.10.11.247",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "FTP Enumeration\nInformation Leakage\nSSH Brute Force with CrackMapExec\nAbusing Capabilities - Reaver\nAbusing an AP's WPS to get the root password [Privilege Escalation]\nTrying to change the password and showing how the WPS Pin is still giving the new password",
+  "Cert": "OSWP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=MTcZbk0QzB8"
+ },
+ {
+  "Máquina": "Analysis",
+  "Dirección IP": "10.10.11.250",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "SMB Enumeration\nVirtual Hosting\nSubdomain Enumeration\nKerberos - User Brute Force Enumeration (kerbrute)\nWeb Fuzzing\nLDAP Injection\nCreating a Python script to easily exploit LDAP injection\nDiscovering valid users through LDAP injection\nEnumerating user description through LDAP injection + Information Leakage\nTesting ASREPRoast attack (impacket-GetNPUsers)\nTesting Kerberoasting attack (impacket-GetUsersSPNs)\nExploitation of a customized analysis panel\nCreating a PHP webshell for command execution + Reverse Shell with Nishang\nSystem enumeration with WinPeas\nObtaining user credentials stored in the autologon registry\nAbusing Snort (Loading Dynamic Modules) [Privilege Escalation]\nCreation of malicious DLL with msfvenom for loading into snort",
+  "Cert": "OSCP\nOSEP\neCPPTv3\neWPT\neWPTXv2\nOSWE\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=1X6Ak_IBDrM"
+ },
+ {
+  "Máquina": "Analytics",
+  "Dirección IP": "10.10.11.233",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Subdomain Enumeration\nMetabase Exploitation (CVE-2023-38646)\nDocker Container Information Leakage\nKernel Exploitation - GameOver(lay) \/ Abusing OverlayFS [Privilege Escalation]",
+  "Cert": "eWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=FCk5K7sm5uo"
+ },
+ {
+  "Máquina": "Pov",
+  "Dirección IP": "10.10.11.251",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Subdomain Enumeration\nLFI through CV Download\nAbusing ViewState IIS Parameter + web.config secrets in order to achieve RCE\nPlaying with ysoserial.net to create a serialized payload\nReading a powershell credential and decrypting the contents of the PSCredential object\nRunasCs.exe to execute command as another user whose credentials are known to us\nAbusing SeDebugPrivilege [Privilege Escalation]\nPlaying with chisel + WinRM for a more stable shell\nUsing psgetsys.ps1 to execute commands as the administrator user through memory injection",
+  "Cert": "eWPT\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=wxoaRHCfGHA"
+ },
+ {
+  "Máquina": "BoardLight",
+  "Dirección IP": "10.10.11.11",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Subdomain Enumeration\nDolibarr 17.0.0 Exploitation - CVE-2023-30253\nInformation Leakage (User Pivoting)\nEnlightenment SUID Binary Exploitation [Privilege Escalation]",
+  "Cert": "eWPT\neJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=yxFFqfH3vQ8"
+ },
+ {
+  "Máquina": "Editorial",
+  "Dirección IP": "10.10.11.20",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Virtual Hosting\nAbusing File Upload\nServer Side Request Forgery (SSRF) Exploitation + Internal Port Discovery\nAPI enumeration through SSRF\nPrivate Github Project Enumeration + Information Leakage\nAbusing sudoers [Privilege Escalation] - GitPython Exploitation (CVE-2022-24439)",
+  "Cert": "eWPT\neJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=YSyCvjXl38k"
+ },
+ {
+  "Máquina": "Mailing",
+  "Dirección IP": "10.10.11.14",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Web Enumeration\nInformation Leakage through LFI (hMailServer)\nCracking Hashes\nMicrosoft Outlook Remote Code Execution (RCE) - CVE-2024-21413\nStealing NetNTLMv2 hash\nAbusing WinRM\nLibreOffice Exploitation (CVE-2023-2255) [Privilege Escalation]",
+  "Cert": "eWPT\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=H03cE35APwU"
+ },
+ {
+  "Máquina": "Cap",
+  "Dirección IP": "10.10.10.245",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Insecure Directory Object Reference (IDOR)\nInformation Leakage\nAbusing Capabilities (Python3.8) [Privilege Escalation]",
+  "Cert": "eJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=lXpnVFukinE"
+ },
+ {
+  "Máquina": "Runner",
+  "Dirección IP": "10.10.11.13",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Subdomain Enumeration\nJetBrains TeamCity 2023.05.3 Exploitation (RCE) [CVE-2023-42793]\nInformation Leakage\nCracking Hashes\nLocal Port Forwarding\nPortainer Exploitation (Mounting a host volume inside a container) [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=sV5OWqd-tXg"
+ },
+ {
+  "Máquina": "IClean",
+  "Dirección IP": "10.10.11.12",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Web Enumeration\nHTML Injection\nXSS Exploitation\nAbusing JWT\nServer Side Template Injection (SSTI) + Bypassing most common filters (RCE)\nDatabase Enumeration\nCracking Hashes\nAbusing sudoers privilege (qpdf binary exploitation)",
+  "Cert": "eWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=DModvDIU-uw"
+ },
+ {
+  "Máquina": "Usage",
+  "Dirección IP": "10.10.11.18",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Subdomain Enumeration\nSQLI - Boolean-Based Blind Injection (MANUAL) + BurpSuite Tips\nPython Scripting in order to exploit SQLI\nCracking Hashes\nLaravel-admin Exploitation (RCE by abusing file upload)\nBinary Analysis (GHIDRA)\nAbusing Sudoers Privilege + Custom Binary in order to get Root SSH Private Key [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=IWb7SNXRINU"
+ },
+ {
+  "Máquina": "Jab",
+  "Dirección IP": "10.10.11.4",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "SMB Enumeration\nXMPP\/Jabber Enumeration via Pidgin\nInformation Leakage\nUser Enumeration via Pidgin's Advanced User Search Option\nTesting for ASREP-Roast Attack\nCracking Hashes\nSMB Enumeration via CrackMapExec + Module Tip\nBloodHound Enumeration\nAbusing ExecuteDCOM Execution Right (impacket-dcomexec)\nRCE through the abuse of a DCOM object with impacket-dcomexec\nRemote Port Forwarding (Chisel)\nOpenFire Exploitation (CVE-2023-32315) - Malicious plugin installation [Privilege Escalation]",
+  "Cert": "OSCP\nOSEP\neCPPTv3\neCPTXv2\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=qpXPV6Ui5TU"
+ },
+ {
+  "Máquina": "PermX",
+  "Dirección IP": "10.10.11.23",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Subdomain Enumeration\nChamilo LMS Exploitation - Unauthenticated Command Injection [CVE-2023-31803] (RCE)\nInformation Leakage\nAbusing Sudoers - Custom Bash Script (playing with setfacl) [Privilege Escalation]",
+  "Cert": "eWPT\neJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=yNFyXb3lAh4"
+ },
+ {
+  "Máquina": "Crafty",
+  "Dirección IP": "10.10.11.249",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Minecraft Exploitation - Log4Shell (RCE)\nJAR Plugin Analysis with JD-GUI + Information Leakage\nUsing RunasCs to execute commands as administrator [Privilege Escalation]",
+  "Cert": "eJPT\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=5bZwmqmrFCs"
+ },
+ {
+  "Máquina": "Blazorized",
+  "Dirección IP": "10.10.11.22",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Subdomain Enumeration\nBlazor Traffic Processor - BurpSuite Extension\nDLL Inspection - AvalonialLSpy\nInformation Leakage\nBuilding our own admin JWT\nSQL Injection - Stacked Queries (RCE via xp_cmdshell)\nBloodHound Enumeration - Docker TIP\nKerberoasting Attack (PowerView.ps1)\nCracking Hashes\nFind-InterestingDomainAcl PowerView Enumeration\nAbusing Logon Scripts (ScriptPath)\nDCSync via Mimikatz (Getting the ntlm hash of the admin user) + Mimikatz [Privilege Escalation]",
+  "Cert": "OSCP\nOSEP\neCPPTv3\neCPTXv3\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=6TkEvRP6Jz0"
+ },
+ {
+  "Máquina": "Headless",
+  "Dirección IP": "10.10.11.8",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "XSS injection via custom header\nStealing administrator user session cookie via XSS\nCommand injection in web panel\nAbusing sudoers privilege [Privilege Escalation]",
+  "Cert": "eWPT\nOSWE\nOSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=Z0u7wP2yv-8"
+ },
+ {
+  "Máquina": "Perfection",
+  "Dirección IP": "10.10.11.253",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Newline Injection + SSTI (ERB Injection) [RCE]\nCracking Hashes - Creating your own rules with hashcat\nAbusing the 'sudo' group once the user's password is known",
+  "Cert": "eWPT\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=Wi-QAH_JxtQ"
+ },
+ {
+  "Máquina": "Sea",
+  "Dirección IP": "10.10.11.28",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Web Fuzzing\nWonderCMS Exploitation (XSS + RCE)\nCracking Hashes\nLocal Port Forwarding + Internal System Monitor Web Exploitation (Command Injection)\nCommand Injection + Access with Authorized SSH Key Pairs [Privilege Escalation]",
+  "Cert": "eWPT\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=yMRLMM1ROuA"
+ },
+ {
+  "Máquina": "Strutted",
+  "Dirección IP": "10.10.11.59",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Information Leakage\nApache Struts Exploitation [CVE-2024-53677]\nApache Struts, Interceptors and OGNL Expression Language Explained\nAbusing File Upload (Malicious JSP File)\nAbusing Sudoers Privilege (tcpdump) [Privilege Escalation]",
+  "Cert": "eWPT\nOSWE\neWPTXv2",
+  "Video": "https:\/\/www.youtube.com\/watch?v=px4FfpcLPLM"
+ },
+ {
+  "Máquina": "MonitorsThree",
+  "Dirección IP": "10.10.11.30",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Subdomain Enumeration\nSQLI - Manual Time Based Blind Injection (Python Scripting)\nCracking Hashes\nCacti Exploitation (CVE-2024-25642) - Malicious Package Import\nInformation Leakage\nInternal Service Exploitation - Duplicati\nAbusing Duplicati - Bypassing Login Authentication with Server Passphrase\nDuplicati - Creating a backup for privileged reading and writing of files [Privilege Escalation]",
+  "Cert": "eWPT\nOSWE\neWPTXv2",
+  "Video": "https:\/\/www.youtube.com\/watch?v=L3ywxkXARpA"
+ },
+ {
+  "Máquina": "MonitorsTwo",
+  "Dirección IP": "10.10.11.211",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Cacti 1.2.22 Exploitation - Command Injection\nCracking Hashes\nDocker Exploitation (CVE-2021-41091) [Privilege Escalation]",
+  "Cert": "eWPT\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=ACCimo3KZDs"
+ },
+ {
+  "Máquina": "Trickster",
+  "Dirección IP": "10.10.11.34",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Subdomain Enumeration\nInformation Leakage - Github project rebuild with GitHack\nPrestaShop 8.1.5 Exploitation - [CVE-2024-34716]\nDatabase Enumeration\nCracking Hashes\nCreating bash script to apply host recognition\nCreating bash script to apply port recognition on other containers\nLocal Port Forwarding to gain access to a service available in one of the containers\nChangeDetection 0.45.20 Exploitation [CVE-2024-32651] - SSTI (RCE)\nAbusing Sudoers Privilege (prusaslicer)\nCreating a malicious .3mf file using PrusaSlicer [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE\neCPPTv3",
+  "Video": "https:\/\/www.youtube.com\/watch?v=5S_ouR5hXqk"
+ },
+ {
+  "Máquina": "Office",
+  "Dirección IP": "10.10.11.3",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "SMB Enumeration\nWeb Enumeration\nJoomla 4.2.7 Exploitation - Leak Password [CVE-2023-23752]\nKerberos User Enumeration (kerbrute)\nPassword Spraying - CrackMapExec\nPcap Analysis - Wireshark\nKerberos AS-REQ Frame Analysis\nDetailed Explanation of How Kerberos Works (EXTRA)\nCreating a crackable hash through the visible data in the AS-REQ frame\nCracking Hashes\nExploitation of Joomla through template manipulation to achieve RCE\nUsing RunasCs to get reverse shell as another user\nRemote Port Forwarding with Chisel to expose internal service\nExploiting 'Floating Frame' in LibreOffice to achieve (RCE) [CVE-2023-2255]\nManipulating LibreOffice Macro Security via 'Registry Editors' (Alternative RCE)\nCreating a malicious macro in LibreOffice to achieve RCE (Alternative RCE)\nCredential Theft via DPAPI Decryption and RPC Abuse\nDPAPI Master Key Decryption via MS-BKRP (dpapi::masterkey)\nDumping Saved Passwords by Exploiting DPAPI and RPC (dpapi::cred)\nAbusing WinRM\nAbusing 'GPO Managers' group\nSharpGPOAbuse.exe to assign us administrator privileges [Privilege Escalation]",
+  "Cert": "OSCP\nOSEP\neCPPTv3\neCPTXv3\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=2AnVkG7sQiY"
+ },
+ {
+  "Máquina": "Sightless",
+  "Dirección IP": "10.10.11.32",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "WEB Enumeration\nSQLPad Exploitation - Command Injection [CVE-2022-0944]\nCracking Hashes\nNginx\/Apache File System Enumeration\nSSH Port Forwarding + Froxlor Exploitation (Creating an admin user) [CVE-2024-34070]\nChanging an FTP user's password to login (lftp)\nBreaking the password of a keepass file by brute force and obtaining id_rsa [Privilege Escalation]",
+  "Cert": "eWPT\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=a-AEHNis4X4"
+ },
+ {
+  "Máquina": "GreenHorn",
+  "Dirección IP": "10.10.11.25",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Pluck Enumeration\nGitea Enumeration\nCode Analysis + Information Leakage\nCracking Hashes\nPluck 4.7.18 Exploitation - Creating a Malicious Module (RCE)\nDepixelizing a pixelated field of a PDF document [Privilege Escalation]",
+  "Cert": "eWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=35V8Inkg4g0"
+ },
+ {
+  "Máquina": "CozyHosting",
+  "Dirección IP": "10.10.11.230",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Spring Boote Web Page Enumeration\nInformation Leakage\nCookie Hijacking\nCommand Injection + Filter Bypass\nJAR archive inspection with JD-GUI + Information Leakage\nPostgreSQL Database Enumeration\nCracking Hashes\nAbusing Sudoers Privilege (ssh) [Privilege Escalation]",
+  "Cert": "eWPT\neJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=0UGnEcoxUlY"
+ },
+ {
+  "Máquina": "Compiled",
+  "Dirección IP": "10.10.11.26",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Gitea Enumeration\nInformation Leakage\nGit Exploitation [CVE-2024-32002] (RCE)\nSQLite Database File Enumeration\nCreating Hashes in PBKDF2 Format to Get Them Cracked\nCracking hashes\nMicrosoft Visual Studio 2019 Exploitation (CVE-2024-20656) [Privilege Escalation]",
+  "Cert": "OSCP",
+  "Video": "https:\/\/www.youtube.com\/watch?v=g8OA2O9Nbps"
+ },
+ {
+  "Máquina": "Stocker",
+  "Dirección IP": "10.10.11.196",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Subdomain Enumeration\nNoSQL Injection - Authentication Bypass\nAbusing API + Information Leakage\nServer-Side XSS + LFI Exploitation through Dynamic PDF Generation\nAbusing Sudoers Privilege (node + Path Traversal Attack Targeting JavaScript Files) [Privilege Escalation]",
+  "Cert": "eWPT\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=OTb_eJE1pU8"
+ },
+ {
+  "Máquina": "Jupiter",
+  "Dirección IP": "10.10.11.216",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Subdomain Enumeration\nEnumerating Grafana Requests\nExecuting system commands through PostgreSQL by exploiting an API (RCE)\nCreation of bash script to enumerate processes and commands running on the system (procmon.sh)\nCommand Execution via Shadow Simulation (User Pivoting)\nLocal Port Forwarding + Abusing Jupyter Notebook in order to get RCE (User Pivoting)\nAbusing Sudoers Privilege (sattrack) - File Read\/File Write [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=CAiKwIiAl5E"
+ },
+ {
+  "Máquina": "MagicGardens",
+  "Dirección IP": "10.10.11.9",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Insane",
+  "Técnicas Vistas": "Web Enumeration\nTesting the Payment System\nTricking the Payment System so that the Information Passes through our Server\nOperating as a Fake Bank to Give an Alternative Response\nCreating Malicious QR with an Embedded XSS Payload (zbarimg\/qrencode)\nStealing a User's Session Cookie through Generated QR\nCracking Hashes\nBinary Analysis (GHIDRA) - Reversing\nBuffer Overflow - Arbitrary File Write Vulnerability\nInformation Leakage\nHTTP Docker Registry Enumeration (DockerRegistryGrabber)\nDjango Serialization Exploitation (Creating a Malicious Session Cookie to Obtain RCE)\nContainer CAP_SYS_MODULE Capability Exploitation - Docker Breakout [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE\nOSED\nBuffer Overflow",
+  "Video": "https:\/\/www.youtube.com\/watch?v=qHgO2n4FFWQ"
+ },
+ {
+  "Máquina": "Soccer",
+  "Dirección IP": "10.10.11.194",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Web Enumeration\nAbusing Tiny File Manager (RCE by Uploading a Malicious PHP File)\nWebSocket SQL Boolean-Based\/Time-Based Blind Injection\nAbusing Doas Privilege (dstat) [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=FdlH1QT5iy4"
+ },
+ {
+  "Máquina": "Fuse",
+  "Dirección IP": "10.10.11.26",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Information Leakage\nCreating a Custom Dictionary with Cewl\nBrute Force with Netexec to SMB to Obtain Valid Credentials\nChanging a User's Password with impacket-smbpasswd\nInformation Leakage through Printer Enumeration with rpcclient\nAbusing SeLoadDriverPrivilege\nLoading a Vulnerable Driver for Further Exploitation (EoPLoadDriver & Capcom.sys)\nDriver Exploitation (ExploitCapcom) [Privilege Escalation]",
+  "Cert": "OSCP\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=ujcfgUztTYU"
+ },
+ {
+  "Máquina": "Cicada",
+  "Dirección IP": "10.10.11.26",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "SMB Enumeration\nInformation Leakage\nRID Brute with Netexec for Potential User Discovery\nInformation Leakage through Rpcclient (querydispinfo)\nAbusing SeBackupPrivilege\/SeRestorePrivilege [Privilege Escalation]",
+  "Cert": "OSCP\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=lBWOvgu_ayw"
+ },
+ {
+  "Máquina": "Awkward",
+  "Dirección IP": "10.10.11.85",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Web Enumeration\nWebpack Application Enumeration\nAPI Endpoints - Information Leakage\nSubdomain Enumeration\nCracking Hashes\nSSRF (Server-Side Request Forgery) Exploitation\nDiscovering Internal Ports and Web Services through SSRF\nInternal Express API Documentation Source Analysis\nCracking JWT\nFile Reading (LFI) through Creation of a Malicious JWT and API Abuse\nAbusing Xpad - Sticky Notes Application (Information Leakage)\nCommand Injection through Adding Products to a Cart (Abusing Mail Cron Job) [Privilege Escalation]",
+  "Cert": "OSWE\neWPT\neWPTXv2",
+  "Video": "https:\/\/www.youtube.com\/watch?v=oBl_n1TtweQ"
+ },
+ {
+  "Máquina": "PC",
+  "Dirección IP": "10.10.11.214",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "gRPC Enumeration with grpcurl and gRPC UI\nRegistering a User in the Application through grpcurl\nSQL Injection in SQLite through grpcurl (Enumerating Tables, Columns and Data)\nAbusing Internal Web Service - PyLoad 0.5.0\nPyLoad Exploitation (CVE-2023-0297) [RCE and Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=tEIBkTF3RfI"
+ },
+ {
+  "Máquina": "Topology",
+  "Dirección IP": "10.10.11.217",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Subdomain Enumeration\nLaTeX Injection + Blocklisted Function Bypass\nFile Read through LaTeX Injection\nCracking Hashes\nCreating Bash Script to List Commands and Cron Jobs Running on the System (Procmon.sh)\nAbusing Cron Job in gnuplot to Run Privileged Commands [Privilege Escalation]",
+  "Cert": "eWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=reOQJ-gJZs0"
+ },
+ {
+  "Máquina": "Yummy",
+  "Dirección IP": "10.10.11.36",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "Web Enumeration\nJWT Enumeration\nDirectory Traversal + Local File Inclusion\nAbusing Cryptographic Key Generation\nExplaining how RSA works [EXTRA]\nExplaining how RSA works: Creating a key pair through 2 prime numbers [EXTRA]\nExplaining how RSA works: Encrypting files with the generated keys using openssl [EXTRA]\nExplaining how RSA works: Explaining RSA: Factoring n to Derive the Private Key [EXTRA]\nBreaking JWT Cryptography to Forge an Admin Token\nSQL Injection: Playing with extractvalue() to Enumerate Database Information [Manual Exploitation]\nSQL Injection + INTO OUTFILE + Abusing Cron Jobs for RCE\nInformation Leakage\nExploiting Sudoers Privileges and Mercurial Hooks to Execute Commands as Another User\nAbusing Sudoers privilege (rsync) [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=8A4HFycriHk"
+ },
+ {
+  "Máquina": "Previse",
+  "Dirección IP": "10.10.11.104",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Web Enumeration\nExecution After Redirect (EAR) Vulnerability - Skipping Redirects\nPHP Source Code Analysis\nCommand Injection (RCE)\nInformation Leakage\nDatabase Enumeration\nCracking Hashes\nAbusing Sudoers Privilege + PATH Hijacking [Privilege Escalation]",
+  "Cert": "eWPT\neJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=zf89K5p28uQ"
+ },
+ {
+  "Máquina": "MetaTwo",
+  "Dirección IP": "10.10.11.86",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "WordPress Enumeration\nWordPress Plugins Enumeration\nBookingPress < 1.0.11 - Unauthenticated SQL Injection [CVE-2022-0739]\nCracking Hashes\nAuthenticated XXE Within the WordPress Media Library - File Inclusion\nAbusing FTP + Information Leakage\nAbusing Passpie (Multiplatform command-line password manager)\nAbusing GnuPG Encryption Tool - Cracking Private PGP Key (gpg2john + john)\nExtracting Stored Root Password with Passpie [Privilege Escalation]",
+  "Cert": "eWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=yQ9UTZqKicQ"
+ },
+ {
+  "Máquina": "BroScience",
+  "Dirección IP": "10.10.11.195",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "(LFI) Local File Inclusion Vulnerability + Filter Bypass Restriction\nSource Code Analysis (PHP)\nManually Generating Invitation Codes Based on Server Time During Registration\nGetting Logged in with the Generated Invitation Code\nCreating a Serialized Payload to Achieve File Writing During Deserialization and Achieve RCE\nPostgres Database Enumeration\nPassword Composition in Salt + MD5 Format with the Obtained Hashes and Cracking Them\nAbusing Cron Job\nCreating a Certificate with Openssl with Malicious CommonName Field to get RCE [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=dU5n3PJOp5U"
+ },
+ {
+  "Máquina": "Interface",
+  "Dirección IP": "10.10.11.195",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Web Enumeration\nAPI Endpoints Enumeration\nFuzzing POST API Parameters\nExploiting dompdf 1.2.0 Vulnerability (XSS to RCE through Malicious CSS File)\nEnumerating Cron Jobs Running on the System (Procmon.sh)\nShell Script Arithmetic Expression Injection or Quoted Expression Injection [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=OTsBGxbwS2s"
+ },
+ {
+  "Máquina": "OnlyForYou",
+  "Dirección IP": "10.10.11.210",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Web Enumeration\nSubdomain Enumeration\nInformation Leakage\nPython Source Code Analysis\nAbusing the os.path.join Operation in Python to Read Files from the Server\nFileSystem Enumeration\nBypassing Filter Due to ill-defined Regular Expression with re.match [RCE]\nInternal Services Enumeration\nRemote Port Forwarding with Chisel\nAbusing Neo4j Database\nNeo4j Cypher Injection\nNeo4j Cypher Injection - Enumerating Labels\nNeo4j Cypher Injection - Enumerating Label Keys\nNeo4j Cypher Injection - Extracting Keys Data\nCracking hashes\nAbusing Sudoers Privilege (pip3 download)\nCreating a malicious package in Python and defining a malicious setup.py structure [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=lmdG1fSspQk"
+ },
+ {
+  "Máquina": "Instant",
+  "Dirección IP": "10.10.11.37",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "APK Analysis (apktool)\nInformation Leakage\nAPI Enumeration (Swagger)\nDirectory Traversal + File Read (id_rsa)\nAbusing SolarPutty Session Backup File (Brute Force) [Privilege Escalation]",
+  "Cert": "eJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=4ePSry_uSxc"
+ },
+ {
+  "Máquina": "Format",
+  "Dirección IP": "10.10.11.213",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Subdomain Enumeration\nGitea Enumeration\nPHP Code Analysis\nFinding Code-Level Vulnerability that Allows Attackers to Read Alternative Files (LFI)\nReading the Nginx Web Service Structure through the LFI\nAbusing a Proxy_Pass Bug to Interact with a Redis Unix Socket\nAltering User Properties through Redis Abusing Proxy_Pass Bug\nCreation of Malicious PHP File through Poorly Sanitized PHP Code and Write Capability\nRedis Enumeration\nAbusing Sudoers Privilege (Custom Python Script + .format() exploitation) [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=SO5wmX4Sm0s"
+ },
+ {
+  "Máquina": "Codify",
+  "Dirección IP": "10.10.11.239",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Abusing vm2 NodeJS Package (RCE) [CVE-2023-30547]\nSQLite Database File Enumeration\nCracking Hashes\nAbusing Sudoers Privilege (Custom Script)\nAbusing String Comparison Without Quote Marks (Bypass + Python Script) [Privilege Escalation]",
+  "Cert": "eWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=H7-Jd6HaLbI"
+ },
+ {
+  "Máquina": "Chemistry",
+  "Dirección IP": "10.10.11.38",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Malicious CIF File (RCE)\nSQLite Database File Enumeration\nCracking Hashes\naiohttp\/3.9.1 Exploitation (CVE-2024.23334) [Privilege Escalation]",
+  "Cert": "eWPT\neJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=ZApq09OJOcA"
+ },
+ {
+  "Máquina": "Blurry",
+  "Dirección IP": "10.10.11.19",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Rocket.Chat Enumeration\nSubdomain Enumeration - CAIDO\nClearML Enumeration\nClearML 1.31.1 Exploitation [CVE-2024-24590]\nDeploying the Vulnerable ClearML Version Locally\nCreating an Artifact with a Malicious Pickle Payload to Achieve Remote Command Execution\nAbusing Sudoers Privilege (Custom Bash Script)\nBash Code Analysis - Detecting Logic Flaw that Allows Loading and Execution of a Malicious Model\nCreating Malicious PTH File and Getting Privileged Command Execution [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=RsMhM67_RJY"
+ },
+ {
+  "Máquina": "Axlle",
+  "Dirección IP": "10.10.11.3",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "SMB Enumeration\nCreating malicious XLL File (Achieving Command Execution without Using Macros)\nDLL Execution via Excel.Application RegisterXLL() Method\nSending Malicious Office Documents by Mail with Swaks\nhMailServer Enumeration\nAbusing WebSite Shorcut File to Run a Custom Executable\nUsing WinPeas for System Enumeration\nInformation Leakage in a User's Powershell History\nUsing bloodhound-python to Enumerate System Information\nAnalyzing the Results Obtained with Bloodhound and Neo4j\nAbusing ForceChangePassword Rights\nUpdating a User's Password via PowerView\nAbusing Windows Driver Kit (WDK) StandaloneRunner.exe [Privilege Escalation]",
+  "Cert": "OSCP\nOSEP\neCPPTv3\neCPTXv3\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=ftkzWW4kEWE"
+ },
+ {
+  "Máquina": "Freelancer",
+  "Dirección IP": "10.10.11.5",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Difícil",
+  "Técnicas Vistas": "SMB Enumeration\nWeb Enumeration\nKerberos User Enumeration (kerbrute)\nAttempting User Enumeration with netexec (RID Cycling Attack)\nRegistering a New User on the Website\nLogging into the Account Thanks to the Forget Password Bad Logic\nAnalyzing QR Code (zbarimg)\nExploiting IDOR through the URL Structure Present in the QR\nGetting the sessionid of the Administrator User through IDOR\nAbusing SQL Terminal in Django Administration Section\nMSSQL - DB Enumeration\nMSSQL - Abusing Impersonate Privilege\nMSSQL - Enabling Advanced Options and xp_cmdshell for Executing Commands\nSetting the Limit of our String to the Allowed Limit for Executing Powershell Instructions\nBypassing Antivirus Software So That It Does Not Detect our Powershell Code as Malicious Content\nAntivirus Evasion Tip to Avoid Detection [Signature and Heuristic] (Reverse Shell)\nAttempting AS-REPRoast Attack to Obtain TGT Tickets (impacket-GetNPUsers)\nInformation Leakage - Passwords Stored in SQLEXPR Configuration File\nPassword Spraying - Netexec\nAttempting Kerberoasting Attack to Obtain TGS Tickets (impacket-GetUserSPNs)\nPlaying with RunasCs to Execute Commands as Another User\nMemory Dump Analysis with Memprocfs\nDumping SAM and LSA SECRETS Hashes with Secretsdump Leveraging Memory Dump Data\nAbusing WinRM\nDC Enumeration with Bloodhound-Python\nDeploying the Latest Version of Bloodhound to See More Attack Vectors\nAbusing GenericWrite Rights over the DC\nAdding an Attacker-Controlled Computer Account Using Impacket’s addcomputer.py\nConfiguring the Target Object to Allow Attacker-Controlled Delegation with rbcd.py\nObtaining a Service Ticket to Impersonate an Admin Using Impacket’s getST.py\nPerforming Pass-the-Ticket to Retrieve the Administrator's NTLM Hash Using secretsdump.py\nConnecting to the Target Machine with evil-winrm Using PasstheHash [Privilege Escalation]",
+  "Cert": "OSCP\nOSEP\neCPPTv3\neCPTXv3\neWPT\neWPTXv2\nOSWE\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=kIEVAbtWJWI"
+ },
+ {
+  "Máquina": "Mirai",
+  "Dirección IP": "10.10.10.48",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Gaining SSH Access Using Default Raspberry Credentials\nAbusing Sudo Group [Privilege Escalation]\nRecovering Deleted root.txt File through a Connected External Device",
+  "Cert": "eJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=eg85oOWvonM"
+ },
+ {
+  "Máquina": "Certified",
+  "Dirección IP": "10.10.11.41",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "SMB Enumeration\nBloodhound Enumeration\nAbusing WriteOwner Rights\nModifying the Owner of Existing Group (owneredit.py)\nGiving the Rights to Add Users to a Group (dacledit.py)\nAdding User to a Group with Net Rpc Group AddMem Instruction\nShadow Credential Attack (pywhisker.py) - Generating PFX file to subsequently obtain a TGT [1st User]\nObtaining TGT to later obtain NT hash of the user (gettgtpkinit.py) [1st User]\nPassTheTicket + Obtaining NT hash of the user (getnthash.py) [1st User]\nConnection by WinRM via evil-winrm\nAbusing GenericAll Rights\nShadow Credential Attack (pywhisker.py) - Generating PFX file to subsequently obtain a TGT [2nd user]\nObtaining TGT to later obtain NT hash of the user (gettgtpkinit.py) [2nd User]\nPassTheTicket + Obtaining NT hash of the user (getnthash.py) [2nd User]\nListing vulnerabilities in existing certificate templates (certipy)\nAbusing ADCS (User Can Enroll and Template Has No Security Extension) - ESC9\nESC9 [Privilege Escalation]",
+  "Cert": "OSCP\nOSEP\neCPPTv3\neCPTXv3\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=RW58bxOKfTQ"
+ },
+ {
+  "Máquina": "Pilgrimage",
+  "Dirección IP": "10.10.11.219",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Web Enumeration\nFile Upload Enumeration\nAbusing .git - Git-Dumper (Information Leakage)\nImageMagick 7.1.0-40 beta Exploitation (Arbitrary File Read) [CVE-2022-44268]\nSQLite Database File Enumeration via CVE-2022-44268\nAbusing an Active Service through a Script that is Run by Root\nBinwalk 2.3.2 Exploitation - CVE-2022-4510 (RCE) [Privilege Escalation]",
+  "Cert": "eWPT\neJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=f4gZqwUSKaQ"
+ },
+ {
+  "Máquina": "Encoding",
+  "Dirección IP": "10.10.11.198",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Web Enumeration\nAPI Enumeration\nSubdomain Brute Force (gobuster)\nLocal File Inclusion by Abusing the API\nCreating a Proxy with Flask for Convenient Query Handling (Python Scripting)\nReading Internal Files on the Server through the Proxy with Flask\nFinding .git\/ Path on the Server and Re-structuring All Files Manually\nUsing git-dumper as an Alternative and Adapting Flask's Proxy to be Functional\nAbusing the Structure of a URI to Achieve SSRF due to Bad Code Implementation\nFinding another LFI\nExplaining Trick to through Wrappers and Coding Changes, Achieve Command Execution\nSSRF + LFI + PHP Filter Chain + RCE\nAbusing Sudoers Privilege + Git post-commit hooks (RCE)\nAbusing Sudoers Privilege (Systemctl and Systemd Malicious Service File) [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=7-UoMtIBD-A"
+ },
+ {
+  "Máquina": "Alert",
+  "Dirección IP": "10.10.11.44",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "XSS - Injection Via Markdown\nDiscovering LFI accessible from XSS\nCracking Hashes\nExploiting Web Service Executed by Root\nCreating a Malicious php File in Writable Path [Privilege Escalation]",
+  "Cert": "eJPT\neWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=wIHr76Tq3a4"
+ },
+ {
+  "Máquina": "Olympus",
+  "Dirección IP": "10.10.10.83",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Creating a Python Script with Scapy to Detect if a Host is Active [EXTRA]\nCreating a Port Scanner with Scapy [EXTRA]\nXdebug Exploitation (RCE)\nCracking 802.11 - WiFi .cap Capture Analysis with Tshark\nWiFi Cracking - Aircrack-ng\nDomain Zone Transfer (dig)\nPort Knocking - Custom Script with Scapy\nAbusing docker group [Privilege Escalation]",
+  "Cert": "eWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=Bs_nGDxTB44"
+ },
+ {
+  "Máquina": "Sneaky",
+  "Dirección IP": "10.10.10.197",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Web Enumeration\nSQL Injection - Login Bypass\nInformation Leakage\nUDP Scan with Nmap\nSNMP Enumeration - OneSixtyOne Community Strings Brute Force\nSNMP Enumeration - SnmpWalk vs SnmpBulkWalk\nSNMP Enumeration - Finding IPV6\nNmap IPV6 Scan\nSSH Connection via IPV6\nBinary Static Analysis [GHIDRA]\nBuffer Overflow Exploitation (x32 bits - No ASLR\/NX) [Privilege Escalation]",
+  "Cert": "OSED\nBuffer Overflow",
+  "Video": "https:\/\/www.youtube.com\/watch?v=p4dJD_R4ZKM"
+ },
+ {
+  "Máquina": "Popcorn",
+  "Dirección IP": "10.10.10.197",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Web Enumeration\nFile Upload Vulnerability - Abusing Content-Type to Upload Malicious PHP File (RCE)\nKernel Exploitation (2.6.31) - DirtyCow (\/etc\/passwd) [Privilege Escalation]",
+  "Cert": "eWPT\neJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=NZBDKeraF5o"
+ },
+ {
+  "Máquina": "Bashed",
+  "Dirección IP": "10.10.10.68",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Web Enumeration\nAbusing WebShell Utility (RCE)\nAbusing Sudoers Privilege (User Pivoting)\nDetecting Cron Jobs Running on the System\nExploiting Cron Job Through File Manipulation in Python Executed by Root [Privilege Escalation]",
+  "Cert": "eJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=vEmxLFG5Nwk"
+ },
+ {
+  "Máquina": "Irked",
+  "Dirección IP": "10.10.10.117",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "UnrealIRCd 3.2.8.1 Exploitation (RCE)\nSteganography Challenge\nAbusing SUID Binary\nBinary Analysis (GHIDRA)\nSUID Binary Exploitation [Privilege Escalation]",
+  "Cert": "eJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=AWFIODGw2kc"
+ },
+ {
+  "Máquina": "LinkVortex",
+  "Dirección IP": "10.10.11.47",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Subdomain Enumeration\n.git Exposure (GitHack)\nInformation Leakage\nGhost 5.58 Exploitation (CVE-2023-40028) [Arbitrary File Read]\nAbusing Sudoers Privilege (Abusing Custom Bash Script Logic via Double Symlinks)\nReading the Root id_rsa Key and Becoming Root [Privilege Escalation]",
+  "Cert": "eWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=wRp87y8OAaI"
+ },
+ {
+  "Máquina": "Networked",
+  "Dirección IP": "10.10.10.146",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Information Leakage\nPHP Source Code Analysis\nAbusing File Upload (AddHandler Exploitation) [RCE]\nAbusing Cron Job [Command Injection] (User Pivoting)\nBash Source Code Analysis\nAbusing Sudoers Privilege (Custom Script Exploitation) [Privilege Escalation]",
+  "Cert": "eWPT\neJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=ulFpGl5f7Uw"
+ },
+ {
+  "Máquina": "Luanne",
+  "Dirección IP": "10.10.10.146",
+  "Sistema Operativo": "Otro",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Web Enumeration\nDefault Credentials (Supervisord Default Password)\nFuzzing (Gobuster\/Wfuzz)\nLua Command Injection (RCE)\nCracking Hashes\nAbusing Internal Web Service [httpd Configuration (-u parameter and \/~user\/)]\nDecrypting files (netpgp and .gnupg keyrings)\nAbusing Doas Privilege [Privilege Escalation]",
+  "Cert": "eWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=0rUu-VRusC4"
+ },
+ {
+  "Máquina": "Spectra",
+  "Dirección IP": "10.10.10.229",
+  "Sistema Operativo": "Otro",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Web Enumeration\nVirtual Hosting\nInformation Leakage (wp-config.php.save)\nGaining Administrator Access to the WordPress Dashboard\nModifying an Existing Akismet Plugin to Obtain RCE\nPython Reverse Shell\nInformation Leakage (passwd file)\nAbusing Sudoers Privilege (\/sbin\/initctl) [Privilege Escalation]",
+  "Cert": "eWPT\neJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=eR8lC3AyHQQ"
+ },
+ {
+  "Máquina": "Administrator",
+  "Dirección IP": "10.10.11.42",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "SMB Enumeration (Netexec, Smbmap)\nListing Existing Users at Domain Level (rpcclient)\nLDAP Enumeration (ldapdomaindump)\nTesting Kerberoasting and ASRepRoast Attack\nBloodound (Docker Version) - DC Enumeration\nAbusing GenericAll Right (net rpc) [Change User Password]\nAbusing ForceChangePassword (net rpc) [Change User Password]\nFTP Enumeration\nPassword Safe (pwsafe) Linux Installation\nExtracting the Hash from the PSafe3 File for Further Cracking\nCracking Hashes\nOpening the PSafe3 file with Password Safe and Viewing User Credentials\nAbusing GenericWrite Right (targetedKerberoast.py) + Cracking Hashes\nAbusing GetChanges\/GetChangesAll Privilege (dcsync Attack - secretsdump.py) [Privilege Escalation]",
+  "Cert": "OSCP\nOSEP\neCPPTv3\neCPTXv3\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=TaYC6_5A9AU"
+ },
+ {
+  "Máquina": "Cat",
+  "Dirección IP": "10.10.11.42",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Web Enumeration\nInformation Disclosure (.git) - GitHack\nPHP Code Analysis\nXSS Exploitation\nManual Blind SQL Injection (sqlite) + Python Scripting [EXTRA]\nCracking Hashes\nAbusing adm group (Reading Apache log files)\nLocal Port Forwarding + Gitea Exploitation\nGitea 1.22.0 Exploitation (Stored XSS) [CVE-2024-6886]\nReading a password from an internal Gitea project via XSS [Privilege Escalation]",
+  "Cert": "eWPT\neWPTX\nOSWE",
+  "Video": "https:\/\/www.youtube.com\/watch?v=aQtrcfWe_wI"
+ },
+ {
+  "Máquina": "Dog",
+  "Dirección IP": "10.10.11.42",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Information Disclosure (.git) - GitHack\nInformation Leakage (Hardcoded passwords in code)\nCreating a new malicious module for Backdrop (RCE)\nAbusing sudoers privilege (bustom bee binary) [Privilege Escalation]",
+  "Cert": "eWPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=det9ZYpa6b8"
+ },
+ {
+  "Máquina": "Code",
+  "Dirección IP": "10.10.11.62",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Web Enumeration\nPython Reverse Shell Restriction Bypass\nDatabase SQLite File Enumeration\nCracking Hashes\nDirectory Path Traversal Restriction Bypass + Abusing Sudoers Privilege [Privilege Escalation]",
+  "Cert": "eWPT\neJPT",
+  "Video": "https:\/\/www.youtube.com\/watch?v=b2ab9RGwWug"
+ },
+ {
+  "Máquina": "Nocturnal",
+  "Dirección IP": "10.10.11.64",
+  "Sistema Operativo": "Linux",
+  "Dificultad": "Fácil",
+  "Técnicas Vistas": "Web Enumeration\nUser Enumeration Vulnerability\nInformation Leakage\nExploitation in the Website Backup Creation Process (RCE)\nCracking Hashes\nLocal Port Forwarding + ISPConfig 3.2 Exploitation [Privilege Escalation]",
+  "Cert": "eWPT\neWPTXv2",
+  "Video": "https:\/\/www.youtube.com\/watch?v=00rxFA6lLyA"
+ },
+ {
+  "Máquina": "Puppy",
+  "Dirección IP": "10.10.11.58",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "Kerberos User Enumeration (Kerbrute)\nSMB Enumeration\nDomain Users Enumeration via RPCClient\nTesting AS-REP Roast and Kerberoasting attack\nBloodHound Enumeration (BloodHound-CE Docker)\nAbusing GenericWrite Rights\nAdding Ourselves to a Group via 'net rpc group addmem'\nAccess KeePassXC Database\nAbusing GenericAll Rights\nChanging a User's Password via 'net rpc password'\nLdap Enumeration (ldapsearch)\nChanging User Properties with ldapmodify + Enabling a Disabled Account\nInformation Leakage\nAbusing DPAPI (Extracting Passwords Stored in the System via impacket-dpapi)\nDCSync + Extracting the NTDS to view the NT Hash of the Administrator User [Privilege Escalation]",
+  "Cert": "OSCP\nOSEP\neCPPTv3\neCPTXv3\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=8Hm0RGoXYPA"
+ },
+ {
+  "Máquina": "BabyTwo",
+  "Dirección IP": "10.129.194.134",
+  "Sistema Operativo": "Windows",
+  "Dificultad": "Media",
+  "Técnicas Vistas": "SMB Enumeration\nNetExec spider_plus Module\nUser Enumeration (NetExec RID Cycling Brute Force Attack)\nBloodHound Enumeration (BloodHound-CE Docker)\nCreating Malicious VBS File\nAbusing WriteOwner && WriteDacl Rights (PowerView.ps1)\nAbusing GenericAll Right + GPO Exploitation (pyGPOAbuse) [Privilege Escalation]",
+  "Cert": "OSCP\nOSEP\neCPPTv3\neCPTXv3\nActive Directory",
+  "Video": "https:\/\/www.youtube.com\/watch?v=vR8SUg4E6bc"
+ }

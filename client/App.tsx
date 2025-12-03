@@ -10,6 +10,7 @@ import { AuthProvider } from "@/context/AuthContext";
 import Index from "./pages/Index";
 import Features from "./pages/Features";
 import Machines from "./pages/Machines";
+import SkillTree from "./pages/SkillTree";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -25,6 +26,7 @@ const App = () => (
             <Route path="/" element={<Index />} />
             <Route path="/features" element={<Features />} />
             <Route path="/machines" element={<Machines />} />
+            <Route path="/skill-tree" element={<SkillTree />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

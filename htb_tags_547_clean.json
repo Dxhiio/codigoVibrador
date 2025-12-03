@@ -1,0 +1,18 @@
+﻿{
+  "info": [
+    { "id": 3628, "name": "Web Application", "category": "Area of Interest" },
+    {
+      "id": 3645,
+      "name": "Remote Code Execution",
+      "category": "Vulnerability"
+    },
+    { "id": 3647, "name": "OS Command Injection", "category": "Vulnerability" },
+    { "id": 3664, "name": "Misconfiguration", "category": "Vulnerability" },
+    { "id": 3693, "name": "Command Execution", "category": "Vulnerability" },
+    { "id": 3722, "name": "PHP", "category": "Language" },
+    { "id": 3731, "name": "JavaScript", "category": "Language" },
+    { "id": 3762, "name": "Custom", "category": "Technology" },
+    { "id": 3778, "name": "NGINX", "category": "Technology" },
+    { "id": 4551, "name": "Injections", "category": "Area of Interest" }
+  ]
+}
