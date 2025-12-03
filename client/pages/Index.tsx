@@ -20,7 +20,7 @@ import {
   Search,
   Shuffle,
 } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { useMachines, Machine } from "@/hooks/useMachines";
 import { useAuth } from "@/context/AuthContext";
@@ -46,12 +46,19 @@ function Typewriter({ text, delay = 50 }: { text: string; delay?: number }) {
 
 
 export default function Index() {
-  const { isAuthenticated } = useAuth();
+  const { isAuthenticated, loading: authLoading } = useAuth();
+  const navigate = useNavigate();
   const { machines, loading, error } = useMachines();
   const [randomMachine, setRandomMachine] = useState<Machine | null>(null);
   const [loginModalOpen, setLoginModalOpen] = useState(false);
   const [selectedMachine, setSelectedMachine] = useState<Machine | null>(null);
   const [detailsModalOpen, setDetailsModalOpen] = useState(false);
+
+  useEffect(() => {
+    if (!authLoading && isAuthenticated) {
+      navigate("/machines");
+    }
+  }, [authLoading, isAuthenticated, navigate]);
 
   // Get random machine from the fetched list
   const getRandomMachine = () => {
