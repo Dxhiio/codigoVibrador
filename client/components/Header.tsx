@@ -33,7 +33,7 @@ export default function Header({ onLoginClick, onRegisterClick }: HeaderProps) {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
             <Link
-              to="/landing"
+              to="/"
               className="text-sm font-mono text-foreground/70 hover:text-primary transition-all hover:glow-pulse uppercase tracking-wide"
             >
               &gt; home
@@ -124,14 +124,14 @@ export default function Header({ onLoginClick, onRegisterClick }: HeaderProps) {
         {isOpen && (
           <div className="md:hidden pb-4 space-y-3 animate-slide-up border-t border-primary/30 mt-4 pt-4">
             <Link
-              to="/landing"
+              to="/"
               className="block px-4 py-2 rounded-sm hover:bg-card transition-colors text-sm font-mono text-primary hover:glow-pulse uppercase"
               onClick={() => setIsOpen(false)}
             >
               &gt; home
             </Link>
             <Link
-              to="/"
+              to="/machines"
               className="block px-4 py-2 rounded-sm hover:bg-card transition-colors text-sm font-mono text-primary hover:glow-pulse uppercase"
               onClick={() => setIsOpen(false)}
             >
