@@ -155,9 +155,7 @@ export default function Profile() {
               </p>
             </div>
             <div className="flex items-center gap-4">
-              <span className="font-mono text-primary/80 text-sm glow-text">
-                user@{user?.user_metadata?.username || user?.email?.split('@')[0]}
-              </span>
+              {/* Username removed to avoid duplication with global header */}
             </div>
           </div>
 
